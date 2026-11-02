@@ -41,7 +41,7 @@ def _env():
 
 
 def _call(prompt):
-    key = os.environ.get("GEMINI_API_KEY")
+    key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
     if not key:
         raise SystemExit("Thiếu GEMINI_API_KEY (agency/.env hoặc Actions secret).")
     model = os.environ.get("AGENCY_MODEL", "gemini-flash-latest")
