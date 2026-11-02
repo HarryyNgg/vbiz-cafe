@@ -16,9 +16,15 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 
 
 def save_headlines(fresh):
+    """Mỗi nguồn tối đa 8 tin, để nguồn ít bài không bị các báo đăng dồn dập đè mất."""
     DATA.mkdir(parents=True, exist_ok=True)
+    by_source = {}
+    for it in fresh:  # fresh đã sort mới nhất trước
+        by_source.setdefault(it["source"], []).append(it)
+    picked = [it for items in by_source.values() for it in items[:8]]
+    picked.sort(key=lambda i: i["published"], reverse=True)
     (DATA / "headlines.json").write_text(
-        json.dumps(fresh[:40], ensure_ascii=False, indent=1), encoding="utf-8"
+        json.dumps(picked, ensure_ascii=False, indent=1), encoding="utf-8"
     )
 
 

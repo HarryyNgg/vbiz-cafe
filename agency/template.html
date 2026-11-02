@@ -71,19 +71,20 @@ header{padding:clamp(36px,6vw,56px) 0 0; text-align:left}
   font-family:var(--mono); color:var(--accent-ink); font-weight:600; font-size:11px;
   letter-spacing:.1em; text-transform:uppercase;
 }
-.lfilter{
-  display:flex; gap:6px; overflow-x:auto; padding:10px 12px;
-  border-bottom:1px solid var(--hair); scrollbar-width:none;
+/* menu bar lọc nguồn, kiểu nav Business Insider */
+.menubar{
+  display:flex; gap:2px; overflow-x:auto; margin-top:clamp(20px,4vw,28px);
+  border-block:1px solid var(--hair); scrollbar-width:none;
 }
-.lfilter::-webkit-scrollbar{display:none}
-.fpill{
-  flex:none; font-family:var(--mono); font-size:11px; font-weight:500; letter-spacing:.04em;
-  text-transform:uppercase; color:var(--ink2); background:var(--soft);
-  border:1px solid var(--hair); border-radius:999px; padding:4px 11px; cursor:pointer;
-  transition:border-color .3s var(--ease), background .3s var(--ease), color .3s var(--ease);
+.menubar::-webkit-scrollbar{display:none}
+.mitem{
+  flex:none; font-family:var(--mono); font-size:11px; font-weight:600; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--ink2); background:none; border:none; cursor:pointer;
+  padding:11px 13px; border-bottom:2px solid transparent; margin-bottom:-1px;
+  transition:color .3s var(--ease), border-color .3s var(--ease);
 }
-.fpill:hover{border-color:var(--hair2)}
-.fpill.on{background:var(--ink); color:var(--canvas); border-color:var(--ink)}
+.mitem:hover{color:var(--ink)}
+.mitem.on{color:var(--ink); border-bottom-color:var(--accent)}
 .litem{display:flex; gap:12px; padding:12px 16px; border-bottom:1px solid var(--hair); align-items:flex-start}
 .litem:last-child{border-bottom:0}
 .litem .bd{flex:1; min-width:0}
@@ -185,6 +186,8 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
     <div class="clockline"><span class="dot"></span><span id="clock">—</span></div>
   </header>
 
+  <nav class="menubar" id="menubar" hidden></nav>
+
   <div class="layout">
   <main>
   <section id="sec-lede" hidden>
@@ -220,7 +223,6 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
 
   <aside class="latest" id="latest" hidden>
     <div class="lhead"><span class="dot"></span>Mới nhất</div>
-    <div class="lfilter" id="lfilter"></div>
     <div id="latest-list"></div>
   </aside>
   </div>
@@ -271,19 +273,23 @@ function renderLatestList(){
 function renderHeadlines(items){
   if(!items || !items.length) return;
   headlineData = items;
-  const sources = [...new Set(items.map(i=>i.source))];
+  // mỗi nguồn kèm số tin, nhiều tin xếp trước; nguồn lẻ tẻ (1 tin, từ Google News) gộp lại phía sau
+  const count = {};
+  items.forEach(i=>count[i.source]=(count[i.source]||0)+1);
+  const sources = Object.keys(count).sort((a,b)=>count[b]-count[a]).filter(s=>count[s]>=2).slice(0,12);
   if(srcFilter && !sources.includes(srcFilter)) srcFilter = "";
-  document.getElementById("lfilter").innerHTML =
-    [`<button class="fpill${srcFilter?"":" on"}" data-s="">Tất cả</button>`]
-    .concat(sources.map(s=>`<button class="fpill${srcFilter===s?" on":""}" data-s="${esc(s)}">${esc(s)}</button>`)).join("");
+  document.getElementById("menubar").innerHTML =
+    [`<button class="mitem${srcFilter?"":" on"}" data-s="">Tất cả</button>`]
+    .concat(sources.map(s=>`<button class="mitem${srcFilter===s?" on":""}" data-s="${esc(s)}">${esc(s)}</button>`)).join("");
+  document.getElementById("menubar").hidden = false;
   renderLatestList();
   document.getElementById("latest").hidden = false;
 }
-document.getElementById("lfilter").addEventListener("click", e=>{
-  const b = e.target.closest(".fpill");
+document.getElementById("menubar").addEventListener("click", e=>{
+  const b = e.target.closest(".mitem");
   if(!b) return;
   srcFilter = b.dataset.s;
-  document.querySelectorAll(".fpill").forEach(p=>p.classList.toggle("on", p===b));
+  document.querySelectorAll(".mitem").forEach(p=>p.classList.toggle("on", p===b));
   renderLatestList();
 });
 
