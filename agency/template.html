@@ -212,7 +212,7 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
   </div>
 
   <footer>
-    Nguồn: VnExpress · Thanh Niên · Tuổi Trẻ · Kenh14 · Znews · Google News (chỉ đọc tin public)<br>
+    Nguồn: VnExpress, Thanh Niên, Tuổi Trẻ, Kenh14, Znews, Dân Trí, Vietnamnet, Tiền Phong, Google News (chỉ đọc tin public)<br>
     <span id="brewed"></span>
   </footer>
 </div>
@@ -227,7 +227,7 @@ const fmtDate = new Intl.DateTimeFormat("vi-VN",{timeZone:VN,weekday:"long",day:
 function vnHour(){ return +new Intl.DateTimeFormat("en",{timeZone:VN,hour:"numeric",hour12:false}).format(new Date()); }
 function tick(){
   const now = new Date();
-  document.getElementById("clock").textContent = fmtTime.format(now)+" · "+fmtDate.format(now)+" · TP HN";
+  document.getElementById("clock").textContent = fmtTime.format(now)+"  "+fmtDate.format(now)+", TP HN";
   const h = vnHour();
   document.documentElement.dataset.theme = (h>=18||h<6) ? "night" : "day";
 }
@@ -248,7 +248,7 @@ function renderHeadlines(items){
     <div class="litem">
       <div class="bd">
         <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
-        <div class="lmeta">${esc(i.source)} · ${rel(i.published)}</div>
+        <div class="lmeta">${esc(i.source)}, ${rel(i.published)}</div>
       </div>
       ${i.image?`<img class="lthumb" src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
     </div>`).join("");
@@ -259,7 +259,7 @@ function renderDigest(d){
   if(!d){ document.getElementById("sec-nobrew").hidden = false; return; }
   if(d.tieu_diem){
     document.getElementById("lede-text").textContent = d.tieu_diem;
-    document.getElementById("lede-when").textContent = "Bản tin "+fmtTime.format(new Date(d.generated_at))+" · "+fmtDate.format(new Date(d.generated_at));
+    document.getElementById("lede-when").textContent = "Bản tin "+fmtTime.format(new Date(d.generated_at))+", "+fmtDate.format(new Date(d.generated_at));
     document.getElementById("sec-lede").hidden = false;
   }
   if(d.tin_chinh && d.tin_chinh.length){
@@ -289,7 +289,7 @@ function renderDigest(d){
     document.getElementById("sec-events").hidden = false;
   }
   if(!d.tieu_diem) document.getElementById("sec-nobrew").hidden = false;
-  document.getElementById("brewed").textContent = "Mới nhất mỗi 30 phút · bản tin mỗi sáng 7:00";
+  document.getElementById("brewed").textContent = "Mới nhất mỗi 30 phút, bản tin mỗi sáng 7:00";
 }
 
 renderDigest(STATE && STATE.digest);
