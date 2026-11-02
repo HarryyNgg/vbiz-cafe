@@ -13,7 +13,7 @@
 /* hệ token: ngày = Vercel trắng/mực, đêm = Linear near-black */
 :root{
   --canvas:#ffffff; --soft:#fafafa; --panel:#ffffff; --panel2:#f5f5f5;
-  --ink:#171717; --ink2:#4d4d4d; --mute:#888888;
+  --ink:#171717; --ink2:#4d4d4d; --mute:#6e6e6e;
   --hair:#ebebeb; --hair2:#e0e0e0;
   --accent:#5e6ad2; --accent-ink:#4f5ac2; --link:#0070f3;
   --mono:"Geist Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
@@ -43,12 +43,12 @@ a{color:inherit}
 @media (prefers-reduced-motion:reduce){ .reveal{opacity:1; transform:none; transition:none} }
 
 /* ── header ───────────────────────── */
-header{padding:clamp(56px,10vw,104px) 0 0; text-align:left}
+header{padding:clamp(36px,6vw,56px) 0 0; text-align:left}
 .brand{font-size:clamp(34px,6vw,52px); font-weight:700; letter-spacing:-.035em; line-height:1.05; margin:0}
 .brand .cup{font-size:.72em; vertical-align:.08em; margin-right:2px}
 .tagline{color:var(--mute); margin:14px 0 0; font-size:16px; letter-spacing:-.01em; max-width:52ch}
 .clockline{
-  display:inline-flex; gap:9px; align-items:center; margin-top:26px;
+  display:inline-flex; gap:9px; align-items:center; margin-top:18px;
   border:1px solid var(--hair); border-radius:8px; background:var(--soft);
   padding:7px 13px; font-family:var(--mono); font-size:11.5px; font-weight:500;
   letter-spacing:.02em; color:var(--ink2); text-transform:uppercase;
@@ -58,7 +58,7 @@ header{padding:clamp(56px,10vw,104px) 0 0; text-align:left}
 
 /* ── ticker ───────────────────────── */
 .ticker{
-  margin:clamp(36px,6vw,56px) 0 0; border:1px solid var(--hair); border-radius:10px;
+  margin:clamp(22px,4vw,32px) 0 0; border:1px solid var(--hair); border-radius:10px;
   background:var(--panel); overflow:hidden; white-space:nowrap; position:relative;
   mask-image:linear-gradient(90deg,#000 92%,transparent);
 }
@@ -80,29 +80,45 @@ header{padding:clamp(56px,10vw,104px) 0 0; text-align:left}
 }
 
 /* ── sections ─────────────────────── */
-section{margin:clamp(56px,9vw,88px) 0}
+section{margin:clamp(34px,6vw,52px) 0}
 .eyebrow{
   display:block; font-family:var(--mono); color:var(--mute); font-weight:500;
   font-size:11px; letter-spacing:.12em; text-transform:uppercase; margin:0 0 10px;
 }
-h2{font-size:clamp(22px,4vw,28px); font-weight:600; letter-spacing:-.025em; line-height:1.2; margin:0 0 20px}
+h2{font-size:clamp(22px,4vw,28px); font-weight:600; letter-spacing:-.025em; line-height:1.2; margin:0 0 14px}
 
 .panel{
   background:var(--panel); border:1px solid var(--hair); border-radius:12px;
   transition:border-color .4s var(--ease);
 }
 .panel:hover{border-color:var(--hair2)}
-.lede{padding:26px 28px; font-size:17px; line-height:1.75; letter-spacing:-.011em}
+.lede{padding:20px 22px; font-size:16.5px; line-height:1.7; letter-spacing:-.011em}
 .lede p{margin:0; color:var(--ink2)}
 .lede .when{font-family:var(--mono); color:var(--mute); font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; margin-top:18px}
 
-.story{display:flex; gap:18px; padding:20px 22px; margin:10px 0}
-.story .no{font-family:var(--mono); font-size:12px; font-weight:500; color:var(--mute); min-width:26px; padding-top:4px}
-.story h3{margin:0 0 6px; font-size:15.5px; font-weight:600; letter-spacing:-.015em; line-height:1.45}
-.story h3 a{text-decoration:none; transition:color .3s var(--ease)}
-.story h3 a:hover{color:var(--accent-ink)}
-.story p{margin:0; color:var(--mute); font-size:14px; line-height:1.6}
-.story .meta{font-family:var(--mono); margin-top:10px; font-size:10px; color:var(--mute); font-weight:500; letter-spacing:.08em; text-transform:uppercase}
+/* StoryStream (The Verge): feed dọc trên trục timeline, rail mono bên trái */
+.stream{position:relative; padding:2px 0}
+.stream::before{content:""; position:absolute; left:76px; top:14px; bottom:14px; border-left:1px dashed var(--hair2)}
+.srow{display:flex; gap:16px; padding:13px 18px 13px 16px; border-bottom:1px solid var(--hair); align-items:flex-start}
+.srow:last-child{border-bottom:0}
+.srow .rail{
+  flex:none; width:48px; font-family:var(--mono); font-size:9.5px; font-weight:600;
+  color:var(--mute); letter-spacing:.06em; text-transform:uppercase;
+  padding-top:4px; text-align:right; line-height:1.5; overflow-wrap:break-word;
+}
+.srow .dot{
+  flex:none; width:7px; height:7px; border-radius:50%; background:var(--accent);
+  margin:7px 0 0 5px; box-shadow:0 0 0 3px var(--panel);
+}
+.srow .bd{flex:1; min-width:0}
+.srow h3{margin:0 0 4px; font-size:15px; font-weight:600; letter-spacing:-.015em; line-height:1.45}
+.srow h3 a{text-decoration:none; transition:color .3s var(--ease)}
+.srow h3 a:hover{color:var(--accent-ink)}
+.srow p{margin:0; color:var(--mute); font-size:13.5px; line-height:1.55}
+.srow .thumb{
+  flex:none; width:84px; height:60px; margin-left:auto;
+  border-radius:7px; border:1px solid var(--hair); object-fit:cover; background:var(--panel2);
+}
 
 .chips{display:flex; flex-wrap:wrap; gap:8px}
 .chip{
@@ -124,14 +140,18 @@ h2{font-size:clamp(22px,4vw,28px); font-weight:600; letter-spacing:-.025em; line
 .empty{color:var(--mute); font-size:14.5px}
 
 footer{
-  margin:clamp(64px,10vw,96px) 0 0; border-top:1px solid var(--hair);
-  padding:28px 0 40px; color:var(--mute); font-size:12.5px; line-height:2;
+  margin:clamp(36px,6vw,56px) 0 0; border-top:1px solid var(--hair);
+  padding:20px 0 32px; color:var(--mute); font-size:12.5px; line-height:2;
 }
 footer a{color:var(--ink2)}
 footer #brewed{font-family:var(--mono); font-size:10.5px; letter-spacing:.07em; text-transform:uppercase}
 @media (max-width:640px){
-  .story{gap:12px; padding:16px}
-  .lede{padding:20px 18px}
+  .stream::before{display:none}
+  .srow{gap:10px; padding:12px 14px}
+  .srow .rail{display:none}
+  .srow .dot{margin:7px 0 0}
+  .srow .thumb{width:64px; height:48px}
+  .lede{padding:18px 16px}
   .event .when{min-width:92px}
 }
 </style>
@@ -227,15 +247,16 @@ function renderDigest(d){
     document.getElementById("sec-lede").hidden = false;
   }
   if(d.tin_chinh && d.tin_chinh.length){
-    document.getElementById("stories").innerHTML = d.tin_chinh.map((t,i)=>`
-      <article class="panel story reveal">
-        <div class="no">${String(i+1).padStart(2,"0")}</div>
-        <div>
+    document.getElementById("stories").innerHTML = `<div class="panel stream reveal">` + d.tin_chinh.map(t=>`
+      <article class="srow">
+        <div class="rail">${esc(t.nguon||"")}</div>
+        <div class="dot"></div>
+        <div class="bd">
           <h3><a href="${esc(t.link)}" target="_blank" rel="noopener">${esc(t.tieu_de)}</a></h3>
           <p>${esc(t.vi_sao)}</p>
-          <div class="meta">${esc(t.nguon||"")}</div>
         </div>
-      </article>`).join("");
+        ${t.anh?`<img class="thumb" src="${esc(t.anh)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
+      </article>`).join("") + `</div>`;
     document.getElementById("sec-stories").hidden = false;
   }
   if(d.dang_hot && d.dang_hot.length){

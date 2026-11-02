@@ -22,6 +22,7 @@ FEEDS = [
 ]
 
 TAG_RE = re.compile(r"<[^>]+>")
+IMG_RE = re.compile(r"""<img[^>]+src=["']([^"']+)["']""", re.I)
 
 
 def _clean(text):
@@ -59,12 +60,23 @@ def parse_feed(xml_text, source):
         src = source
         if source == "Google News" and " - " in title:
             title, src = title.rsplit(" - ", 1)
+        desc = it.findtext("description") or ""
+        m = IMG_RE.search(desc)
+        image = html.unescape(m.group(1)) if m else ""
+        if not image:  # enclosure / media:content cũng hay chứa ảnh
+            for child in it:
+                if child.tag.endswith("enclosure") or child.tag.endswith("content"):
+                    u = child.get("url") or ""
+                    if u.startswith("http"):
+                        image = u
+                        break
         items.append({
             "title": title.strip(),
             "link": link,
             "source": src.strip(),
             "published": dt.isoformat(),
-            "summary": clean_text(it.findtext("description") or ""),
+            "summary": clean_text(desc),
+            "image": image,
         })
     return items
 

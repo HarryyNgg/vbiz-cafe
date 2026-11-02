@@ -7,7 +7,7 @@ SAMPLE = """<?xml version="1.0" encoding="utf-8"?>
   <title><![CDATA[Sơn Tùng công bố concert mới]]></title>
   <link>https://example.com/a</link>
   <pubDate>Sun, 02 Nov 2026 08:00:00 +0700</pubDate>
-  <description><![CDATA[<p>Chi tiết <b>concert</b> tại TP.HCM.</p>]]></description>
+  <description><![CDATA[<p><img src="https://example.com/thumb.jpg"/>Chi tiết <b>concert</b> tại TP.HCM.</p>]]></description>
 </item>
 <item>
   <title>Tin thiếu link bị bỏ qua</title>
@@ -26,6 +26,8 @@ def main():
     assert len(items) == 2, f"phải ra 2 item, được {len(items)}"
     assert items[0]["title"] == "Sơn Tùng công bố concert mới"
     assert "concert" in items[0]["summary"] and "<" not in items[0]["summary"]
+    assert items[0]["image"] == "https://example.com/thumb.jpg"
+    assert items[1]["image"] == ""
     assert items[0]["published"].startswith("2026-11-02T01:00:00"), items[0]["published"]
 
     gn = parse_feed(SAMPLE, "Google News")

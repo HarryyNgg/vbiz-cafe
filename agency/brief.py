@@ -70,6 +70,7 @@ def brew(items, max_items=80):
         {k: it[k] for k in ("title", "link", "source", "published", "summary")}
         for it in items[:max_items]
     ]
+    images = {it["link"]: it.get("image", "") for it in items[:max_items]}
     prompt = PROMPT + json.dumps(slim, ensure_ascii=False)
     for attempt in (1, 2):
         try:
@@ -78,6 +79,8 @@ def brew(items, max_items=80):
                 # giữ lại chỉ link có thật trong dữ liệu (chống bịa link)
                 links = {it["link"] for it in slim}
                 digest["tin_chinh"] = [t for t in digest["tin_chinh"] if t.get("link") in links][:8]
+                for t in digest["tin_chinh"]:  # ảnh từ dữ liệu quét, không tin model
+                    t["anh"] = images.get(t["link"], "")
                 return digest
             print(f"[brief] lần {attempt}: JSON sai cấu trúc, thử lại")
         except (json.JSONDecodeError, KeyError) as e:

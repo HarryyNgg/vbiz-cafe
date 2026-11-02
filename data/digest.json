@@ -1,73 +1,80 @@
 {
- "tieu_diem": "Sáng nay bên ly cà phê, tâm điểm Vbiz đổ dồn vào phòng vé khi 'Chị chị em em 3' thống trị rạp chiếu dù hứng bão chê bai về kịch bản tiêu cực và cảnh nóng phản cảm. Sàn đấu truyền hình thực tế cũng nóng không kém với màn bỏ quay của Anh Thư tại The Face Vietnam vì nghi vấn đối thủ gian lận. Ngoài ra, sự trở lại của Trúc Anh 'Mắt biếc' sau 5 năm và album đầu tay của Trúc Nhân cũng là những điểm nhấn giải trí nổi bật.",
+ "tieu_diem": "Vbiz những giờ qua nóng rực với ồn ào tại The Face Vietnam khi Anh Thư nổi giận bỏ về vì nghi team H'Hen Niê gian lận. Rạp chiếu ghi nhận 'Chị chị em em 3' leo lên vị trí dẫn đầu phòng vé nhưng lập tức hứng bão tranh cãi về kịch bản. Trong khi đó, người yêu nhạc đón nhận tin vui khi Trúc Nhân chính thức phát hành album đầu tay sau 14 năm làm nghề, còn khán giả truyền hình tan chảy trước khoảnh khắc đám cưới của Quân A.P và Lê Khanh.",
  "tin_chinh": [
   {
-   "tieu_de": "Phim 18+ 'Chị chị em em 3' áp đảo rạp chiếu nhưng nhận mưa chỉ trích về nội dung",
-   "vi_sao": "Dù sở hữu dàn mỹ nhân hút khách và dẫn đầu phòng vé dịp Halloween, tác phẩm bị chê thậm tệ vì kịch bản hời hợt, góc nhìn tình cảm lệch lạc và lạm dụng cảnh nhạy cảm.",
-   "link": "https://znews.vn/chi-chi-em-em-3-hinh-anh-ninh-mat-noi-dung-te-post1693532.html",
-   "nguon": "Znews"
-  },
-  {
-   "tieu_de": "The Face Vietnam bùng nổ drama: Anh Thư đùng đùng bỏ về, chất vấn H'Hen Niê gian lận",
-   "vi_sao": "Căng thẳng leo thang khi Anh Thư cho rằng đội mình bị chèn ép, nghi vấn ê-kíp H'Hen Niê vi phạm luật thi khiến tập 5 ngập tràn không khí đối đầu gay gắt.",
+   "tieu_de": "Anh Thư bức xúc bỏ về giữa buổi ghi hình The Face Vietnam vì nghi bị chèn ép",
+   "vi_sao": "Màn tranh luận gay gắt giữa Anh Thư, nhà sản xuất và H'Hen Niê khiến không khí tập mới nhất của The Face Vietnam căng như dây đàn.",
    "link": "https://thanhnien.vn/anh-thu-noi-gian-chat-van-nsx-hhen-nie-dap-tra-khi-bi-nghi-gian-lan-185261102073742817.htm",
-   "nguon": "Thanh Niên"
+   "nguon": "Thanh Niên",
+   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/2/van-gay-gat-hlv-hhen-nie-van-kien-quyet-khang-dinh-khong-gian-lan-dong-thoi-tuyen-bo-ban-than-luon-choi-fair-play-179357-492-49-3666-5127-crop-17935797774892121243861.jpg"
   },
   {
-   "tieu_de": "Trúc Anh 'Mắt biếc' chính thức tái xuất điện ảnh sau 5 năm vắng bóng",
-   "vi_sao": "Nữ diễn viên xác nhận góp mặt trong dự án điện ảnh 'Đặc công rừng Sác', dập tắt mọi nghi vấn giải nghệ trước đó.",
-   "link": "https://tuoitre.vn/dac-cong-rung-sac-khoi-quay-mat-biec-truc-anh-tai-xuat-100261030090202444.htm",
-   "nguon": "Tuổi Trẻ"
+   "tieu_de": "'Chị chị em em 3' đứng đầu doanh thu phòng vé dù vấp phải làn sóng chê bai kịch bản",
+   "vi_sao": "Bất chấp nhiều phản hồi tiêu cực về đường dây cốt truyện và các phân cảnh nhạy cảm, tác phẩm vẫn có màn mở màn thu hút đông đảo khán giả.",
+   "link": "https://tuoitre.vn/chi-chi-em-em-3-thong-tri-phong-ve-bat-chap-tranh-cai-100261101175416826.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/1/edit-chi-chi-em-em-3-1793542617851242080297-0-0-887-1419-crop-17935426650702131692393.jpeg"
   },
   {
-   "tieu_de": "Trúc Nhân ra mắt album đầu tay 'Tân Mùi' sau 14 năm hoạt động",
-   "vi_sao": "Nam ca sĩ tổ chức showcase đầu tiên trong sự nghiệp, mang đến khía cạnh mềm mại và nhiều chiêm nghiệm hơn so với hình tượng trào phúng quen thuộc.",
+   "tieu_de": "Trúc Nhân xúc động giới thiệu album đầu tay 'Tân Mùi' sau 14 năm hoạt động",
+   "vi_sao": "Đánh dấu cột mốc quan trọng trong sự nghiệp, nam ca sĩ tổ chức showcase đầu tiên và mang tới màu sắc âm nhạc nhiều chiêm nghiệm hơn.",
    "link": "https://tuoitre.vn/truc-nhan-tai-showcase-tan-mui-lau-lau-moi-xuat-hien-khan-gia-con-cho-minh-khong-100261101072218498.htm",
-   "nguon": "Tuổi Trẻ"
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/1/ds18258-1793491509000979114180-296-1152-1097-2434-crop-1793492172704739031265.jpg"
   },
   {
-   "tieu_de": "Running Man Việt Nam làm dậy sóng cõi mạng với 'đám cưới' của Quân A.P và Lê Khanh",
-   "vi_sao": "Khoảnh khắc xúc động rơi nước mắt của cặp đôi trong thử thách đặc biệt của chương trình nhanh chóng khiến người hâm mộ xôn xao bàn tán.",
-   "link": "https://tuoitre.vn/running-man-viet-nam-gay-sot-voi-dam-cuoi-cua-quan-ap-va-le-khanh-100261031011637809.htm",
-   "nguon": "Tuổi Trẻ"
-  },
-  {
-   "tieu_de": "Concert tại Thái Nguyên sốt vé kỷ lục, chính quyền phải ban hành cảnh báo nóng",
-   "vi_sao": "Độ nóng từ đêm nhạc 'Tự hào là người Việt Nam' khiến tình trạng mua bán vé bát nháo bùng phát, buộc cơ quan chức năng phải vào cuộc chấn chỉnh.",
+   "tieu_de": "Vé concert tại Thái Nguyên 'sốt' hầm hập, chính quyền phát cảnh báo nóng",
+   "vi_sao": "Sức hút của đêm nhạc 'Tự hào là người Việt Nam' quá lớn dẫn đến cảnh báo kiểm soát vé nghiêm ngặt và kế hoạch làm thêm Rock concert liền sau đó.",
    "link": "https://tuoitre.vn/concert-o-thai-nguyen-sot-ve-tinh-ban-hanh-canh-bao-nong-100261030113614782.htm",
-   "nguon": "Tuổi Trẻ"
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/30/anh-man-hinh-2026-10-30-luc-113153-17933347279161342030585-0-146-736-1323-crop-1793335159761130179414.png"
   },
   {
-   "tieu_de": "Dàn sao Việt rần rần bắt trend 'Đừng bao giờ khinh thường một bông hoa chưa nở'",
-   "vi_sao": "Trào lưu khởi nguồn từ một bình luận mạng xã hội bất ngờ lan rộng với sự tham gia nhiệt tình của SOOBIN, Đức Phúc, Phương Mỹ Chi.",
-   "link": "https://tuoitre.vn/trend-dung-khinh-thuong-mot-bong-hoa-chua-no-la-gi-ma-soobin-duc-phuc-phuong-my-chi-du-100261101165409212.htm",
-   "nguon": "Tuổi Trẻ"
+   "tieu_de": "Đám cưới của Quân A.P và Lê Khanh tại Running Man Việt Nam làm bùng nổ mạng xã hội",
+   "vi_sao": "Khoảnh khắc xúc động đến rơi nước mắt của cặp đôi trong chương trình thực tế nhanh chóng nhận về lượng tương tác khổng lồ.",
+   "link": "https://tuoitre.vn/running-man-viet-nam-gay-sot-voi-dam-cuoi-cua-quan-ap-va-le-khanh-100261031011637809.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/31/edit-86656708816356209679346504578546650799194549n-1793383386530874243266-94-0-920-1322-crop-1793407286154970671593-0-43-762-1263-crop-17934073212971939198585.png"
+  },
+  {
+   "tieu_de": "'Mắt biếc' Trúc Anh tái xuất màn ảnh rộng sau 5 năm vắng bóng",
+   "vi_sao": "Nữ diễn viên xác nhận tham gia dự án phim 'Đặc công rừng Sác', đánh dấu sự trở lại được nhiều khán giả mong chờ.",
+   "link": "https://tuoitre.vn/dac-cong-rung-sac-khoi-quay-mat-biec-truc-anh-tai-xuat-100261030090202444.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/30/edit-truc-anh-1793325090570853978265-52-0-497-712-crop-17933255977131535779314.jpeg"
+  },
+  {
+   "tieu_de": "Nhà quay phim Nguyễn Vinh Phúc thắng giải xuất sắc tại Asia Pacific Screen Awards",
+   "vi_sao": "Tác phẩm điện ảnh 'Hearing' mang về giải thưởng quốc tế danh giá cho đại diện Việt Nam, nối tiếp truyền thống từ đạo diễn Nguyễn Vinh Sơn.",
+   "link": "https://tuoitre.vn/nguyen-vinh-phuc-thang-giai-quay-phim-xuat-sac-nhat-mon-qua-vo-gia-cho-bo-vinh-son-100261030203011305.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/30/edit-62646997526193999176852187467753931829457282n-1793366271824623868585-7-0-860-1364-crop-17933664669961493657293.jpeg"
   }
  ],
  "dang_hot": [
   {
-   "ten": "Chị chị em em 3",
-   "vi_sao": "Phim dẫn đầu doanh thu nhưng vấp phải làn sóng phản ứng mạnh vì xây dựng nhân vật độc hại và kịch bản nhiều sạn."
+   "ten": "Anh Thư",
+   "vi_sao": "Tạo tâm điểm tranh cãi khi bỏ ghi hình The Face Vietnam vì nghi vấn ê-kíp H'Hen Niê vi phạm luật."
   },
   {
-   "ten": "Anh Thư",
-   "vi_sao": "Gây bão truyền thông khi đùng đùng bỏ trường quay The Face Vietnam vì nghi ngờ đội H'Hen Niê gian lận."
+   "ten": "Chị chị em em 3",
+   "vi_sao": "Chiếm lĩnh phòng vé cuối tuần nhưng nhận nhiều luồng đánh giá gay gắt về nội dung và nhân vật."
   },
   {
    "ten": "Quân A.P",
-   "vi_sao": "Liên tục phủ sóng khi vừa lộ diện dưới mascot Dol-la-La vừa gây sốt với đám cưới cùng Lê Khanh tại Running Man."
+   "vi_sao": "Được nhắc tên liên tục sau đám cưới đặc biệt tại Running Man và màn lộ diện rời show ca hát giấu mặt."
   },
   {
-   "ten": "Trúc Anh",
-   "vi_sao": "Được chú ý khi chính thức trở lại phim trường với dự án 'Đặc công rừng Sác' sau nửa thập kỷ vắng bóng."
+   "ten": "Đừng bao giờ khinh thường một bông hoa chưa nở",
+   "vi_sao": "Trở thành hot trend TikTok được đông đảo sao Việt như SOOBIN, Đức Phúc, Phương Mỹ Chi nhiệt tình hưởng ứng."
   }
  ],
  "sap_dien_ra": [
   {
-   "khi_nao": "8-11",
-   "su_kien": "Cuộc thi Miss Universe 2026 chính thức khởi động tại Puerto Rico với sự tham gia của khoảng 120 thí sinh quốc tế",
+   "khi_nao": "08/11",
+   "su_kien": "Miss Universe 2026 chính thức khởi động tại Puerto Rico với khoảng 120 người đẹp toàn cầu.",
    "link": "https://tuoitre.vn/miss-universe-bien-puerto-rico-thanh-tam-diem-sac-dep-the-gioi-trong-hai-tuan-100261031054055301.htm"
   }
  ],
- "generated_at": "2026-11-02T04:13:53.923331+00:00"
+ "generated_at": "2026-11-02T04:23:34.774183+00:00"
 }
