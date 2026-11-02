@@ -71,6 +71,19 @@ header{padding:clamp(36px,6vw,56px) 0 0; text-align:left}
   font-family:var(--mono); color:var(--accent-ink); font-weight:600; font-size:11px;
   letter-spacing:.1em; text-transform:uppercase;
 }
+.lfilter{
+  display:flex; gap:6px; overflow-x:auto; padding:10px 12px;
+  border-bottom:1px solid var(--hair); scrollbar-width:none;
+}
+.lfilter::-webkit-scrollbar{display:none}
+.fpill{
+  flex:none; font-family:var(--mono); font-size:11px; font-weight:500; letter-spacing:.04em;
+  text-transform:uppercase; color:var(--ink2); background:var(--soft);
+  border:1px solid var(--hair); border-radius:999px; padding:4px 11px; cursor:pointer;
+  transition:border-color .3s var(--ease), background .3s var(--ease), color .3s var(--ease);
+}
+.fpill:hover{border-color:var(--hair2)}
+.fpill.on{background:var(--ink); color:var(--canvas); border-color:var(--ink)}
 .litem{display:flex; gap:12px; padding:12px 16px; border-bottom:1px solid var(--hair); align-items:flex-start}
 .litem:last-child{border-bottom:0}
 .litem .bd{flex:1; min-width:0}
@@ -207,6 +220,7 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
 
   <aside class="latest" id="latest" hidden>
     <div class="lhead"><span class="dot"></span>Mới nhất</div>
+    <div class="lfilter" id="lfilter"></div>
     <div id="latest-list"></div>
   </aside>
   </div>
@@ -242,8 +256,9 @@ function rel(iso){
 }
 function esc(s){ const d=document.createElement("span"); d.textContent=s||""; return d.innerHTML; }
 
-function renderHeadlines(items){
-  if(!items || !items.length) return;
+let headlineData = [], srcFilter = "";
+function renderLatestList(){
+  const items = srcFilter ? headlineData.filter(i=>i.source===srcFilter) : headlineData;
   document.getElementById("latest-list").innerHTML = items.slice(0,14).map(i=>`
     <div class="litem">
       <div class="bd">
@@ -251,9 +266,26 @@ function renderHeadlines(items){
         <div class="lmeta">${esc(i.source)}, ${rel(i.published)}</div>
       </div>
       ${i.image?`<img class="lthumb" src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
-    </div>`).join("");
+    </div>`).join("") || `<div class="litem"><div class="bd lmeta">Chưa có tin từ nguồn này</div></div>`;
+}
+function renderHeadlines(items){
+  if(!items || !items.length) return;
+  headlineData = items;
+  const sources = [...new Set(items.map(i=>i.source))];
+  if(srcFilter && !sources.includes(srcFilter)) srcFilter = "";
+  document.getElementById("lfilter").innerHTML =
+    [`<button class="fpill${srcFilter?"":" on"}" data-s="">Tất cả</button>`]
+    .concat(sources.map(s=>`<button class="fpill${srcFilter===s?" on":""}" data-s="${esc(s)}">${esc(s)}</button>`)).join("");
+  renderLatestList();
   document.getElementById("latest").hidden = false;
 }
+document.getElementById("lfilter").addEventListener("click", e=>{
+  const b = e.target.closest(".fpill");
+  if(!b) return;
+  srcFilter = b.dataset.s;
+  document.querySelectorAll(".fpill").forEach(p=>p.classList.toggle("on", p===b));
+  renderLatestList();
+});
 
 function renderDigest(d){
   if(!d){ document.getElementById("sec-nobrew").hidden = false; return; }
