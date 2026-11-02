@@ -65,14 +65,14 @@ header{padding:clamp(36px,6vw,56px) 0 0; text-align:left}
 .ticker .label{
   position:absolute; inset:0 auto 0 0; z-index:2; display:flex; align-items:center;
   padding:0 14px; background:var(--panel); border-right:1px solid var(--hair);
-  font-family:var(--mono); color:var(--accent-ink); font-weight:600; font-size:10.5px;
+  font-family:var(--mono); color:var(--accent-ink); font-weight:600; font-size:11px;
   letter-spacing:.1em; text-transform:uppercase;
 }
 .ticker .rail{display:inline-block; padding:11px 0 11px 118px; animation:rail 100s linear infinite}
 .ticker:hover .rail{animation-play-state:paused}
 .ticker a{text-decoration:none; margin-right:42px; font-size:13.5px; letter-spacing:-.01em; color:var(--ink2); transition:color .3s var(--ease)}
 .ticker a:hover{color:var(--ink)}
-.ticker .src{font-family:var(--mono); color:var(--mute); font-weight:500; margin-right:8px; font-size:10px; letter-spacing:.07em; text-transform:uppercase}
+.ticker .src{font-family:var(--mono); color:var(--mute); font-weight:500; margin-right:8px; font-size:11px; letter-spacing:.07em; text-transform:uppercase}
 @keyframes rail{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){
   .ticker{white-space:normal; mask-image:none}
@@ -94,7 +94,7 @@ h2{font-size:clamp(22px,4vw,28px); font-weight:600; letter-spacing:-.025em; line
 .panel:hover{border-color:var(--hair2)}
 .lede{padding:20px 22px; font-size:16.5px; line-height:1.7; letter-spacing:-.011em}
 .lede p{margin:0; color:var(--ink2)}
-.lede .when{font-family:var(--mono); color:var(--mute); font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; margin-top:18px}
+.lede .when{font-family:var(--mono); color:var(--mute); font-size:11px; letter-spacing:.06em; text-transform:uppercase; margin-top:18px}
 
 /* StoryStream (The Verge): feed dọc trên trục timeline, rail mono bên trái */
 .stream{position:relative; padding:2px 0}
@@ -102,7 +102,7 @@ h2{font-size:clamp(22px,4vw,28px); font-weight:600; letter-spacing:-.025em; line
 .srow{display:flex; gap:16px; padding:13px 18px 13px 16px; border-bottom:1px solid var(--hair); align-items:flex-start}
 .srow:last-child{border-bottom:0}
 .srow .rail{
-  flex:none; width:48px; font-family:var(--mono); font-size:9.5px; font-weight:600;
+  flex:none; width:54px; font-family:var(--mono); font-size:11px; font-weight:600;
   color:var(--mute); letter-spacing:.06em; text-transform:uppercase;
   padding-top:4px; text-align:right; line-height:1.5; overflow-wrap:break-word;
 }
@@ -144,7 +144,7 @@ footer{
   padding:20px 0 32px; color:var(--mute); font-size:12.5px; line-height:2;
 }
 footer a{color:var(--ink2)}
-footer #brewed{font-family:var(--mono); font-size:10.5px; letter-spacing:.07em; text-transform:uppercase}
+footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; text-transform:uppercase}
 @media (max-width:640px){
   .stream::before{display:none}
   .srow{gap:10px; padding:12px 14px}

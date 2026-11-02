@@ -1,0 +1,47 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-11-02T04:28:35.155Z",
+        "reason": "user chose SP500/Linear-Vercel design language from awesome-design-md"
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "C:\\Claude Eastgate\\vbiz-cafe\\agency\\template.html"
+        ],
+        "createdAt": "2026-11-02T04:28:35.206Z",
+        "reason": "dot marks genuinely live data: clock ticks every 30s, ticker refetches every 5 min"
+      },
+      {
+        "rule": "overused-font",
+        "value": "geist mono",
+        "createdAt": "2026-11-02T04:28:35.271Z",
+        "reason": "Vercel DESIGN.md signature mono for labels; user-chosen direction"
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "agency/template.html"
+        ],
+        "createdAt": "2026-11-02T04:28:43.947Z",
+        "reason": "dot marks genuinely live data: clock ticks 30s, ticker refetches 5 min"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "agency/template.html"
+        ],
+        "createdAt": "2026-11-02T04:28:44.298Z",
+        "reason": "news ticker is the requested core feature; hover-pause + reduced-motion static"
+      }
+    ]
+  }
+}
