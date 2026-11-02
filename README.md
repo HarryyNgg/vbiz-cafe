@@ -31,7 +31,7 @@ Trang web tự fetch lại ticker mỗi 5 phút khi đang mở.
 
 ## Cấu trúc
 
-- `agency/scout.py` — quét 6 nguồn RSS public (VnExpress, Thanh Niên, Tuổi Trẻ, Kenh14, Znews, Google News), dedupe bằng `data/seen.json`
+- `agency/scout.py` — quét 9 nguồn RSS public (VnExpress, Thanh Niên, Tuổi Trẻ, Kenh14, Znews, Dân Trí, Vietnamnet, Tiền Phong, Google News), dedupe bằng `data/seen.json`
 - `agency/brief.py` — Gemini viết digest JSON (chỉ dùng tin đã quét, link phải có thật)
 - `agency/build.py` — render `docs/` (trang tĩnh + `headlines.json`)
 - `.github/workflows/vbiz.yml` — lịch chạy

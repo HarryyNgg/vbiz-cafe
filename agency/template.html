@@ -35,7 +35,11 @@ body{
 }
 a{color:inherit}
 ::selection{background:var(--ink); color:var(--canvas)}
-.wrap{max-width:760px; margin:0 auto; padding:0 24px}
+.wrap{max-width:1080px; margin:0 auto; padding:0 24px}
+/* lưới kiểu Business Insider: nội dung trái + rail "Mới nhất" phải */
+.layout{display:grid; grid-template-columns:minmax(0,1fr) 316px; gap:40px; align-items:start; margin-top:clamp(20px,4vw,30px)}
+.layout>main{min-width:0}
+.layout>main>section:first-of-type{margin-top:0}
 
 .reveal{opacity:0; transform:translateY(18px);
   transition:opacity .7s var(--ease), transform .7s var(--ease)}
@@ -56,28 +60,27 @@ header{padding:clamp(36px,6vw,56px) 0 0; text-align:left}
 .clockline .dot{width:6px;height:6px;border-radius:50%;background:var(--accent); animation:pulse 2.4s var(--ease) infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
-/* ── ticker ───────────────────────── */
-.ticker{
-  margin:clamp(22px,4vw,32px) 0 0; border:1px solid var(--hair); border-radius:10px;
-  background:var(--panel); overflow:hidden; white-space:nowrap; position:relative;
-  mask-image:linear-gradient(90deg,#000 92%,transparent);
+/* ── rail Mới nhất (BI "Latest"): list tĩnh, click được ── */
+.latest{
+  position:sticky; top:16px; border:1px solid var(--hair); border-radius:12px;
+  background:var(--panel); max-height:calc(100vh - 32px); overflow:auto;
 }
-.ticker .label{
-  position:absolute; inset:0 auto 0 0; z-index:2; display:flex; align-items:center;
-  padding:0 14px; background:var(--panel); border-right:1px solid var(--hair);
+.lhead{
+  display:flex; gap:8px; align-items:center; padding:12px 16px;
+  border-bottom:1px solid var(--hair); position:sticky; top:0; background:var(--panel);
   font-family:var(--mono); color:var(--accent-ink); font-weight:600; font-size:11px;
   letter-spacing:.1em; text-transform:uppercase;
 }
-.ticker .rail{display:inline-block; padding:11px 0 11px 118px; animation:rail 100s linear infinite}
-.ticker:hover .rail{animation-play-state:paused}
-.ticker a{text-decoration:none; margin-right:42px; font-size:13.5px; letter-spacing:-.01em; color:var(--ink2); transition:color .3s var(--ease)}
-.ticker a:hover{color:var(--ink)}
-.ticker .src{font-family:var(--mono); color:var(--mute); font-weight:500; margin-right:8px; font-size:11px; letter-spacing:.07em; text-transform:uppercase}
-@keyframes rail{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){
-  .ticker{white-space:normal; mask-image:none}
-  .ticker .rail{animation:none; white-space:normal; display:block; padding:11px 16px 11px 118px}
-}
+.litem{display:flex; gap:12px; padding:12px 16px; border-bottom:1px solid var(--hair); align-items:flex-start}
+.litem:last-child{border-bottom:0}
+.litem .bd{flex:1; min-width:0}
+.litem a{display:block; text-decoration:none; font-size:13.5px; font-weight:600;
+  letter-spacing:-.012em; line-height:1.4; transition:color .3s var(--ease)}
+.litem a:hover{color:var(--accent-ink)}
+.litem .lmeta{font-family:var(--mono); color:var(--mute); font-size:11px; letter-spacing:.05em;
+  text-transform:uppercase; margin-top:5px}
+.litem .lthumb{flex:none; width:56px; height:42px; border-radius:6px; border:1px solid var(--hair);
+  object-fit:cover; background:var(--panel2)}
 
 /* ── sections ─────────────────────── */
 section{margin:clamp(34px,6vw,52px) 0}
@@ -145,6 +148,11 @@ footer{
 }
 footer a{color:var(--ink2)}
 footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; text-transform:uppercase}
+@media (max-width:920px){
+  .layout{grid-template-columns:1fr; gap:0}
+  .latest{position:static; max-height:340px; margin-bottom:clamp(28px,5vw,40px)}
+  .layout>aside{order:-1}
+}
 @media (max-width:640px){
   .stream::before{display:none}
   .srow{gap:10px; padding:12px 14px}
@@ -160,15 +168,12 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
 <div class="wrap">
   <header class="reveal in">
     <h1 class="brand"><span class="cup">☕</span>Vbiz Café</h1>
-    <p class="tagline">Bản tin Vbiz pha mỗi sáng. Ticker tin mới cập nhật cả ngày.</p>
+    <p class="tagline">Bản tin Vbiz pha mỗi sáng. Tin mới nhất cập nhật cả ngày.</p>
     <div class="clockline"><span class="dot"></span><span id="clock">—</span></div>
   </header>
 
-  <div class="ticker" id="ticker" hidden>
-    <span class="label">Tin mới</span>
-    <div class="rail" id="rail"></div>
-  </div>
-
+  <div class="layout">
+  <main>
   <section id="sec-lede" hidden>
     <span class="eyebrow">Tiêu điểm</span>
     <h2>Hôm nay Vbiz có gì?</h2>
@@ -196,8 +201,15 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
   <section id="sec-nobrew" hidden>
     <span class="eyebrow">Tiêu điểm</span>
     <h2>Chưa có bản tin sáng</h2>
-    <p class="empty">Ticker phía trên là tin thật; bản tin phân tích sẽ có sau lượt chạy đầu tiên.</p>
+    <p class="empty">Cột "Mới nhất" bên cạnh là tin thật; bản tin phân tích sẽ có sau lượt chạy đầu tiên.</p>
   </section>
+  </main>
+
+  <aside class="latest" id="latest" hidden>
+    <div class="lhead"><span class="dot"></span>Mới nhất</div>
+    <div id="latest-list"></div>
+  </aside>
+  </div>
 
   <footer>
     Nguồn: VnExpress · Thanh Niên · Tuổi Trẻ · Kenh14 · Znews · Google News (chỉ đọc tin public)<br>
@@ -232,11 +244,15 @@ function esc(s){ const d=document.createElement("span"); d.textContent=s||""; re
 
 function renderHeadlines(items){
   if(!items || !items.length) return;
-  const html = items.slice(0,18).map(i=>
-    `<a href="${esc(i.link)}" target="_blank" rel="noopener"><span class="src">${esc(i.source)}</span>${esc(i.title)} <span style="opacity:.5">· ${rel(i.published)}</span></a>`
-  ).join("");
-  document.getElementById("rail").innerHTML = html + html; // lặp đôi cho marquee liền mạch
-  document.getElementById("ticker").hidden = false;
+  document.getElementById("latest-list").innerHTML = items.slice(0,14).map(i=>`
+    <div class="litem">
+      <div class="bd">
+        <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+        <div class="lmeta">${esc(i.source)} · ${rel(i.published)}</div>
+      </div>
+      ${i.image?`<img class="lthumb" src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}
+    </div>`).join("");
+  document.getElementById("latest").hidden = false;
 }
 
 function renderDigest(d){
@@ -273,7 +289,7 @@ function renderDigest(d){
     document.getElementById("sec-events").hidden = false;
   }
   if(!d.tieu_diem) document.getElementById("sec-nobrew").hidden = false;
-  document.getElementById("brewed").textContent = "Ticker mỗi 30 phút · bản tin mỗi sáng 7:00";
+  document.getElementById("brewed").textContent = "Mới nhất mỗi 30 phút · bản tin mỗi sáng 7:00";
 }
 
 renderDigest(STATE && STATE.digest);

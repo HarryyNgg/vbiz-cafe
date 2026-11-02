@@ -18,6 +18,9 @@ FEEDS = [
     ("Tuổi Trẻ", "https://tuoitre.vn/rss/giai-tri.rss"),
     ("Kenh14", "https://kenh14.vn/star.rss"),
     ("Znews", "https://znews.vn/rss/giai-tri.rss"),
+    ("Dân Trí", "https://dantri.com.vn/rss/giai-tri.rss"),
+    ("Vietnamnet", "https://vietnamnet.vn/rss/giai-tri.rss"),
+    ("Tiền Phong", "https://tienphong.vn/rss/giai-tri-36.rss"),
     ("Google News", "https://news.google.com/rss/search?q=vbiz&hl=vi&gl=VN&ceid=VN:vi"),
 ]
 
