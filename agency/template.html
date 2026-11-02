@@ -227,7 +227,7 @@ const fmtDate = new Intl.DateTimeFormat("vi-VN",{timeZone:VN,weekday:"long",day:
 function vnHour(){ return +new Intl.DateTimeFormat("en",{timeZone:VN,hour:"numeric",hour12:false}).format(new Date()); }
 function tick(){
   const now = new Date();
-  document.getElementById("clock").textContent = fmtTime.format(now)+" · "+fmtDate.format(now)+" · TP.HCM";
+  document.getElementById("clock").textContent = fmtTime.format(now)+" · "+fmtDate.format(now)+" · TP HN";
   const h = vnHour();
   document.documentElement.dataset.theme = (h>=18||h<6) ? "night" : "day";
 }
