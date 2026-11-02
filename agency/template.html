@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vbiz Café</title>
+<meta name="description" content="Bản tin Vbiz mỗi sáng — trending, tin chính và lịch sắp diễn ra.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* hệ token: ngày = Vercel trắng/mực, đêm = Linear near-black */
+:root{
+  --canvas:#ffffff; --soft:#fafafa; --panel:#ffffff; --panel2:#f5f5f5;
+  --ink:#171717; --ink2:#4d4d4d; --mute:#888888;
+  --hair:#ebebeb; --hair2:#e0e0e0;
+  --accent:#5e6ad2; --accent-ink:#4f5ac2; --link:#0070f3;
+  --mono:"Geist Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.32,.72,0,1);
+}
+[data-theme="night"]{
+  --canvas:#010102; --soft:#0f1011; --panel:#0f1011; --panel2:#141516;
+  --ink:#f7f8f8; --ink2:#d0d6e0; --mute:#8a8f98;
+  --hair:#23252a; --hair2:#34343a;
+  --accent:#828fff; --accent-ink:#828fff; --link:#828fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--canvas); color:var(--ink);
+  font:400 16px/1.6 "Inter",system-ui,-apple-system,sans-serif;
+  letter-spacing:-.005em; -webkit-font-smoothing:antialiased;
+  transition:background-color .5s var(--ease), color .5s var(--ease);
+}
+a{color:inherit}
+::selection{background:var(--ink); color:var(--canvas)}
+.wrap{max-width:760px; margin:0 auto; padding:0 24px}
+
+.reveal{opacity:0; transform:translateY(18px);
+  transition:opacity .7s var(--ease), transform .7s var(--ease)}
+.reveal.in{opacity:1; transform:none}
+@media (prefers-reduced-motion:reduce){ .reveal{opacity:1; transform:none; transition:none} }
+
+/* ── header ───────────────────────── */
+header{padding:clamp(56px,10vw,104px) 0 0; text-align:left}
+.brand{font-size:clamp(34px,6vw,52px); font-weight:700; letter-spacing:-.035em; line-height:1.05; margin:0}
+.brand .cup{font-size:.72em; vertical-align:.08em; margin-right:2px}
+.tagline{color:var(--mute); margin:14px 0 0; font-size:16px; letter-spacing:-.01em; max-width:52ch}
+.clockline{
+  display:inline-flex; gap:9px; align-items:center; margin-top:26px;
+  border:1px solid var(--hair); border-radius:8px; background:var(--soft);
+  padding:7px 13px; font-family:var(--mono); font-size:11.5px; font-weight:500;
+  letter-spacing:.02em; color:var(--ink2); text-transform:uppercase;
+}
+.clockline .dot{width:6px;height:6px;border-radius:50%;background:var(--accent); animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ── ticker ───────────────────────── */
+.ticker{
+  margin:clamp(36px,6vw,56px) 0 0; border:1px solid var(--hair); border-radius:10px;
+  background:var(--panel); overflow:hidden; white-space:nowrap; position:relative;
+  mask-image:linear-gradient(90deg,#000 92%,transparent);
+}
+.ticker .label{
+  position:absolute; inset:0 auto 0 0; z-index:2; display:flex; align-items:center;
+  padding:0 14px; background:var(--panel); border-right:1px solid var(--hair);
+  font-family:var(--mono); color:var(--accent-ink); font-weight:600; font-size:10.5px;
+  letter-spacing:.1em; text-transform:uppercase;
+}
+.ticker .rail{display:inline-block; padding:11px 0 11px 118px; animation:rail 100s linear infinite}
+.ticker:hover .rail{animation-play-state:paused}
+.ticker a{text-decoration:none; margin-right:42px; font-size:13.5px; letter-spacing:-.01em; color:var(--ink2); transition:color .3s var(--ease)}
+.ticker a:hover{color:var(--ink)}
+.ticker .src{font-family:var(--mono); color:var(--mute); font-weight:500; margin-right:8px; font-size:10px; letter-spacing:.07em; text-transform:uppercase}
+@keyframes rail{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){
+  .ticker{white-space:normal; mask-image:none}
+  .ticker .rail{animation:none; white-space:normal; display:block; padding:11px 16px 11px 118px}
+}
+
+/* ── sections ─────────────────────── */
+section{margin:clamp(56px,9vw,88px) 0}
+.eyebrow{
+  display:block; font-family:var(--mono); color:var(--mute); font-weight:500;
+  font-size:11px; letter-spacing:.12em; text-transform:uppercase; margin:0 0 10px;
+}
+h2{font-size:clamp(22px,4vw,28px); font-weight:600; letter-spacing:-.025em; line-height:1.2; margin:0 0 20px}
+
+.panel{
+  background:var(--panel); border:1px solid var(--hair); border-radius:12px;
+  transition:border-color .4s var(--ease);
+}
+.panel:hover{border-color:var(--hair2)}
+.lede{padding:26px 28px; font-size:17px; line-height:1.75; letter-spacing:-.011em}
+.lede p{margin:0; color:var(--ink2)}
+.lede .when{font-family:var(--mono); color:var(--mute); font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; margin-top:18px}
+
+.story{display:flex; gap:18px; padding:20px 22px; margin:10px 0}
+.story .no{font-family:var(--mono); font-size:12px; font-weight:500; color:var(--mute); min-width:26px; padding-top:4px}
+.story h3{margin:0 0 6px; font-size:15.5px; font-weight:600; letter-spacing:-.015em; line-height:1.45}
+.story h3 a{text-decoration:none; transition:color .3s var(--ease)}
+.story h3 a:hover{color:var(--accent-ink)}
+.story p{margin:0; color:var(--mute); font-size:14px; line-height:1.6}
+.story .meta{font-family:var(--mono); margin-top:10px; font-size:10px; color:var(--mute); font-weight:500; letter-spacing:.08em; text-transform:uppercase}
+
+.chips{display:flex; flex-wrap:wrap; gap:8px}
+.chip{
+  background:var(--soft); border:1px solid var(--hair); border-radius:8px;
+  padding:8px 14px; font-size:13.5px; letter-spacing:-.01em; color:var(--ink2);
+  transition:border-color .3s var(--ease);
+}
+.chip:hover{border-color:var(--hair2)}
+.chip b{color:var(--ink); font-weight:600}
+
+#events{padding:6px 22px}
+.event{display:flex; gap:18px; padding:14px 0; border-bottom:1px solid var(--hair); align-items:baseline}
+.event:last-child{border-bottom:0}
+.event .when{font-family:var(--mono); min-width:118px; color:var(--accent-ink); font-weight:500; font-size:11px; letter-spacing:.05em; text-transform:uppercase}
+.event .what{font-size:14.5px; letter-spacing:-.01em}
+.event .what a{text-decoration:none; transition:color .3s var(--ease)}
+.event .what a:hover{color:var(--accent-ink)}
+
+.empty{color:var(--mute); font-size:14.5px}
+
+footer{
+  margin:clamp(64px,10vw,96px) 0 0; border-top:1px solid var(--hair);
+  padding:28px 0 40px; color:var(--mute); font-size:12.5px; line-height:2;
+}
+footer a{color:var(--ink2)}
+footer #brewed{font-family:var(--mono); font-size:10.5px; letter-spacing:.07em; text-transform:uppercase}
+@media (max-width:640px){
+  .story{gap:12px; padding:16px}
+  .lede{padding:20px 18px}
+  .event .when{min-width:92px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="reveal in">
+    <h1 class="brand"><span class="cup">☕</span>Vbiz Café</h1>
+    <p class="tagline">Bản tin Vbiz pha mỗi sáng. Ticker tin mới cập nhật cả ngày.</p>
+    <div class="clockline"><span class="dot"></span><span id="clock">—</span></div>
+  </header>
+
+  <div class="ticker" id="ticker" hidden>
+    <span class="label">Tin mới</span>
+    <div class="rail" id="rail"></div>
+  </div>
+
+  <section id="sec-lede" hidden>
+    <span class="eyebrow">Tiêu điểm</span>
+    <h2>Hôm nay Vbiz có gì?</h2>
+    <div class="panel lede reveal"><p id="lede-text"></p><div class="when" id="lede-when"></div></div>
+  </section>
+
+  <section id="sec-stories" hidden>
+    <span class="eyebrow">Tin chính</span>
+    <h2>Chuyện đáng đọc</h2>
+    <div id="stories"></div>
+  </section>
+
+  <section id="sec-hot" hidden>
+    <span class="eyebrow">Đang hot</span>
+    <h2>Ai đang được nhắc tên</h2>
+    <div class="chips reveal" id="hot"></div>
+  </section>
+
+  <section id="sec-events" hidden>
+    <span class="eyebrow">Sắp diễn ra</span>
+    <h2>Lịch của làng giải trí</h2>
+    <div class="panel reveal" id="events"></div>
+  </section>
+
+  <section id="sec-nobrew" hidden>
+    <span class="eyebrow">Tiêu điểm</span>
+    <h2>Chưa có bản tin sáng</h2>
+    <p class="empty">Ticker phía trên là tin thật; bản tin phân tích sẽ có sau lượt chạy đầu tiên.</p>
+  </section>
+
+  <footer>
+    Nguồn: VnExpress · Thanh Niên · Tuổi Trẻ · Kenh14 · Znews · Google News (chỉ đọc tin public)<br>
+    <span id="brewed"></span>
+  </footer>
+</div>
+
+<script>
+const STATE = /*__STATE__*/null;
+
+const VN = "Asia/Ho_Chi_Minh";
+const fmtTime = new Intl.DateTimeFormat("vi-VN",{timeZone:VN,hour:"2-digit",minute:"2-digit"});
+const fmtDate = new Intl.DateTimeFormat("vi-VN",{timeZone:VN,weekday:"long",day:"numeric",month:"long",year:"numeric"});
+
+function vnHour(){ return +new Intl.DateTimeFormat("en",{timeZone:VN,hour:"numeric",hour12:false}).format(new Date()); }
+function tick(){
+  const now = new Date();
+  document.getElementById("clock").textContent = fmtTime.format(now)+" · "+fmtDate.format(now)+" · TP.HCM";
+  const h = vnHour();
+  document.documentElement.dataset.theme = (h>=18||h<6) ? "night" : "day";
+}
+tick(); setInterval(tick, 30000);
+
+function rel(iso){
+  const m = Math.round((Date.now()-new Date(iso))/60000);
+  if(m<1) return "vừa xong";
+  if(m<60) return m+" phút trước";
+  const h = Math.round(m/60);
+  return h<24 ? h+" giờ trước" : Math.round(h/24)+" ngày trước";
+}
+function esc(s){ const d=document.createElement("span"); d.textContent=s||""; return d.innerHTML; }
+
+function renderHeadlines(items){
+  if(!items || !items.length) return;
+  const html = items.slice(0,18).map(i=>
+    `<a href="${esc(i.link)}" target="_blank" rel="noopener"><span class="src">${esc(i.source)}</span>${esc(i.title)} <span style="opacity:.5">· ${rel(i.published)}</span></a>`
+  ).join("");
+  document.getElementById("rail").innerHTML = html + html; // lặp đôi cho marquee liền mạch
+  document.getElementById("ticker").hidden = false;
+}
+
+function renderDigest(d){
+  if(!d){ document.getElementById("sec-nobrew").hidden = false; return; }
+  if(d.tieu_diem){
+    document.getElementById("lede-text").textContent = d.tieu_diem;
+    document.getElementById("lede-when").textContent = "Bản tin "+fmtTime.format(new Date(d.generated_at))+" · "+fmtDate.format(new Date(d.generated_at));
+    document.getElementById("sec-lede").hidden = false;
+  }
+  if(d.tin_chinh && d.tin_chinh.length){
+    document.getElementById("stories").innerHTML = d.tin_chinh.map((t,i)=>`
+      <article class="panel story reveal">
+        <div class="no">${String(i+1).padStart(2,"0")}</div>
+        <div>
+          <h3><a href="${esc(t.link)}" target="_blank" rel="noopener">${esc(t.tieu_de)}</a></h3>
+          <p>${esc(t.vi_sao)}</p>
+          <div class="meta">${esc(t.nguon||"")}</div>
+        </div>
+      </article>`).join("");
+    document.getElementById("sec-stories").hidden = false;
+  }
+  if(d.dang_hot && d.dang_hot.length){
+    document.getElementById("hot").innerHTML = d.dang_hot.map(h=>
+      `<span class="chip"><b>${esc(h.ten)}</b>${h.vi_sao?" — "+esc(h.vi_sao):""}</span>`).join("");
+    document.getElementById("sec-hot").hidden = false;
+  }
+  if(d.sap_dien_ra && d.sap_dien_ra.length){
+    document.getElementById("events").innerHTML = d.sap_dien_ra.map(e=>`
+      <div class="event">
+        <div class="when">${esc(e.khi_nao)}</div>
+        <div class="what">${e.link?`<a href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.su_kien)}</a>`:esc(e.su_kien)}</div>
+      </div>`).join("");
+    document.getElementById("sec-events").hidden = false;
+  }
+  if(!d.tieu_diem) document.getElementById("sec-nobrew").hidden = false;
+  document.getElementById("brewed").textContent = "Ticker mỗi 30 phút · bản tin mỗi sáng 7:00";
+}
+
+renderDigest(STATE && STATE.digest);
+renderHeadlines(STATE && STATE.headlines);
+
+const revealAll = ()=>document.querySelectorAll(".reveal:not(.in)").forEach(el=>el.classList.add("in"));
+if("IntersectionObserver" in window){
+  const io = new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+  }),{threshold:.12});
+  document.querySelectorAll(".reveal:not(.in)").forEach(el=>io.observe(el));
+  setTimeout(revealAll, 3000); // failsafe: hiệu ứng được phép hỏng, nội dung thì không
+}else{ revealAll(); }
+
+// ticker gần-real-time: fetch lại headlines.json mỗi 5 phút
+async function refresh(){
+  try{
+    const r = await fetch("headlines.json?t="+Date.now(), {cache:"no-store"});
+    if(r.ok) renderHeadlines(await r.json());
+  }catch(e){}
+}
+if(location.protocol.startsWith("http")){ refresh(); setInterval(refresh, 5*60*1000); }
+</script>
+</body>
+</html>

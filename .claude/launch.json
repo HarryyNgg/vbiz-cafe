@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vbiz-cafe",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4380", "--directory", "docs"],
+      "port": 4380
+    }
+  ]
+}
