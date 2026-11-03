@@ -192,7 +192,7 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
   <main>
   <section id="sec-lede" hidden>
     <span class="eyebrow">Tiêu điểm</span>
-    <h2>Hôm nay Vbiz có gì?</h2>
+    <h2>Vbiz lúc này có gì?</h2>
     <div class="panel lede reveal"><p id="lede-text"></p><div class="when" id="lede-when"></div></div>
   </section>
 
@@ -297,7 +297,7 @@ function renderDigest(d){
   if(!d){ document.getElementById("sec-nobrew").hidden = false; return; }
   if(d.tieu_diem){
     document.getElementById("lede-text").textContent = d.tieu_diem;
-    document.getElementById("lede-when").textContent = "Bản tin "+fmtTime.format(new Date(d.generated_at))+", "+fmtDate.format(new Date(d.generated_at));
+    document.getElementById("lede-when").textContent = "Cập nhật "+fmtTime.format(new Date(d.generated_at))+", "+fmtDate.format(new Date(d.generated_at));
     document.getElementById("sec-lede").hidden = false;
   }
   if(d.tin_chinh && d.tin_chinh.length){

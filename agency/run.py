@@ -42,8 +42,24 @@ def main():
     print(f"[scout] {len(fresh)} tin tươi, {len(new)} tin mới")
     save_headlines(fresh)
 
-    if not args.headlines:
-        from . import brief as brief_mod
+    from . import brief as brief_mod
+    if args.headlines:
+        # tiêu điểm "thời gian thực": tóm tắt lại từ tin mới nhất, các mục khác giữ bản tin sáng
+        try:
+            summary = brief_mod.pulse(fresh)
+            if summary:
+                p = DATA / "digest.json"
+                digest = (json.loads(p.read_text(encoding="utf-8")) if p.exists()
+                          else {"tin_chinh": [], "dang_hot": [], "sap_dien_ra": []})
+                digest["tieu_diem"] = summary
+                digest["generated_at"] = datetime.now(timezone.utc).isoformat()
+                p.write_text(json.dumps(digest, ensure_ascii=False, indent=1), encoding="utf-8")
+                print("[pulse] tiêu điểm đã cập nhật")
+        except SystemExit as e:  # thiếu key: ticker vẫn phải chạy
+            print(f"[pulse] bỏ qua: {e}")
+        except Exception as e:
+            print(f"[pulse] lỗi, giữ tiêu điểm cũ: {e}")
+    else:
         digest = brief_mod.brew(fresh)
         digest["generated_at"] = datetime.now(timezone.utc).isoformat()
         (DATA / "digest.json").write_text(

@@ -29,6 +29,14 @@ DỮ LIỆU:
 
 REQUIRED = {"tieu_diem": str, "tin_chinh": list, "dang_hot": list, "sap_dien_ra": list}
 
+PULSE_PROMPT = """Bạn là biên tập viên trực tin của "Vbiz Café". Dưới đây là những tin Vbiz mới nhất (JSON).
+Viết 2-4 câu tiếng Việt tóm tắt chuyện gì đang diễn ra lúc này: trả lời thẳng, ưu tiên showbiz Việt Nam,
+chỉ dùng thông tin trong tin đã cho, không bịa, không suy đoán.
+Trả về DUY NHẤT một JSON object: {"tom_tat": "..."}
+
+DỮ LIỆU:
+"""
+
 
 def _env():
     """Đọc agency/.env (KEY=VALUE từng dòng) vào os.environ nếu chưa có."""
@@ -44,23 +52,55 @@ def _call(prompt):
     key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
     if not key:
         raise SystemExit("Thiếu GEMINI_API_KEY (agency/.env hoặc Actions secret).")
+
+    def post(model):
+        body = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"response_mime_type": "application/json", "temperature": 0.4},
+        }).encode()
+        req = urllib.request.Request(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            data=body,
+            headers={"Content-Type": "application/json", "x-goog-api-key": key},
+        )
+        with urllib.request.urlopen(req, timeout=180) as r:
+            out = json.load(r)
+        return out["candidates"][0]["content"]["parts"][0]["text"]
+
     model = os.environ.get("AGENCY_MODEL", "gemini-flash-latest")
-    body = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"response_mime_type": "application/json", "temperature": 0.4},
-    }).encode()
-    req = urllib.request.Request(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-        data=body,
-        headers={"Content-Type": "application/json", "x-goog-api-key": key},
-    )
-    with urllib.request.urlopen(req, timeout=180) as r:
-        out = json.load(r)
-    return out["candidates"][0]["content"]["parts"][0]["text"]
+    lite = os.environ.get("AGENCY_MODEL_LITE", "gemini-flash-lite-latest")
+    try:
+        return post(model)
+    except urllib.error.HTTPError as e:
+        if e.code in (429, 503) and lite != model:  # quá tải/hết quota: hạ xuống bản lite
+            print(f"[llm] {model} trả {e.code}, thử {lite}")
+            return post(lite)
+        raise
 
 
 def _valid(d):
     return isinstance(d, dict) and all(isinstance(d.get(k), t) for k, t in REQUIRED.items())
+
+
+def pulse(items, max_items=25):
+    """Tóm tắt nhanh tin mới nhất cho Tiêu điểm (gọi mỗi 30 phút, prompt nhỏ)."""
+    _env()
+    slim = [
+        {k: it[k] for k in ("title", "source", "published", "summary")}
+        for it in items[:max_items]
+    ]
+    prompt = PULSE_PROMPT + json.dumps(slim, ensure_ascii=False)
+    for attempt in (1, 2):
+        try:
+            d = json.loads(_call(prompt))
+            if isinstance(d, dict) and isinstance(d.get("tom_tat"), str) and d["tom_tat"].strip():
+                return d["tom_tat"].strip()
+            print(f"[pulse] lần {attempt}: JSON sai cấu trúc, thử lại")
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"[pulse] lần {attempt}: {e}")
+        except urllib.error.HTTPError as e:
+            print(f"[pulse] lần {attempt}: HTTP {e.code}: {e.read()[:200]!r}")
+    return ""
 
 
 def brew(items, max_items=80):
