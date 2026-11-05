@@ -356,7 +356,7 @@ function renderDigest(d){
     document.getElementById("sec-events").hidden = false;
   }
   if(!d.tieu_diem) document.getElementById("sec-nobrew").hidden = false;
-  document.getElementById("brewed").textContent = "Mới nhất mỗi 30 phút, bản tin mỗi sáng 7:00";
+  document.getElementById("brewed").textContent = "Mới nhất mỗi 30 phút";
 }
 
 renderDigest(STATE && STATE.digest);
