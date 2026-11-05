@@ -1,81 +1,95 @@
 {
- "tieu_diem": "Chào buổi sáng Vbiz Café! Mở đầu bản tin hôm nay, làng điện ảnh đang rôm rả xoay quanh những tranh cãi và doanh thu mở màn của phim 'Chị chị em em 3'. Trong khi đó, các nghệ sĩ Việt như Cao Minh Đạt, Huỳnh Lập hay dàn sao 'Anh trai vượt ngàn chông gai' tiếp tục thu hút sự quan tâm lớn từ khán giả với các hoạt động đời thường và lịch trình concert dày đặc.",
+ "tieu_diem": "Mở đầu ngày mới, màn ảnh rộng và sàn diễn Vbiz đang chia nhau chiếm sóng bàn luận. Bộ phim điện ảnh 'Chị chị em em 3' vừa thống trị phòng vé nhưng lập tức hứng bão ý kiến trái chiều về nội dung lẫn diễn xuất của Kỳ Duyên. Trong khi đó, cơn sốt concert 'Anh trai vượt ngàn chông gai' vẫn chưa có dấu hiệu hạ nhiệt khi khán giả lại ráo riết săn vé cho chặng diễn sắp tới ở Hưng Yên. Cùng lúc, dàn sao như Huỳnh Lập hay Quân A.P cũng khiến dân tình chú ý với những tâm sự chuyện nghề và chuyện tình cảm.",
  "tin_chinh": [
   {
-   "tieu_de": "'Chị chị em em 3' thống trị phòng vé bất chấp tranh cãi",
-   "vi_sao": "Dù vướng tranh cãi về nội dung và diễn xuất, phim vẫn có doanh thu mở màn ấn tượng nhờ dàn diễn viên nổi tiếng.",
+   "tieu_de": "'Chị chị em em 3' thống trị phòng vé bất chấp tranh cãi dữ dội",
+   "vi_sao": "Dù vướng tranh cãi về kịch bản và các cảnh nóng, phim vẫn mở màn ấn tượng nhờ sức hút từ dàn diễn viên đình đám.",
    "link": "https://tuoitre.vn/chi-chi-em-em-3-thong-tri-phong-ve-bat-chap-tranh-cai-100261101175416826.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/1/edit-chi-chi-em-em-3-1793542617851242080297-0-0-887-1419-crop-17935426650702131692393.jpeg"
   },
   {
-   "tieu_de": "Cao Minh Đạt: 'Tôi nghiện con'",
-   "vi_sao": "Nam diễn viên chia sẻ luôn về nhà ngay sau lịch quay để cùng vợ chăm con gái đầu lòng 10 tháng tuổi.",
-   "link": "https://vnexpress.net/cao-minh-dat-toi-nghien-con-5140049.html",
-   "nguon": "VnExpress",
-   "anh": "https://vcdn1-giaitri.vnecdn.net/2026/11/03/cao-minh-dat-1793689932-9301-1793691251.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=yrleBl9I-lVJ9aFbpIVt2Q"
+   "tieu_de": "Hoa hậu Kỳ Duyên bị chê diễn xuất nhạt nhòa trong 'Chị chị em em 3'",
+   "vi_sao": "Được giao vai diễn quan trọng trên màn ảnh rộng, nàng hậu nhận nhiều phản hồi khắt khe khi diễn xuất bị đánh giá là chưa đủ sức nặng.",
+   "link": "https://vietnamnet.vn/hoa-hau-ky-duyen-rat-dep-nhung-dong-phim-thi-do-2571607.html",
+   "nguon": "Vietnamnet",
+   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/5/hoa-hau-ky-duyen-dep-nhung-dong-phim-thi-chan-531.jpg?width=0&s=Hx_H70xurJ_f70x-aWGo7Q"
   },
   {
-   "tieu_de": "Huỳnh Lập từng phá sản khi mở quán phê",
-   "vi_sao": "Nam diễn viên trải lòng về quãng thời gian chật vật kinh doanh quán cà phê để kiếm thêm thu nhập và có nơi biểu diễn.",
-   "link": "https://thanhnien.vn/huynh-lap-tung-pha-san-khi-mo-quan-phe-185261105101806772.htm",
-   "nguon": "Thanh Niên",
-   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/5/screenshot-2026-11-05-095557-17938478782961876156150-54-0-897-1349-crop-1793848394677908151711.png"
-  },
-  {
-   "tieu_de": "Vé concert lại 'hot', Anh trai vượt ngàn chông gai chưa có điểm dừng",
-   "vi_sao": "Cộng đồng fan tiếp tục bước vào cuộc đua săn vé day 3 và day 4 tại Hưng Yên vào đầu tháng 12.",
+   "tieu_de": "Khán giả lại lao vào cuộc chiến săn vé concert 'Anh trai vượt ngàn chông gai'",
+   "vi_sao": "Chưa kịp hạ nhiệt sau 2 đêm tại TP.HCM, cộng đồng người hâm mộ lại ráo riết đua vé cho các đêm diễn tiếp theo tại Hưng Yên.",
    "link": "https://tuoitre.vn/ve-concert-lai-hot-anh-trai-vuot-ngan-chong-gai-chua-co-diem-dung-100261104142322314.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/4/anh-man-hinh-2026-11-04-luc-141937-1793776786565681768710-345-1100-985-2125-crop-1793776869545431685257.png"
   },
   {
-   "tieu_de": "Bà Tư Ù \"Đất phương Nam\": 20 năm chăm chồng tai biến, tuổi 68 lạc quan",
-   "vi_sao": "Nghệ sĩ Mai Thanh Dung chia sẻ câu chuyện cảm động về cuộc sống hiện tại và tình yêu dành cho nghề.",
-   "link": "https://dantri.com.vn/giai-tri/ba-tu-u-dat-phuong-nam-20-nam-cham-chong-tai-bien-tuoi-68-lac-quan-20261104193013958.htm",
-   "nguon": "Dân Trí",
-   "anh": "https://icdn.dantri.com.vn/2026/11/04/editmaithanhdung6-1793804714947.jpg?watermark=v1"
+   "tieu_de": "Huỳnh Lập kể về thời gian lập nghiệp từng phá sản quán cà phê",
+   "vi_sao": "Trước khi nổi tiếng, nam nghệ sĩ từng trải qua giai đoạn chật vật kinh doanh để kiếm thêm thu nhập và tạo chỗ diễn cho chính mình.",
+   "link": "https://thanhnien.vn/huynh-lap-tung-pha-san-khi-mo-quan-phe-185261105101806772.htm",
+   "nguon": "Thanh Niên",
+   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/5/screenshot-2026-11-05-095557-17938478782961876156150-54-0-897-1349-crop-1793848394677908151711.png"
+  },
+  {
+   "tieu_de": "Quân A.P phủ sóng mạng xã hội nhờ MV mới và chuyện tình 14 năm",
+   "vi_sao": "Nam ca sĩ gây chú ý mạnh mẽ trong giai đoạn hoạt động sôi nổi khi kết hợp thành công công việc và câu chuyện đời tư ngọt ngào.",
+   "link": "https://znews.vn/nam-ca-si-viet-phu-song-post1694175.html",
+   "nguon": "Znews",
+   "anh": "https://photo.znews.vn/w660/Uploaded/qfssu/2026_11_04/image_2026_11_05T105610.696_1.jpg"
+  },
+  {
+   "tieu_de": "Võ Điền Gia Huy gây chú ý với vai giang hồ si tình trong 'Bò sữa bay'",
+   "vi_sao": "Tác phẩm điện ảnh cá tính này nhận được nhiều phản hồi tích cực từ giới chuyên môn lẫn khán giả sau buổi chiếu sớm.",
+   "link": "https://tuoitre.vn/vo-dien-gia-huy-dong-giang-ho-si-tinh-trong-bo-sua-bay-noi-ve-thoi-toi-khong-can-noi-100261105074911232.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/8867256941222784882962502132336770926584632761n-17938386106641454756573-129-0-1054-1480-crop-17938396587432132508986.jpg"
+  },
+  {
+   "tieu_de": "SOOBIN, Đức Phúc, Phương Mỹ Chi nhiệt tình 'đu trend' hoa chưa nở",
+   "vi_sao": "Câu nói 'Đừng bao giờ khinh thường một bông hoa chưa nở' nhanh chóng trở thành trào lưu TikTok được đông đảo nghệ sĩ hưởng ứng.",
+   "link": "https://tuoitre.vn/trend-dung-khinh-thuong-mot-bong-hoa-chua-no-la-gi-ma-soobin-duc-phuc-phuong-my-chi-du-100261101165409212.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/2/duc-phuc-edit-17935797723902067267772-43-0-1668-2600-crop-17935798231571031766662.png"
   }
  ],
  "dang_hot": [
   {
    "ten": "Kỳ Duyên",
-   "vi_sao": "Nhận nhiều ý kiến trái chiều từ khán giả về diễn xuất trong phim mới."
+   "vi_sao": "Trở thành tâm điểm bàn tán về năng lực diễn xuất trong phim điện ảnh 'Chị chị em em 3'."
   },
   {
-   "ten": "Negav",
-   "vi_sao": "Góp mặt và là cái tên được chú ý tại sự kiện Việt Nam Xanh 2026."
+   "ten": "Anh trai vượt ngàn chông gai",
+   "vi_sao": "Cộng đồng mạng sôi sục tìm vé cho các đêm concert tiếp theo tại khu vực phía Bắc."
   },
   {
-   "ten": "Cao Minh Đạt",
-   "vi_sao": "Chia sẻ ngọt ngào về cuộc sống gia đình và việc 'nghiện con'."
+   "ten": "Quân A.P",
+   "vi_sao": "Nhận nhiều lời chúc phúc và chú ý lớn khi chuyện tình 14 năm với bạn gái được quan tâm."
   },
   {
-   "ten": "Huỳnh Lập",
-   "vi_sao": "Kể lại quãng thời gian từng phá sản khi tập tành kinh doanh."
+   "ten": "Á hậu Ngô Bảo Ngọc",
+   "vi_sao": "Bất ngờ thông báo rút lui không tham gia cuộc thi MGI All Stars mùa 2."
   }
  ],
  "sap_dien_ra": [
   {
-   "khi_nao": "07/11/2026",
-   "su_kien": "Hòa nhạc The Horizon of Vienna 2026 diễn ra tại Nhà hát Hồ Gươm",
+   "khi_nao": "Trước ngày 6-11",
+   "su_kien": "Hạn chót đăng ký vé miễn phí qua Hộ chiếu xanh xem Negav, Đặng Hồng Hải tại Ngày hội Việt Nam Xanh 2026",
+   "link": "https://tuoitre.vn/hon-17000-phan-qua-va-co-hoi-giao-luu-negav-dang-hong-hai-dillan-tai-ngay-hoi-viet-nam-xanh-2026-100261102121434341.htm"
+  },
+  {
+   "khi_nao": "7/11",
+   "su_kien": "Đêm hòa nhạc The Horizon of Vienna 2026 diễn ra tại Nhà hát Hồ Gươm",
    "link": "https://tuoitre.vn/vpbank-private-dua-hoa-nhac-the-horizon-of-vienna-2026-den-viet-nam-100261104170715168.htm"
   },
   {
-   "khi_nao": "07/11/2026",
-   "su_kien": "Danh ca Andrea Bocelli trình diễn trong đêm nhạc tại Đà Lạt trên sân khấu phủ gương",
+   "khi_nao": "7/11",
+   "su_kien": "Danh ca Andrea Bocelli biểu diễn trên sân khấu phủ gương ngoài trời tại Đà Lạt",
    "link": "https://vnexpress.net/maestro-andrea-bocelli-dien-tren-san-khau-phu-guong-tai-da-lat-5140950.html"
   },
   {
-   "khi_nao": "Đầu tháng 12/2026",
-   "su_kien": "Đêm diễn day 3, day 4 của concert Anh trai vượt ngàn chông gai tại Hưng Yên",
+   "khi_nao": "Đầu tháng 12",
+   "su_kien": "Concert Anh trai vượt ngàn chông gai day 3 và day 4 diễn ra tại Hưng Yên",
    "link": "https://tuoitre.vn/ve-concert-lai-hot-anh-trai-vuot-ngan-chong-gai-chua-co-diem-dung-100261104142322314.htm"
-  },
-  {
-   "khi_nao": "26/12/2026",
-   "su_kien": "Đại nhạc hội Say Hi năm 2027 dọc bờ sông Sài Gòn kèm bắn pháo hoa",
-   "link": "https://tuoitre.vn/dai-nhac-hoi-say-hi-nam-2027-dien-ra-doc-bo-song-sai-gon-ban-phao-hoa-toi-26-12-100261103171541163.htm"
   }
  ],
- "generated_at": "2026-11-05T04:46:30.604853+00:00"
+ "generated_at": "2026-11-05T04:54:44.364462+00:00"
 }
