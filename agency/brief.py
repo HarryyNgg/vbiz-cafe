@@ -67,7 +67,8 @@ def _call(prompt):
             out = json.load(r)
         return out["candidates"][0]["content"]["parts"][0]["text"]
 
-    model = os.environ.get("AGENCY_MODEL", "gemini-flash-latest")
+    # Cố định bản 3.5 thay vì alias flash-latest: alias trỏ vào model mới nhất, hay bị 503 khi mới ra (05/11)
+    model = os.environ.get("AGENCY_MODEL", "gemini-3.5-flash")
     lite = os.environ.get("AGENCY_MODEL_LITE", "gemini-flash-lite-latest")
     try:
         return post(model)
