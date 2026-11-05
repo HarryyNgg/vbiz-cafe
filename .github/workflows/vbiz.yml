@@ -26,6 +26,7 @@ jobs:
       - name: Brew
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 0 * * *" ]; then
             python -m agency.run              # digest đầy đủ

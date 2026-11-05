@@ -85,6 +85,14 @@ header{padding:clamp(36px,6vw,56px) 0 0; text-align:left}
 }
 .mitem:hover{color:var(--ink)}
 .mitem.on{color:var(--ink); border-bottom-color:var(--accent)}
+.ltab{
+  font:inherit; letter-spacing:inherit; text-transform:inherit; background:none; border:none;
+  color:var(--mute); cursor:pointer; padding:2px 0; border-bottom:2px solid transparent;
+  transition:color .3s var(--ease), border-color .3s var(--ease);
+}
+.ltab + .ltab{margin-left:8px}
+.ltab:hover{color:var(--ink)}
+.ltab.on{color:var(--accent-ink); border-bottom-color:var(--accent)}
 .litem{display:flex; gap:12px; padding:12px 16px; border-bottom:1px solid var(--hair); align-items:flex-start}
 .litem:last-child{border-bottom:0}
 .litem .bd{flex:1; min-width:0}
@@ -222,7 +230,11 @@ footer #brewed{font-family:var(--mono); font-size:11px; letter-spacing:.07em; te
   </main>
 
   <aside class="latest" id="latest" hidden>
-    <div class="lhead"><span class="dot"></span>Mới nhất</div>
+    <div class="lhead" id="lsort">
+      <span class="dot"></span>
+      <button class="ltab on" data-sort="new">Mới nhất</button>
+      <button class="ltab" data-sort="hot">Hot nhất</button>
+    </div>
     <div id="latest-list"></div>
   </aside>
   </div>
@@ -258,9 +270,18 @@ function rel(iso){
 }
 function esc(s){ const d=document.createElement("span"); d.textContent=s||""; return d.innerHTML; }
 
-let headlineData = [], srcFilter = "";
+// Jev chấm `vn` (xác suất là showbiz VN) cho từng tin; dưới ngưỡng thì về tab Quốc tế. Tin chưa chấm coi là VN.
+const VN_MIN = (STATE && STATE.vn_min) || 0.75;
+const INTL = "__intl";
+const isVN = i => i.vn === undefined || i.vn >= VN_MIN;
+
+let headlineData = [], srcFilter = "", sortMode = "new";
 function renderLatestList(){
-  const items = srcFilter ? headlineData.filter(i=>i.source===srcFilter) : headlineData;
+  let items = srcFilter === INTL ? headlineData.filter(i=>!isVN(i))
+    : headlineData.filter(i=>isVN(i) && (!srcFilter || i.source===srcFilter));
+  if(sortMode === "hot"){
+    items = [...items].sort((a,b)=>(b.hot ?? -1)-(a.hot ?? -1) || b.published.localeCompare(a.published));
+  }
   document.getElementById("latest-list").innerHTML = items.slice(0,14).map(i=>`
     <div class="litem">
       <div class="bd">
@@ -273,14 +294,15 @@ function renderLatestList(){
 function renderHeadlines(items){
   if(!items || !items.length) return;
   headlineData = items;
-  // mỗi nguồn kèm số tin, nhiều tin xếp trước; nguồn lẻ tẻ (1 tin, từ Google News) gộp lại phía sau
+  // tab nguồn đếm tin VN; nhiều tin xếp trước; nguồn lẻ tẻ (1 tin, từ Google News) không lên menu
   const count = {};
-  items.forEach(i=>count[i.source]=(count[i.source]||0)+1);
+  items.filter(isVN).forEach(i=>count[i.source]=(count[i.source]||0)+1);
   const sources = Object.keys(count).sort((a,b)=>count[b]-count[a]).filter(s=>count[s]>=2).slice(0,12);
-  if(srcFilter && !sources.includes(srcFilter)) srcFilter = "";
+  const hasIntl = items.some(i=>!isVN(i));
+  if(srcFilter && !sources.includes(srcFilter) && !(srcFilter===INTL && hasIntl)) srcFilter = "";
+  const tab = (s,label)=>`<button class="mitem${srcFilter===s?" on":""}" data-s="${esc(s)}">${esc(label)}</button>`;
   document.getElementById("menubar").innerHTML =
-    [`<button class="mitem${srcFilter?"":" on"}" data-s="">Tất cả</button>`]
-    .concat(sources.map(s=>`<button class="mitem${srcFilter===s?" on":""}" data-s="${esc(s)}">${esc(s)}</button>`)).join("");
+    [tab("","Tất cả")].concat(sources.map(s=>tab(s,s)), hasIntl ? [tab(INTL,"Quốc tế")] : []).join("");
   document.getElementById("menubar").hidden = false;
   renderLatestList();
   document.getElementById("latest").hidden = false;
@@ -290,6 +312,13 @@ document.getElementById("menubar").addEventListener("click", e=>{
   if(!b) return;
   srcFilter = b.dataset.s;
   document.querySelectorAll(".mitem").forEach(p=>p.classList.toggle("on", p===b));
+  renderLatestList();
+});
+document.getElementById("lsort").addEventListener("click", e=>{
+  const b = e.target.closest(".ltab");
+  if(!b) return;
+  sortMode = b.dataset.sort;
+  document.querySelectorAll(".ltab").forEach(p=>p.classList.toggle("on", p===b));
   renderLatestList();
 });
 

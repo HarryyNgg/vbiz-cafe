@@ -16,7 +16,8 @@ def _load(name):
 def build():
     DOCS.mkdir(parents=True, exist_ok=True)
     headlines = _load("headlines.json") or []
-    state = {"digest": _load("digest.json"), "headlines": headlines}
+    from .jev import VN_MIN
+    state = {"digest": _load("digest.json"), "headlines": headlines, "vn_min": VN_MIN}
     html = TEMPLATE.read_text(encoding="utf-8").replace(
         "/*__STATE__*/null", json.dumps(state, ensure_ascii=False)
     )

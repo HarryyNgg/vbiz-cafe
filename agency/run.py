@@ -1,7 +1,7 @@
 """Vbiz Café CLI.
 
 python -m agency.run              # scout -> Gemini digest -> build (bản tin đầy đủ)
-python -m agency.run --headlines  # scout -> build (chỉ ticker, không gọi AI)
+python -m agency.run --headlines  # scout -> Jev chấm tin -> tiêu điểm nhanh -> build (mỗi 30 phút)
 python -m agency.run --rebuild    # build lại từ data/ sẵn có
 """
 import argparse
@@ -10,22 +10,32 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import build as build_mod
+from . import jev as jev_mod
 from . import scout as scout_mod
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 
 
 def save_headlines(fresh):
-    """Mỗi nguồn tối đa 8 tin, để nguồn ít bài không bị các báo đăng dồn dập đè mất."""
+    """Mỗi nguồn tối đa 8 tin, để nguồn ít bài không bị các báo đăng dồn dập đè mất.
+
+    Jev chấm từng tin (showbiz VN? nóng cỡ nào?); trả về các tin đã chọn.
+    """
     DATA.mkdir(parents=True, exist_ok=True)
     by_source = {}
     for it in fresh:  # fresh đã sort mới nhất trước
         by_source.setdefault(it["source"], []).append(it)
-    picked = [it for items in by_source.values() for it in items[:8]]
+    picked = [dict(it) for items in by_source.values() for it in items[:8]]
     picked.sort(key=lambda i: i["published"], reverse=True)
-    (DATA / "headlines.json").write_text(
-        json.dumps(picked, ensure_ascii=False, indent=1), encoding="utf-8"
-    )
+
+    p = DATA / "headlines.json"
+    previous = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+    try:
+        jev_mod.judge(picked, previous)
+    except Exception as e:  # Jev chỉ là lớp làm giàu: lỗi gì thì danh sách vẫn phải lên
+        print(f"[jev] lỗi, bỏ qua: {e}")
+    p.write_text(json.dumps(picked, ensure_ascii=False, indent=1), encoding="utf-8")
+    return picked
 
 
 def main():
@@ -40,13 +50,14 @@ def main():
 
     new, fresh = scout_mod.scout()
     print(f"[scout] {len(fresh)} tin tươi, {len(new)} tin mới")
-    save_headlines(fresh)
+    picked = save_headlines(fresh)
 
     from . import brief as brief_mod
     if args.headlines:
-        # tiêu điểm "thời gian thực": tóm tắt lại từ tin mới nhất, các mục khác giữ bản tin sáng
+        # tiêu điểm "thời gian thực": tóm tắt lại từ tin VN mới nhất, các mục khác giữ bản tin sáng
+        vn_news = [i for i in picked if i.get("vn", 1) >= jev_mod.VN_MIN]
         try:
-            summary = brief_mod.pulse(fresh)
+            summary = brief_mod.pulse(vn_news or fresh)
             if summary:
                 p = DATA / "digest.json"
                 digest = (json.loads(p.read_text(encoding="utf-8")) if p.exists()
