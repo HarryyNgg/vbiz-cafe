@@ -4,8 +4,14 @@ on:
   schedule:
     # Lịch GitHub free chỉ là "cố gắng" và hay bỏ các mốc :00/:30 (giờ cao điểm), nên chạy lệch phút.
     # Bản tin sáng không có lịch riêng: lượt nào chạy sau 7:00 VN mà hôm nay chưa có bản tin thì tự pha (--auto).
-    - cron: "13 * * * *"
-  workflow_dispatch: {}       # bấm tay = pha bản tin đầy đủ
+    - cron: "13 * * * *"      # dự phòng; nhịp chính là cron-job.org gọi workflow_dispatch mỗi giờ
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "auto = cập nhật tin (tự pha bản tin sáng nếu chưa có); full = pha lại bản tin ngay"
+        type: choice
+        options: [auto, full]
+        default: auto
 
 permissions:
   contents: write
@@ -29,7 +35,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ inputs.mode }}" = "full" ]; then
             python -m agency.run              # digest đầy đủ
           else
             python -m agency.run --auto       # ticker, hoặc digest nếu sáng nay chưa có
