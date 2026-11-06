@@ -4,7 +4,7 @@ on:
   schedule:
     # Lịch GitHub free chỉ là "cố gắng" và hay bỏ các mốc :00/:30 (giờ cao điểm), nên chạy lệch phút.
     # Bản tin sáng không có lịch riêng: lượt nào chạy sau 7:00 VN mà hôm nay chưa có bản tin thì tự pha (--auto).
-    - cron: "13,43 * * * *"
+    - cron: "13 * * * *"
   workflow_dispatch: {}       # bấm tay = pha bản tin đầy đủ
 
 permissions:

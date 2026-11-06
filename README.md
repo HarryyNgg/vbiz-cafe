@@ -1,6 +1,6 @@
 # ☕ Vbiz Café
 
-Quán cà phê nhỏ tự pha tin Vbiz (showbiz Việt Nam): ticker tin mới mỗi 30 phút,
+Quán cà phê nhỏ tự pha tin Vbiz (showbiz Việt Nam): ticker tin mới mỗi giờ,
 bản tin AI phân tích mỗi sáng 7:00 (giờ VN), chạy 24/7 miễn phí trên GitHub Actions.
 Lấy cảm hứng từ [The Insight Café](https://github.com/melinenguyen/insight-cafe).
 
@@ -26,7 +26,7 @@ Mở `docs/index.html` để xem. Không có dependency nào ngoài Python 3.10+
 3. Settings → Pages → Deploy from a branch → `main` / `docs`.
 4. Actions → vbiz-cafe → Run workflow (lượt pha đầu tiên).
 
-Sau đó: mỗi 30 phút ticker tự cập nhật, 7:00 sáng VN có bản tin mới.
+Sau đó: mỗi giờ ticker tự cập nhật, 7:00 sáng VN có bản tin mới.
 Trang web tự fetch lại ticker mỗi 5 phút khi đang mở.
 
 ## Cấu trúc

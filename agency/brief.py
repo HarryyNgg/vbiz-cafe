@@ -84,7 +84,7 @@ def _valid(d):
 
 
 def pulse(items, max_items=25):
-    """Tóm tắt nhanh tin mới nhất cho Tiêu điểm (gọi mỗi 30 phút, prompt nhỏ)."""
+    """Tóm tắt nhanh tin mới nhất cho Tiêu điểm (gọi mỗi giờ, prompt nhỏ)."""
     _env()
     slim = [
         {k: it[k] for k in ("title", "source", "published", "summary")}

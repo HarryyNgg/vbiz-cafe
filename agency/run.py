@@ -1,7 +1,7 @@
 """Vbiz Café CLI.
 
 python -m agency.run              # scout -> Gemini digest -> build (bản tin đầy đủ)
-python -m agency.run --headlines  # scout -> Jev chấm tin -> tiêu điểm nhanh -> build (mỗi 30 phút)
+python -m agency.run --headlines  # scout -> Jev chấm tin -> tiêu điểm nhanh -> build (mỗi giờ)
 python -m agency.run --auto       # như --headlines, nhưng pha digest nếu đã qua 7:00 VN mà hôm nay chưa có
 python -m agency.run --rebuild    # build lại từ data/ sẵn có
 """
@@ -44,7 +44,7 @@ DIGEST_HOUR = 7
 
 
 def digest_due(now=None):
-    """Đã qua 7:00 VN mà bản tin đầy đủ hôm nay chưa pha? (pulse 30 phút không tính)."""
+    """Đã qua 7:00 VN mà bản tin đầy đủ hôm nay chưa pha? (pulse hằng giờ không tính)."""
     now = (now or datetime.now(timezone.utc)).astimezone(VN_TZ)
     if now.hour < DIGEST_HOUR:
         return False
