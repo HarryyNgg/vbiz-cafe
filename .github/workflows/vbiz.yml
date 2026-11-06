@@ -2,8 +2,9 @@ name: vbiz-cafe
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # ticker: chỉ quét RSS, không AI
-    - cron: "0 0 * * *"      # 7:00 sáng VN: bản tin Gemini
+    # Lịch GitHub free chỉ là "cố gắng" và hay bỏ các mốc :00/:30 (giờ cao điểm), nên chạy lệch phút.
+    # Bản tin sáng không có lịch riêng: lượt nào chạy sau 7:00 VN mà hôm nay chưa có bản tin thì tự pha (--auto).
+    - cron: "13,43 * * * *"
   workflow_dispatch: {}       # bấm tay = pha bản tin đầy đủ
 
 permissions:
@@ -28,10 +29,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 0 * * *" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python -m agency.run              # digest đầy đủ
           else
-            python -m agency.run --headlines  # chỉ ticker
+            python -m agency.run --auto       # ticker, hoặc digest nếu sáng nay chưa có
           fi
 
       - name: Commit & push
@@ -40,5 +41,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet || git commit -m "chore: brew $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git pull --rebase
-          git push
+          # GitHub thỉnh thoảng từ chối push tạm thời ("fatal error in commit_refs"): thử lại 3 lần
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            echo "push lần $i lỗi, thử lại sau 15s"
+            sleep 15
+          done
+          exit 1

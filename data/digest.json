@@ -1,95 +1,83 @@
 {
- "tieu_diem": "Showbiz Việt hôm nay ghi nhận nhiều thông tin chú ý như nghệ sĩ hài Lê Bảo bị đột quỵ và đang gặp khó khăn, Tăng Thanh Hà chia sẻ sự lo lắng khi tái xuất điện ảnh sau 13 năm với phim \"Hoàng hậu cuối cùng\", cùng với việc Á hậu Bảo Ngọc bất ngờ rút khỏi MGI All Stars mùa 2.",
+ "tieu_diem": "Thị trường điện ảnh Việt đang thu hút sự chú ý khi bộ phim \"Chị chị em em 3\" nhận nhiều tranh luận trái chiều về kịch bản nhưng vẫn tiến sát mốc doanh thu 100 tỷ đồng, trong khi Hoa hậu Tiểu Vy chọn đối mặt và nỗ lực trau dồi trước những lời chê diễn đơ. Ở mảng giải trí, ca sĩ Quang Lê lần đầu tiết lộ tình trạng sức khỏe của Tố My sau thời gian ở ẩn, còn Châu Bùi gặp sự cố bị dị ứng nặng trong chương trình \"Sao nhập ngũ\". Bên cạnh đó, Đại nhạc hội Say Hi năm 2027 được thông báo dự kiến tổ chức dọc bờ sông Sài Gòn cùng nhiều cập nhật đời tư của các sao Việt.",
  "tin_chinh": [
   {
-   "tieu_de": "'Chị chị em em 3' thống trị phòng vé bất chấp tranh cãi dữ dội",
-   "vi_sao": "Dù vướng tranh cãi về kịch bản và các cảnh nóng, phim vẫn mở màn ấn tượng nhờ sức hút từ dàn diễn viên đình đám.",
-   "link": "https://tuoitre.vn/chi-chi-em-em-3-thong-tri-phong-ve-bat-chap-tranh-cai-100261101175416826.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/1/edit-chi-chi-em-em-3-1793542617851242080297-0-0-887-1419-crop-17935426650702131692393.jpeg"
+   "tieu_de": "Phim 'Chị chị em em 3' chạm sát mốc 100 tỷ đồng dù vướng nhiều tranh cãi",
+   "vi_sao": "Bộ phim gây bão phòng vé với doanh thu ấn tượng nhưng cũng đối mặt với nhiều ý kiến cho rằng kịch bản lạm dụng cảnh nóng và tình tiết phi lý.",
+   "link": "https://dantri.com.vn/giai-tri/chi-chi-em-em-3-bi-che-canh-18-co-xuy-ngoai-tinh-vi-sao-gan-100-ty-20261105122134169.htm",
+   "nguon": "Dân Trí",
+   "anh": "https://icdn.dantri.com.vn/2026/11/05/chichiemem-cropped-1793855985973.jpg"
   },
   {
-   "tieu_de": "Hoa hậu Kỳ Duyên bị chê diễn xuất nhạt nhòa trong 'Chị chị em em 3'",
-   "vi_sao": "Được giao vai diễn quan trọng trên màn ảnh rộng, nàng hậu nhận nhiều phản hồi khắt khe khi diễn xuất bị đánh giá là chưa đủ sức nặng.",
-   "link": "https://vietnamnet.vn/hoa-hau-ky-duyen-rat-dep-nhung-dong-phim-thi-do-2571607.html",
-   "nguon": "Vietnamnet",
-   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/5/hoa-hau-ky-duyen-dep-nhung-dong-phim-thi-chan-531.jpg?width=0&s=Hx_H70xurJ_f70x-aWGo7Q"
+   "tieu_de": "Quân A.P và Lê Khanh vượt Trấn Thành trên bảng xếp hạng thảo luận",
+   "vi_sao": "Hiệu ứng từ màn kết hợp ngọt ngào trong Running Man Vietnam 2026 giúp cặp đôi vươn lên dẫn đầu danh sách các thành viên gameshow được nhắc đến nhiều nhất tuần.",
+   "link": "https://kenh14.vn/cap-vo-chong-son-vuot-mat-tran-thanh-215261105160944163.chn",
+   "nguon": "Kenh14",
+   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/5/cap-vo-chong-son-vuot-mat-tran-thanh-144608-1793869743045173498958-0-7-355-575-crop-1793869755348294705405.jpeg"
   },
   {
-   "tieu_de": "Khán giả lại lao vào cuộc chiến săn vé concert 'Anh trai vượt ngàn chông gai'",
-   "vi_sao": "Chưa kịp hạ nhiệt sau 2 đêm tại TP.HCM, cộng đồng người hâm mộ lại ráo riết đua vé cho các đêm diễn tiếp theo tại Hưng Yên.",
+   "tieu_de": "Khán giả lại ráo riết săn vé concert 'Anh trai vượt ngàn chông gai'",
+   "vi_sao": "Sức nóng của chương trình vẫn chưa có dấu hiệu hạ nhiệt khi cộng đồng người hâm mộ bắt đầu cuộc đua giành vé cho hai đêm diễn tiếp theo tại Hưng Yên.",
    "link": "https://tuoitre.vn/ve-concert-lai-hot-anh-trai-vuot-ngan-chong-gai-chua-co-diem-dung-100261104142322314.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/4/anh-man-hinh-2026-11-04-luc-141937-1793776786565681768710-345-1100-985-2125-crop-1793776869545431685257.png"
   },
   {
-   "tieu_de": "Huỳnh Lập kể về thời gian lập nghiệp từng phá sản quán cà phê",
-   "vi_sao": "Trước khi nổi tiếng, nam nghệ sĩ từng trải qua giai đoạn chật vật kinh doanh để kiếm thêm thu nhập và tạo chỗ diễn cho chính mình.",
-   "link": "https://thanhnien.vn/huynh-lap-tung-pha-san-khi-mo-quan-phe-185261105101806772.htm",
-   "nguon": "Thanh Niên",
-   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/5/screenshot-2026-11-05-095557-17938478782961876156150-54-0-897-1349-crop-1793848394677908151711.png"
-  },
-  {
-   "tieu_de": "Quân A.P phủ sóng mạng xã hội nhờ MV mới và chuyện tình 14 năm",
-   "vi_sao": "Nam ca sĩ gây chú ý mạnh mẽ trong giai đoạn hoạt động sôi nổi khi kết hợp thành công công việc và câu chuyện đời tư ngọt ngào.",
-   "link": "https://znews.vn/nam-ca-si-viet-phu-song-post1694175.html",
-   "nguon": "Znews",
-   "anh": "https://photo.znews.vn/w660/Uploaded/qfssu/2026_11_04/image_2026_11_05T105610.696_1.jpg"
-  },
-  {
-   "tieu_de": "Võ Điền Gia Huy gây chú ý với vai giang hồ si tình trong 'Bò sữa bay'",
-   "vi_sao": "Tác phẩm điện ảnh cá tính này nhận được nhiều phản hồi tích cực từ giới chuyên môn lẫn khán giả sau buổi chiếu sớm.",
-   "link": "https://tuoitre.vn/vo-dien-gia-huy-dong-giang-ho-si-tinh-trong-bo-sua-bay-noi-ve-thoi-toi-khong-can-noi-100261105074911232.htm",
+   "tieu_de": "Nhạc sĩ Nguyễn Văn Chung thành 'tội đồ thời tiết' vì bản hit cũ",
+   "vi_sao": "Ca khúc 'Mùa đông không lạnh' bất ngờ bị dân mạng réo tên liên tục khi miền Bắc đã bước vào mùa đông nhưng thời tiết vẫn vô cùng oi nóng.",
+   "link": "https://tuoitre.vn/nhac-si-nguyen-van-chung-thanh-toi-do-thoi-tiet-vi-ca-khuc-mua-dong-khong-lanh-100261105140520044.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/8867256941222784882962502132336770926584632761n-17938386106641454756573-129-0-1054-1480-crop-17938396587432132508986.jpg"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/edit-nvc-1793861261560740504489-79-240-782-1365-crop-17938644764331092934008.png"
   },
   {
-   "tieu_de": "SOOBIN, Đức Phúc, Phương Mỹ Chi nhiệt tình 'đu trend' hoa chưa nở",
-   "vi_sao": "Câu nói 'Đừng bao giờ khinh thường một bông hoa chưa nở' nhanh chóng trở thành trào lưu TikTok được đông đảo nghệ sĩ hưởng ứng.",
-   "link": "https://tuoitre.vn/trend-dung-khinh-thuong-mot-bong-hoa-chua-no-la-gi-ma-soobin-duc-phuc-phuong-my-chi-du-100261101165409212.htm",
+   "tieu_de": "Sao Disney Cole Sprouse thả dáng du lịch dí dỏm tại Hà Nội",
+   "vi_sao": "Nam tài tử thu hút nhiều sự chú ý khi chia sẻ khoảnh khắc ngồi uống bia Tạ Hiện, nghe nhạc bolero và ngắm đường phố Việt Nam.",
+   "link": "https://tuoitre.vn/sao-disney-den-ha-noi-uong-bia-ta-hien-nghe-bolero-roi-xem-hoi-ba-di-tap-the-duc-100261103185830166.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/2/duc-phuc-edit-17935797723902067267772-43-0-1668-2600-crop-17935798231571031766662.png"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/3/1-17937065744821919191385-131-0-447-506-crop-1793706594350219285114.jpeg"
+  },
+  {
+   "tieu_de": "Kỳ Duyên rao bán đồng hồ hiệu, chịu lỗ hơn 200 triệu đồng",
+   "vi_sao": "Mức giá chênh lệch đáng kể sau một thời gian sử dụng của chiếc đồng hồ xa xỉ do Kỳ Duyên nhượng lại đang thu hút sự quan tâm của netizen.",
+   "link": "https://kenh14.vn/chiec-dong-ho-khien-ky-duyen-lo-hon-200-trieu-nam-215261105224835964.chn",
+   "nguon": "Kenh14",
+   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/5/mqqq-17938936402791816448997.png"
   }
  ],
  "dang_hot": [
   {
+   "ten": "Chị chị em em 3",
+   "vi_sao": "Phim điện ảnh gây tranh cãi về chất lượng nội dung nhưng vẫn liên tục bứt phá doanh thu phòng vé."
+  },
+  {
+   "ten": "Quân A.P & Lê Khanh",
+   "vi_sao": "Cặp đôi gây sốt sau Running Man Vietnam, vươn lên dẫn đầu độ thảo luận trên mạng xã hội."
+  },
+  {
+   "ten": "Cole Sprouse",
+   "vi_sao": "Ngôi sao Disney gây bão mạng với loạt khoảnh khắc trải nghiệm văn hóa bình dị tại Hà Nội."
+  },
+  {
+   "ten": "Nguyễn Văn Chung",
+   "vi_sao": "Nhạc sĩ bị cộng đồng mạng đùa vui là 'tội đồ thời tiết' gắn liền với bản hit Mùa đông không lạnh."
+  },
+  {
    "ten": "Kỳ Duyên",
-   "vi_sao": "Trở thành tâm điểm bàn tán về năng lực diễn xuất trong phim điện ảnh 'Chị chị em em 3'."
-  },
-  {
-   "ten": "Anh trai vượt ngàn chông gai",
-   "vi_sao": "Cộng đồng mạng sôi sục tìm vé cho các đêm concert tiếp theo tại khu vực phía Bắc."
-  },
-  {
-   "ten": "Quân A.P",
-   "vi_sao": "Nhận nhiều lời chúc phúc và chú ý lớn khi chuyện tình 14 năm với bạn gái được quan tâm."
-  },
-  {
-   "ten": "Á hậu Ngô Bảo Ngọc",
-   "vi_sao": "Bất ngờ thông báo rút lui không tham gia cuộc thi MGI All Stars mùa 2."
+   "vi_sao": "Gây chú ý khi bán lỗ đồng hồ đắt tiền và chia sẻ về những áp lực thể xác khi đóng vai Thị Mầu."
   }
  ],
  "sap_dien_ra": [
   {
-   "khi_nao": "Trước ngày 6-11",
-   "su_kien": "Hạn chót đăng ký vé miễn phí qua Hộ chiếu xanh xem Negav, Đặng Hồng Hải tại Ngày hội Việt Nam Xanh 2026",
-   "link": "https://tuoitre.vn/hon-17000-phan-qua-va-co-hoi-giao-luu-negav-dang-hong-hai-dillan-tai-ngay-hoi-viet-nam-xanh-2026-100261102121434341.htm"
-  },
-  {
-   "khi_nao": "7/11",
-   "su_kien": "Đêm hòa nhạc The Horizon of Vienna 2026 diễn ra tại Nhà hát Hồ Gươm",
-   "link": "https://tuoitre.vn/vpbank-private-dua-hoa-nhac-the-horizon-of-vienna-2026-den-viet-nam-100261104170715168.htm"
-  },
-  {
-   "khi_nao": "7/11",
-   "su_kien": "Danh ca Andrea Bocelli biểu diễn trên sân khấu phủ gương ngoài trời tại Đà Lạt",
-   "link": "https://vnexpress.net/maestro-andrea-bocelli-dien-tren-san-khau-phu-guong-tai-da-lat-5140950.html"
-  },
-  {
-   "khi_nao": "Đầu tháng 12",
-   "su_kien": "Concert Anh trai vượt ngàn chông gai day 3 và day 4 diễn ra tại Hưng Yên",
+   "khi_nao": "đầu tháng 12",
+   "su_kien": "Concert 'Anh trai vượt ngàn chông gai' day 3 và day 4 diễn ra tại Hưng Yên",
    "link": "https://tuoitre.vn/ve-concert-lai-hot-anh-trai-vuot-ngan-chong-gai-chua-co-diem-dung-100261104142322314.htm"
+  },
+  {
+   "khi_nao": "26/12/2027",
+   "su_kien": "Đại nhạc hội Say Hi năm 2027 diễn ra dọc bờ sông Sài Gòn với 27 nghệ sĩ và màn bắn pháo hoa",
+   "link": "https://tuoitre.vn/dai-nhac-hoi-say-hi-nam-2027-dien-ra-doc-bo-song-sai-gon-ban-phao-hoa-toi-26-12-100261103171541163.htm"
   }
  ],
- "generated_at": "2026-11-05T17:35:06.621373+00:00"
+ "generated_at": "2026-11-06T02:04:57.950965+00:00",
+ "brewed_at": "2026-11-06T02:04:39.134410+00:00"
 }

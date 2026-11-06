@@ -1,4 +1,10 @@
-"""Self-check offline cho scout: parse RSS mẫu + dedupe. Chạy: python test_scout.py"""
+"""Self-check offline: parse RSS mẫu, dedupe, lịch pha bản tin sáng. Chạy: python test_scout.py"""
+import json
+import tempfile
+from datetime import datetime
+from pathlib import Path
+
+from agency import run
 from agency.scout import _key, clean_text, parse_feed
 
 SAMPLE = """<?xml version="1.0" encoding="utf-8"?>
@@ -38,6 +44,16 @@ def main():
     assert a == b, "dedupe phải bỏ qua hoa/thường và khoảng trắng"
 
     assert len(clean_text("x " * 500, limit=100)) <= 100
+
+    # bản tin sáng tự pha: chỉ sau 7:00 VN và khi hôm nay chưa pha (giờ UTC = VN - 7)
+    with tempfile.TemporaryDirectory() as d:
+        run.DATA = Path(d)
+        utc = lambda s: datetime.fromisoformat(s + "+00:00")
+        assert not run.digest_due(utc("2026-11-05T23:30")), "6:30 VN: chưa tới giờ"
+        assert run.digest_due(utc("2026-11-06T00:30")), "7:30 VN, chưa có digest: phải pha"
+        (Path(d) / "digest.json").write_text(json.dumps({"brewed_at": "2026-11-06T00:20:00+00:00"}))
+        assert not run.digest_due(utc("2026-11-06T09:00")), "đã pha sáng nay: thôi"
+        assert run.digest_due(utc("2026-11-07T01:00")), "sang ngày mới: pha lại"
     print("test_scout: OK")
 
 
