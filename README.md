@@ -27,7 +27,11 @@ Mở `docs/index.html` để xem. Không có dependency nào ngoài Python 3.10+
 4. Actions → vbiz-cafe → Run workflow (lượt pha đầu tiên).
 
 Sau đó: mỗi giờ ticker tự cập nhật, 7:00 sáng VN có bản tin mới.
-Trang web tự fetch lại ticker mỗi 5 phút khi đang mở.
+Trang web tự fetch lại cột Mới nhất mỗi phút khi đang mở.
+
+Lịch GitHub free chạy rất thưa (vài tiếng một lần), nên trên máy có `open-vbiz.ps1`:
+shortcut "Vbiz Café" trên Desktop chạy file này để nhờ GitHub cập nhật (qua `gh` đã đăng nhập,
+bỏ qua nếu vừa chạy trong 20 phút) rồi mở trang. Tin mới hiện ra sau khoảng 2 phút.
 
 ## Cấu trúc
 

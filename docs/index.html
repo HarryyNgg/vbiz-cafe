@@ -371,14 +371,14 @@ if("IntersectionObserver" in window){
   setTimeout(revealAll, 3000); // failsafe: hiệu ứng được phép hỏng, nội dung thì không
 }else{ revealAll(); }
 
-// ticker gần-real-time: fetch lại headlines.json mỗi 5 phút
+// cột Mới nhất: fetch lại headlines.json mỗi phút, để lượt cập nhật mà shortcut vừa gọi (~2 phút) hiện ra sớm
 async function refresh(){
   try{
     const r = await fetch("headlines.json?t="+Date.now(), {cache:"no-store"});
     if(r.ok) renderHeadlines(await r.json());
   }catch(e){}
 }
-if(location.protocol.startsWith("http")){ refresh(); setInterval(refresh, 5*60*1000); }
+if(location.protocol.startsWith("http")){ refresh(); setInterval(refresh, 60*1000); }
 </script>
 </body>
 </html>
