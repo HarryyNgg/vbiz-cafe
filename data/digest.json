@@ -1,83 +1,95 @@
 {
- "tieu_diem": "Thị trường điện ảnh Việt đang thu hút sự chú ý khi bộ phim \"Chị chị em em 3\" nhận nhiều tranh luận trái chiều về kịch bản nhưng vẫn tiến sát mốc doanh thu 100 tỷ đồng, trong khi Hoa hậu Tiểu Vy chọn đối mặt và nỗ lực trau dồi trước những lời chê diễn đơ. Ở mảng giải trí, ca sĩ Quang Lê lần đầu tiết lộ tình trạng sức khỏe của Tố My sau thời gian ở ẩn, còn Châu Bùi gặp sự cố bị dị ứng nặng trong chương trình \"Sao nhập ngũ\". Bên cạnh đó, Đại nhạc hội Say Hi năm 2027 được thông báo dự kiến tổ chức dọc bờ sông Sài Gòn cùng nhiều cập nhật đời tư của các sao Việt.",
+ "tieu_diem": "Sáng nay Vbiz tâm điểm đổ dồn vào màn gây tranh cãi của phim điện ảnh 'Chị chị em em 3' khi kịch bản bị chê nhưng doanh thu vẫn tiến sát mốc 100 tỷ đồng. Trong khi đó, cơn sốt vé concert 'Anh trai vượt ngàn chông gai' tiếp tục bùng nổ cho các đêm diễn tiếp theo. Ngoài ra, hình ảnh các nghệ sĩ tham gia 'Sao nhập ngũ 2026' tại Trường Sa cùng chuyến du lịch Hà Nội đầy ngẫu hứng của sao Disney Cole Sprouse cũng thu hút sự chú ý lớn từ cộng đồng mạng.",
  "tin_chinh": [
   {
-   "tieu_de": "Phim 'Chị chị em em 3' chạm sát mốc 100 tỷ đồng dù vướng nhiều tranh cãi",
-   "vi_sao": "Bộ phim gây bão phòng vé với doanh thu ấn tượng nhưng cũng đối mặt với nhiều ý kiến cho rằng kịch bản lạm dụng cảnh nóng và tình tiết phi lý.",
+   "tieu_de": "Phim 'Chị chị em em 3' áp sát mốc 100 tỷ đồng bất chấp làn sóng tranh cãi",
+   "vi_sao": "Dù vướng phản ứng gay gắt về nội dung phi lý và lạm dụng cảnh nóng, phim vẫn gặt hái doanh thu phòng vé ấn tượng nhờ chiến lược truyền thông mạnh.",
    "link": "https://dantri.com.vn/giai-tri/chi-chi-em-em-3-bi-che-canh-18-co-xuy-ngoai-tinh-vi-sao-gan-100-ty-20261105122134169.htm",
    "nguon": "Dân Trí",
    "anh": "https://icdn.dantri.com.vn/2026/11/05/chichiemem-cropped-1793855985973.jpg"
   },
   {
-   "tieu_de": "Quân A.P và Lê Khanh vượt Trấn Thành trên bảng xếp hạng thảo luận",
-   "vi_sao": "Hiệu ứng từ màn kết hợp ngọt ngào trong Running Man Vietnam 2026 giúp cặp đôi vươn lên dẫn đầu danh sách các thành viên gameshow được nhắc đến nhiều nhất tuần.",
-   "link": "https://kenh14.vn/cap-vo-chong-son-vuot-mat-tran-thanh-215261105160944163.chn",
-   "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/5/cap-vo-chong-son-vuot-mat-tran-thanh-144608-1793869743045173498958-0-7-355-575-crop-1793869755348294705405.jpeg"
-  },
-  {
-   "tieu_de": "Khán giả lại ráo riết săn vé concert 'Anh trai vượt ngàn chông gai'",
-   "vi_sao": "Sức nóng của chương trình vẫn chưa có dấu hiệu hạ nhiệt khi cộng đồng người hâm mộ bắt đầu cuộc đua giành vé cho hai đêm diễn tiếp theo tại Hưng Yên.",
+   "tieu_de": "Cơn sốt vé concert 'Anh trai vượt ngàn chông gai' chưa có dấu hiệu hạ nhiệt",
+   "vi_sao": "Sau hai đêm diễn thành công tại TP.HCM, cộng đồng người hâm mộ lại tiếp tục bước vào cuộc đua săn vé cho các đêm diễn tiếp theo ở Hưng Yên.",
    "link": "https://tuoitre.vn/ve-concert-lai-hot-anh-trai-vuot-ngan-chong-gai-chua-co-diem-dung-100261104142322314.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/4/anh-man-hinh-2026-11-04-luc-141937-1793776786565681768710-345-1100-985-2125-crop-1793776869545431685257.png"
   },
   {
-   "tieu_de": "Nhạc sĩ Nguyễn Văn Chung thành 'tội đồ thời tiết' vì bản hit cũ",
-   "vi_sao": "Ca khúc 'Mùa đông không lạnh' bất ngờ bị dân mạng réo tên liên tục khi miền Bắc đã bước vào mùa đông nhưng thời tiết vẫn vô cùng oi nóng.",
-   "link": "https://tuoitre.vn/nhac-si-nguyen-van-chung-thanh-toi-do-thoi-tiet-vi-ca-khuc-mua-dong-khong-lanh-100261105140520044.htm",
+   "tieu_de": "Dàn sao 'Sao nhập ngũ 2026' xúc động khi đặt chân đến đảo Trường Sa",
+   "vi_sao": "Các nghệ sĩ bước vào những trải nghiệm đầu tiên tại vùng biển đảo thiêng liêng và bày tỏ sự thương cảm với cuộc sống kiên cường của các chiến sĩ.",
+   "link": "https://tuoitre.vn/sao-nhap-ngu-thuong-chien-si-dao-truong-sa-quanh-nam-chi-co-do-hop-va-rau-tu-trong-100261106060117418.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/edit-nvc-1793861261560740504489-79-240-782-1365-crop-17938644764331092934008.png"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/ann06995-1793916389343460322620-0-904-1032-2556-crop-17939207908271717522760.jpg"
   },
   {
-   "tieu_de": "Sao Disney Cole Sprouse thả dáng du lịch dí dỏm tại Hà Nội",
-   "vi_sao": "Nam tài tử thu hút nhiều sự chú ý khi chia sẻ khoảnh khắc ngồi uống bia Tạ Hiện, nghe nhạc bolero và ngắm đường phố Việt Nam.",
+   "tieu_de": "Sao Disney Cole Sprouse vi vu Hà Nội: Uống bia Tạ Hiện, nghe bolero",
+   "vi_sao": "Chuyến du lịch Việt Nam của nam tài tử Hollywood gây chú ý khi anh thoải mái chia sẻ những khoảnh khắc đời thường gần gũi tại Hà Nội.",
    "link": "https://tuoitre.vn/sao-disney-den-ha-noi-uong-bia-ta-hien-nghe-bolero-roi-xem-hoi-ba-di-tap-the-duc-100261103185830166.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/3/1-17937065744821919191385-131-0-447-506-crop-1793706594350219285114.jpeg"
   },
   {
-   "tieu_de": "Kỳ Duyên rao bán đồng hồ hiệu, chịu lỗ hơn 200 triệu đồng",
-   "vi_sao": "Mức giá chênh lệch đáng kể sau một thời gian sử dụng của chiếc đồng hồ xa xỉ do Kỳ Duyên nhượng lại đang thu hút sự quan tâm của netizen.",
-   "link": "https://kenh14.vn/chiec-dong-ho-khien-ky-duyen-lo-hon-200-trieu-nam-215261105224835964.chn",
-   "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/5/mqqq-17938936402791816448997.png"
+   "tieu_de": "Hoa hậu Tiểu Vy thẳng thắn đối mặt khi bị chê diễn xuất đơ",
+   "vi_sao": "Nữ hoa hậu thừa nhận nỗi buồn trước những ý kiến tiêu cực khi lấn sân sang điện ảnh nhưng quyết tâm kiên trì học hỏi và trau dồi bản thân.",
+   "link": "https://vietnamnet.vn/hoa-hau-tieu-vy-phan-ung-khong-ngo-khi-bi-che-dien-do-2571770.html",
+   "nguon": "Vietnamnet",
+   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/5/hoa-hau-tieu-vy-phan-ung-khong-ngo-khi-bi-che-dien-do-3219.jpg?width=0&s=Rk6JEhll1UhdW4rBdPQhUg"
+  },
+  {
+   "tieu_de": "Nguyễn Thu Thảo lọt Top 6 Trang phục dân tộc tại The Miss Globe 2026",
+   "vi_sao": "Đại diện Việt Nam duy trì phong độ tốt khi xuất hiện trong nhiều bảng xếp hạng giải thưởng phụ, tăng cơ hội vào thẳng top 11 chung cuộc.",
+   "link": "https://tuoitre.vn/nguyen-thu-thao-vao-top-6-trang-phuc-dan-toc-tai-the-miss-globe-2026-100261106054227972.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/886633255122156121963353328791472049581089770n-17939177285391165496130-0-374-1047-2048-crop-17939183936232011895610.jpg"
+  },
+  {
+   "tieu_de": "Nhạc sĩ Nguyễn Văn Chung bị gọi vui là 'tội đồ thời tiết' vì bản hit cũ",
+   "vi_sao": "Ca khúc 'Mùa đông không lạnh' bất ngờ hot trở lại trên mạng xã hội trong bối cảnh miền Bắc đã sang đông nhưng thời tiết vẫn oi nóng.",
+   "link": "https://tuoitre.vn/nhac-si-nguyen-van-chung-thanh-toi-do-thoi-tiet-vi-ca-khuc-mua-dong-khong-lanh-100261105140520044.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/edit-nvc-1793861261560740504489-79-240-782-1365-crop-17938644764331092934008.png"
   }
  ],
  "dang_hot": [
   {
-   "ten": "Chị chị em em 3",
-   "vi_sao": "Phim điện ảnh gây tranh cãi về chất lượng nội dung nhưng vẫn liên tục bứt phá doanh thu phòng vé."
-  },
-  {
    "ten": "Quân A.P & Lê Khanh",
-   "vi_sao": "Cặp đôi gây sốt sau Running Man Vietnam, vươn lên dẫn đầu độ thảo luận trên mạng xã hội."
-  },
-  {
-   "ten": "Cole Sprouse",
-   "vi_sao": "Ngôi sao Disney gây bão mạng với loạt khoảnh khắc trải nghiệm văn hóa bình dị tại Hà Nội."
-  },
-  {
-   "ten": "Nguyễn Văn Chung",
-   "vi_sao": "Nhạc sĩ bị cộng đồng mạng đùa vui là 'tội đồ thời tiết' gắn liền với bản hit Mùa đông không lạnh."
+   "vi_sao": "Dẫn đầu bảng xếp hạng thảo luận gameshow nhờ hiệu ứng ăn ý sau chương trình Running Man Vietnam 2026."
   },
   {
    "ten": "Kỳ Duyên",
-   "vi_sao": "Gây chú ý khi bán lỗ đồng hồ đắt tiền và chia sẻ về những áp lực thể xác khi đóng vai Thị Mầu."
+   "vi_sao": "Gây chú ý với chia sẻ về áp lực thể xác khi đóng Thị Mầu trong 'Chị chị em em 3' cùng thông tin rao bán đồng hồ hiệu."
+  },
+  {
+   "ten": "Cole Sprouse",
+   "vi_sao": "Tài tử người Mỹ gây sốt mạng xã hội Việt Nam với đoạn clip du lịch trải nghiệm cuộc sống tại Hà Nội."
+  },
+  {
+   "ten": "Võ Điền Gia Huy",
+   "vi_sao": "Được khán giả và đồng nghiệp chú ý sau vai diễn giang hồ si tình trong phim điện ảnh 'Bò sữa bay'."
+  },
+  {
+   "ten": "Phạm Băng Băng",
+   "vi_sao": "Thu hút truyền thông khi diện thiết kế lấy cảm hứng từ sông Hương của nhà thiết kế Việt Phan Huy trên trang bìa tạp chí."
   }
  ],
  "sap_dien_ra": [
   {
-   "khi_nao": "đầu tháng 12",
-   "su_kien": "Concert 'Anh trai vượt ngàn chông gai' day 3 và day 4 diễn ra tại Hưng Yên",
+   "khi_nao": "07/11/2026",
+   "su_kien": "Hòa nhạc 'The Horizon of Vienna 2026' diễn ra tại Nhà hát Hồ Gươm, Hà Nội.",
+   "link": "https://tuoitre.vn/vpbank-private-dua-hoa-nhac-the-horizon-of-vienna-2026-den-viet-nam-100261104170715168.htm"
+  },
+  {
+   "khi_nao": "Đầu tháng 12/2026",
+   "su_kien": "Concert 'Anh trai vượt ngàn chông gai' day 3 và day 4 tổ chức tại Hưng Yên.",
    "link": "https://tuoitre.vn/ve-concert-lai-hot-anh-trai-vuot-ngan-chong-gai-chua-co-diem-dung-100261104142322314.htm"
   },
   {
    "khi_nao": "26/12/2027",
-   "su_kien": "Đại nhạc hội Say Hi năm 2027 diễn ra dọc bờ sông Sài Gòn với 27 nghệ sĩ và màn bắn pháo hoa",
+   "su_kien": "Đại nhạc hội Say Hi năm 2027 diễn ra dọc bờ sông Sài Gòn, khép lại bằng màn bắn pháo hoa.",
    "link": "https://tuoitre.vn/dai-nhac-hoi-say-hi-nam-2027-dien-ra-doc-bo-song-sai-gon-ban-phao-hoa-toi-26-12-100261103171541163.htm"
   }
  ],
- "generated_at": "2026-11-06T02:04:57.950965+00:00",
- "brewed_at": "2026-11-06T02:04:39.134410+00:00"
+ "generated_at": "2026-11-06T02:06:04.577836+00:00",
+ "brewed_at": "2026-11-06T02:06:04.577836+00:00"
 }
