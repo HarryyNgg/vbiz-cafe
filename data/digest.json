@@ -1,54 +1,85 @@
 {
- "tieu_diem": "Tâm điểm Vbiz lúc này là chung kết Hoa hậu Việt Nam 2026 với chiến thắng thuộc về tân Hoa hậu Nguyễn Yến Trang, cùng Á hậu 1 Trần Xuân Khánh Linh và Á hậu 2 Lê Phương Nghi. Trong khi đó, bộ phim 18+ \"Chị chị em em 3\" với sự tham gia của Lan Ngọc, Chi Pu và Kỳ Duyên đã vượt mốc 100 tỷ đồng sau một tuần công chiếu. Ngoài ra, showbiz còn ghi nhận nhiều hoạt động của các nghệ sĩ như Phương Oanh đưa các con đi Hàn Quốc hay Thu Hà Ceri công khai chuyện tình cảm.",
+ "tieu_diem": "Cà phê sáng nay cùng Vbiz nổi sóng với thông tin MC Diệp Chi chính thức rời VTV sau nhiều năm gắn bó với loạt chương trình tên tuổi. Đêm đăng quang Hoa hậu Việt Nam 2026 vừa xướng tên cô gái Hà Nội Nguyễn Yến Trang, trong khi ở đấu trường quốc tế, Nguyễn Thu Thảo xuất sắc mang về vương miện The Miss Globe 2026. Bên cạnh đó, nghệ sĩ Trường Giang gây chú ý khi chính thức nhờ pháp luật can thiệp, lập vi bằng xử lý các tài khoản mạng xã hội bôi nhọ sai sự thật.",
  "tin_chinh": [
   {
-   "tieu_de": "Nguyễn Yến Trang đăng quang Hoa hậu Việt Nam 2026",
-   "vi_sao": "Sự kiện nhan sắc tâm điểm thu hút sự chú ý lớn khi tìm ra chủ nhân mới của chiếc vương miện danh giá ở tuổi 20.",
-   "link": "https://tuoitre.vn/nguyen-yen-trang-dang-quang-hoa-hau-viet-nam-2026-tai-hai-phong-100261107190728748.htm",
+   "tieu_de": "MC Diệp Chi chính thức rời Đài Truyền hình Việt Nam",
+   "vi_sao": "Nữ MC kiêm biên tập viên quen thuộc của 'Rung chuông vàng', 'Đường lên đỉnh Olympia' đã chia tay VTV sau thời gian dài đồng hành.",
+   "link": "https://tuoitre.vn/diep-chi-mc-rung-chuong-vang-duong-len-dinh-olympia-roi-vtv-100261109103945114.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/7/hoa-hau-viet-nam-202634-1794070541456898858178-107-0-1707-2560-crop-1794071596113980564405.jpg"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/9/khanh-chi-mc-edit-17941977698901289456778-302-299-1395-2048-crop-1794197866325578072304.jpg"
   },
   {
-   "tieu_de": "Nguyễn Thu Thảo đăng quang The Miss Globe 2026",
-   "vi_sao": "Đại diện Việt Nam vượt qua 48 thí sinh để giành ngôi vị cao nhất, mang vương miện thứ hai về cho nước nhà.",
+   "tieu_de": "Trường Giang nhờ pháp luật xử lý loạt tài khoản bôi nhọ",
+   "vi_sao": "Sau hơn 1 tháng im lặng, nam nghệ sĩ đã chính thức lập vi bằng và phối hợp cùng cơ quan chức năng để giải quyết các thông tin sai sự thật.",
+   "link": "https://thanhnien.vn/truong-giang-nho-phap-luat-can-thiep-hang-loat-tai-khoan-mang-xa-hoi-bi-xu-ly-185261109113924597.htm",
+   "nguon": "Thanh Niên",
+   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/9/truong-giang-1794198554691689412846-0-0-865-1384-crop-17941990717271708003194.jpg"
+  },
+  {
+   "tieu_de": "Nguyễn Yến Trang đăng quang Hoa hậu Việt Nam 2026",
+   "vi_sao": "Người đẹp 20 tuổi đến từ Hà Nội xuất sắc vượt qua 24 thí sinh tại đêm chung kết diễn ra ở Đồ Sơn, Hải Phòng.",
+   "link": "https://tuoitre.vn/nguyen-yen-trang-dang-quang-hoa-hau-viet-nam-2026-tai-hai-phong-100261107190728748.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/7/hoa-hau-viet-nam-202630-1794070541451995938623-249-133-1666-2400-crop-1794095750877860766802.jpg"
+  },
+  {
+   "tieu_de": "Đại diện Việt Nam Nguyễn Thu Thảo đăng quang The Miss Globe 2026",
+   "vi_sao": "Vượt qua 48 đối thủ quốc tế, Thu Thảo mang về chiếc vương miện Miss Globe thứ hai cho nhan sắc Việt.",
    "link": "https://tuoitre.vn/nguyen-thu-thao-dang-quang-the-miss-globe-2026-100261106150342359.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/6/85582416445698070866058915884261062471028289n-1793951640880588385884-221-0-1344-1796-crop-1793951955702209616818.jpeg"
   },
   {
-   "tieu_de": "Khán giả bức xúc khi Running Man dời lịch chiếu sang tối 7-11",
-   "vi_sao": "Sự cố kỹ thuật phút chót khiến tập phát sóng phải dời lịch, để lại nhiều tiếc nuối và phản ứng từ người hâm mộ.",
-   "link": "https://tuoitre.vn/khan-gia-buc-xuc-khi-running-man-doi-lich-chieu-sang-toi-7-11-100261107060621175.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/7/nologodieu-nhi-running-edit-17940117133971272948511-19-379-1381-2560-crop-1794011891040712146433.png"
+   "tieu_de": "Lãnh Thanh có hành động gây sốc, dừng bước tại The Face Vietnam",
+   "vi_sao": "Nam diễn viên chủ động nhường cơ hội đi tiếp cho đồng đội, khiến các huấn luyện viên bất ngờ ở tập 6.",
+   "link": "https://dantri.com.vn/giai-tri/lanh-thanh-co-hanh-dong-gay-soc-chinh-thuc-dung-chan-tai-the-face-vietnam-20261109093403192.htm",
+   "nguon": "Dân Trí",
+   "anh": "https://icdn.dantri.com.vn/2026/11/09/2aoborblsreypmkbqa7wflm3iryu96m89dlunkhq-ezgifcom-video-to-gif-converter-1794191177675.gif"
   },
   {
-   "tieu_de": "Bùi Công Nam si tình ngốc nghếch mà đáng yêu trong MV mới",
-   "vi_sao": "Nam ca sĩ tái xuất với hình ảnh mới lạ, tạo hình nổi loạn cùng sản phẩm âm nhạc mang màu sắc thú vị.",
-   "link": "https://tuoitre.vn/bui-cong-nam-si-tinh-ngoc-nghech-ma-dang-yeu-trong-mv-moi-10026110607570225.htm",
+   "tieu_de": "Nhạc sĩ Đông Thiên Đức xin lỗi vì sự cố bán bản quyền ca khúc",
+   "vi_sao": "Tác giả hàng loạt bản hit thừa nhận sai sót trong việc quản lý thời hạn hợp đồng khi lỡ bán ca khúc cho hai bên cùng 'độc quyền'.",
+   "link": "https://tuoitre.vn/nhac-si-dong-thien-duc-xin-loi-vu-ban-mot-ca-khuc-cho-hai-ben-cung-doc-quyen-100261108144756426.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/6/88612663519018522743222884304024479874782160n-17939251930381294107185-23-0-923-1440-crop-1793926458504359956203.jpg"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/8/edit-885923207300797199816166287469823713972335462n-1794123662836794333342-26-263-1027-1865-crop-17941245546451408347699.jpeg"
+  },
+  {
+   "tieu_de": "Giải Mai Vàng 2026: Trang Pháp, Hòa Minzy bị loại khỏi danh sách đề cử",
+   "vi_sao": "Dù nhận tới 27.000 lượt đề cử từ khán giả, nhiều tên tuổi lớn vẫn không đủ điều kiện xét duyệt của ban tổ chức.",
+   "link": "https://tuoitre.vn/giai-mai-vang-2026-nhan-duoc-27000-luot-de-cu-trang-phap-hoa-minzy-bi-loai-10026110817505207.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/8/collage1234-17941343038331066731548-0-0-1750-2800-crop-1794134341015694738846.jpg"
   }
  ],
  "dang_hot": [
   {
+   "ten": "Diệp Chi",
+   "vi_sao": "Xác nhận rời đài VTV sau nhiều năm gắn bó với vị trí MC, biên tập viên."
+  },
+  {
+   "ten": "Trường Giang",
+   "vi_sao": "Lập vi bằng, nhờ pháp luật can thiệp xử lý các tài khoản tung tin sai sự thật."
+  },
+  {
    "ten": "Nguyễn Yến Trang",
-   "vi_sao": "Tân Hoa hậu Việt Nam 2026 sinh năm 2006, thu hút mọi ánh nhìn với học thức và nhan sắc nổi bật."
+   "vi_sao": "Trở thành tân Hoa hậu Việt Nam 2026 trong đêm chung kết tại Hải Phòng."
   },
   {
-   "ten": "Nguyễn Thu Thảo",
-   "vi_sao": "Đại diện Việt Nam xuất sắc giành vương miện tại đấu trường sắc đẹp quốc tế The Miss Globe 2026."
+   "ten": "Lãnh Thanh",
+   "vi_sao": "Gây xôn xao khi tự nguyện nhường cơ hội cho đồng đội và rời The Face Vietnam."
   },
   {
-   "ten": "Phương Mỹ Chi",
-   "vi_sao": "Gây ấn tượng với hình ảnh trưởng thành và màn tái hiện hát xoan độc đáo tại nhạc hội cuối tuần."
-  },
-  {
-   "ten": "Boom Panadda",
-   "vi_sao": "Hoa hậu Thái Lan vướng vào lùm lớn, bị đưa vào trại giam liên quan đến các cáo buộc pháp lý nghiêm trọng."
+   "ten": "BigBang",
+   "vi_sao": "Hủy đêm diễn thứ 2 ở Thái Lan vì lý do thời tiết và thông báo hoàn 100% tiền vé cho khán giả."
   }
  ],
- "sap_dien_ra": [],
- "generated_at": "2026-11-08T23:40:49.499200+00:00",
- "brewed_at": "2026-11-08T00:31:04.627216+00:00"
+ "sap_dien_ra": [
+  {
+   "khi_nao": "Từ 12h ngày 09/11/2026",
+   "su_kien": "Mở cổng bình chọn vòng chung kết Vietnam iContent Awards 2026 (kéo dài trong 2 tuần)",
+   "link": "https://vnexpress.net/mo-cong-binh-chon-vong-chung-ket-vietnam-icontent-awards-2026-5140936.html"
+  }
+ ],
+ "generated_at": "2026-11-09T06:12:35.850993+00:00",
+ "brewed_at": "2026-11-09T06:12:35.850993+00:00"
 }
