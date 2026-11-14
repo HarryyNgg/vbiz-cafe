@@ -1,101 +1,91 @@
 {
- "tieu_diem": "Showbiz Việt náo động trước thông tin các diễn viên như Hoàng Mèo, Tấn Bo bị khởi tố do liên quan đến dự án phim ca nhạc \"Huy Bến xe\", cùng lúc nghệ sĩ Cát Phượng và Bình Tinh phải lên tiếng đính chính các tin đồn thất thiệt. Ở mảng nghệ thuật, Minh Hằng gặp áp lực khi lần đầu đóng phim kinh dị \"Mẹ mìn\", Siu Black tái hợp hóa giải mâu thuẫn với Phương Thanh, còn Trang Pháp tích cực tham gia các hoạt động tại Trung Quốc. Đáng chú ý, ca sĩ Văn Mai Hương mang lại khoảnh khắc xúc động khi dắt tay cô dâu và hát mừng trong đám cưới của chiến sĩ Trường Sa.",
+ "tieu_diem": "Vbiz hôm nay chấn động với thông tin hai diễn viên quen thuộc Hoàng Mèo và Tấn Bo bị khởi tố do liên quan đến dự án phim ca nhạc của giang hồ mạng. Ở một diễn biến khác, đường đua phim Tết bắt đầu tăng nhiệt khi đạo diễn Victor Vũ công bố đưa 'Thám tử Kiên 2' ra rạp vào Mùng 1 Tết. Trong khi đó, Hồ Ngọc Hà gây chú ý khi lần đầu kết hợp đầy ăn ý cùng đàn em Hà An Huy trong sản phẩm âm nhạc mới.",
  "tin_chinh": [
   {
-   "tieu_de": "Ca sĩ Lương Nguyệt Anh được thăng quân hàm Thiếu tá trước niên hạn",
-   "vi_sao": "Đánh dấu cột mốc ý nghĩa trong sự nghiệp của nữ ca sĩ, nhân dịp này cô cũng ra mắt MV mới hướng về ngày 20/11.",
-   "link": "https://vietnamnet.vn/ca-si-luong-nguyet-anh-duoc-thang-quan-ham-thieu-ta-2574459.html",
-   "nguon": "Vietnamnet",
-   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/13/ca-si-luong-nguyet-anh-duoc-thang-quan-ham-thieu-ta-truoc-nien-han-715.jpg?width=0&s=C9aFyhpE_XyEcsJgDthSDA"
-  },
-  {
-   "tieu_de": "Hồ Ngọc Hà lần đầu song ca Hà An Huy, khán giả xuýt xoa vì quá hợp",
-   "vi_sao": "Sự kết hợp bất ngờ giữa hai giọng nói âm nhạc thế hệ mang đến sản phẩm \"Lời ong bướm\" thu hút nhiều lời khen.",
-   "link": "https://tuoitre.vn/ho-ngoc-ha-lan-dau-song-ca-ha-an-huy-khan-gia-xuyt-xoa-vi-qua-hop-100261112231958114.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/12/loi-ong-buom-1794499472958698783879-139-267-842-1392-crop-1794526194542204003389.png"
-  },
-  {
-   "tieu_de": "Thúy Ngân, Minh Trang làm phù dâu trong đám cưới đặc biệt tại Trường Sa",
-   "vi_sao": "Tập 14 Sao nhập ngũ ghi lại khoảnh khắc đầy xúc động và bất ngờ của dàn nghệ sĩ khi chuẩn bị đám cưới cho chiến sĩ ở đảo xa.",
-   "link": "https://tuoitre.vn/thuy-ngan-minh-trang-lam-phu-dau-trong-dam-cuoi-dac-biet-tai-truong-sa-100261112222451468.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/12/ban-sao-cua-nvq04559-17944947444831591529549-135-332-1460-2452-crop-1794524188626938795089.jpg"
-  },
-  {
-   "tieu_de": "Cát Phượng lên tiếng nóng về thông tin bị bắt",
-   "vi_sao": "Nữ diễn viên tỏ rõ sự bức xúc và yêu cầu các tài khoản gỡ bỏ những đồn đoán, tin đồn thất thiệt vô căn cứ nhắm vào mình.",
-   "link": "https://kenh14.vn/cat-phuong-len-tieng-nong-ve-thong-tin-bi-bat-215261113064835168.chn",
+   "tieu_de": "Hoàng Mèo, Tấn Bo và ca sĩ Dương Chấn Huy bị khởi tố",
+   "vi_sao": "Thông tin các nghệ sĩ quen thuộc vướng vòng lao lý do tham gia sản xuất và đóng phim ca nhạc 'Huy Bến xe' đang gây xôn xao dư luận.",
+   "link": "https://kenh14.vn/hoang-meo-tan-bo-bi-khoi-to-vi-toi-gi-215261114070345667.chn",
    "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/12/avatar1794527221468-1794527221951159654824.jpg"
+   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/14/avatar1794614517230-1794614517627701278595.jpg"
   },
   {
-   "tieu_de": "Bùi Lý Thiên Hương nối gót Hà Tâm Như thi MGI All Stars mùa 2",
-   "vi_sao": "Thêm một đại diện nhan sắc Việt tiếp theo xác nhận tham gia đấu trường quốc tế này.",
-   "link": "https://tuoitre.vn/bui-ly-thien-huong-noi-got-ha-tam-nhu-thi-mgi-all-stars-mua-2-1002611121303396.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/12/60028210739617204774534363658198206780651786n-1794462452565889488336-135-0-989-1366-crop-17944632950521596514352.jpg"
-  },
-  {
-   "tieu_de": "'Thám tử Kiên 2' hé lộ chuỗi án mạng, hẹn khán giả mùng 1 Tết",
-   "vi_sao": "Đạo diễn Victor Vũ tiếp tục mang đến câu chuyện kỳ bí và hồi hộp cho mùa phim Tết năm nay.",
+   "tieu_de": "Victor Vũ đưa 'Thám tử Kiên 2' chốt lịch chiếu Mùng 1 Tết",
+   "vi_sao": "Sau thành công của phần 1, vị đạo diễn tiếp tục mang tới câu chuyện điều tra kỳ bí xoay quanh thỏi vàng bí ẩn cho khán giả dịp Tết.",
    "link": "https://tuoitre.vn/tham-tu-kien-2-he-lo-chuoi-an-mang-hen-khan-gia-mung-1-tet-10026111213142167.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/12/15-17944633172201497855738-60-293-884-1612-crop-1794467528614121523609.png"
   },
   {
-   "tieu_de": "Nguyên Khang chơi lớn, đầu tư đêm nhạc quy tụ 15 nghệ sĩ, có Như Quỳnh, Hồng Vân",
-   "vi_sao": "Đêm nhạc \"Thanh xuân rực rỡ\" kỷ niệm 20 năm hành nghề dẫn chương trình của MC Nguyên Khang.",
-   "link": "https://tuoitre.vn/nguyen-khang-choi-lon-dau-tu-dem-nhac-quy-tu-15-nghe-si-co-nhu-quynh-hong-van-100261111081255688.htm",
+   "tieu_de": "Hồ Ngọc Hà lần đầu song ca cùng Hà An Huy",
+   "vi_sao": "Màn kết hợp bất ngờ của nữ ca sĩ cùng quán quân Idol trong MV 'Lời ong bướm' nhận được nhiều lời khen ngợi nhờ sự hòa giọng vô cùng ăn ý.",
+   "link": "https://tuoitre.vn/ho-ngoc-ha-lan-dau-song-ca-ha-an-huy-khan-gia-xuyt-xoa-vi-qua-hop-100261112231958114.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/11/nhu-quynh-mai-thien-van-17943587236041700113394-422-633-1413-2218-crop-17943592853941601865366.jpeg"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/12/loi-ong-buom-1794499472958698783879-139-267-842-1392-crop-1794526194542204003389.png"
+  },
+  {
+   "tieu_de": "Công ty của Trần Bảo Sơn vướng tranh chấp hợp đồng dịch vụ",
+   "vi_sao": "Tòa án đang thụ lý vụ kiện giữa đạo diễn Bá Vũ và công ty do Trần Bảo Sơn làm giám đốc liên quan đến hợp đồng dịch vụ đạo diễn.",
+   "link": "https://tuoitre.vn/dao-dien-tran-bao-son-bi-kien-100261111115456495.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/11/bao-son-17943852585401833746938.png"
+  },
+  {
+   "tieu_de": "Minh Hằng áp lực khi lần đầu đóng phim kinh dị 18+",
+   "vi_sao": "Nữ diễn viên chia sẻ gặp không ít thách thức với vai diễn tâm lý nặng trong 'Mẹ mìn' khi phải diễn xuất phần lớn trên phông xanh.",
+   "link": "https://vnexpress.net/minh-hang-ap-luc-khi-dong-vai-me-min-5144005.html",
+   "nguon": "VnExpress",
+   "anh": "https://vcdn1-giaitri.vnecdn.net/2026/11/13/minh-hang-me-min-1794582950-3760-1794582959.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=hcF4vIG6A1R8vF1fatN__A"
+  },
+  {
+   "tieu_de": "Nhạc sĩ Huy Tuấn bất ngờ kêu gọi 'đừng bình chọn cho Tóc Tiên'",
+   "vi_sao": "Phát ngôn gây bất ngờ của nam nhạc sĩ trước thềm Eurovision Song Contest Asia 2026 thu hút nhiều sự tò mò từ người hâm mộ.",
+   "link": "https://tuoitre.vn/truoc-eurovision-song-contest-asia-2026-huy-tuan-bat-ngo-keu-goi-dung-binh-chon-cho-toc-tien-100261113194349615.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/13/img4261-17945734147861708225007-25-194-710-1290-crop-1794573722978453188930.jpg"
+  },
+  {
+   "tieu_de": "Võ Điền Gia Huy và Running Man 2026 vươn lên dẫn đầu đề cử Mai Vàng",
+   "vi_sao": "Hạng mục đề cử giải Mai Vàng lần thứ 32 ghi nhận sự bứt phá bất ngờ của nam diễn viên Võ Điền Gia Huy sau 5 tuần bình chọn.",
+   "link": "https://tuoitre.vn/vo-dien-gia-huy-soan-ngoi-steven-nguyen-running-man-2026-tam-dan-dau-de-cu-mai-vang-2026-100261113210536211.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/13/collage11224-1794578566941504428261-37-0-1787-2800-crop-179457858498960890567.jpg"
   }
  ],
  "dang_hot": [
   {
-   "ten": "Cát Phượng",
-   "vi_sao": "Lên tiếng bức xúc, đính chính trước thông tin sai sự thật trên mạng xã hội."
+   "ten": "Hoàng Mèo & Tấn Bo",
+   "vi_sao": "Trở thành tâm điểm chú ý của dư luận sau khi có thông tin chính thức về việc bị khởi tố."
   },
   {
-   "ten": "Lương Nguyệt Anh",
-   "vi_sao": "Được thăng quân hàm Thiếu tá trước niên hạn và ra mắt MV nhân dịp 20/11."
+   "ten": "Hà Tâm Như & Bùi Lý Thiên Hương",
+   "vi_sao": "Hai người đẹp Việt Nam liên tiếp nhận tin vui khi được mời tham dự đấu trường nhan sắc MGI All Stars mùa 2."
   },
   {
-   "ten": "Hồ Ngọc Hà & Hà An Huy",
-   "vi_sao": "Gây chú ý khi lần đầu kết hợp ăn ý trong sản phẩm âm nhạc mới."
+   "ten": "Tinh hà say hi",
+   "vi_sao": "Dàn 'anh trai' khiến fan đứng ngồi không yên với loạt khoảnh khắc tổng duyệt và cosplay hài hước trước concert tại Hà Nội."
   },
   {
-   "ten": "Bùi Lý Thiên Hương",
-   "vi_sao": "Xác nhận đại diện Việt Nam tham gia MGI All Stars mùa 2."
+   "ten": "Bích Phương",
+   "vi_sao": "Gây sốt với vóc dáng gợi cảm ở tuổi 37 và những tương tác thân thiết bên ca sĩ Tăng Duy Tân."
   }
  ],
  "sap_dien_ra": [
   {
+   "khi_nao": "15/11/2026",
+   "su_kien": "Đêm Gala cuộc thi Sao Mai 2026 được tổ chức tại Sầm Sơn, Thanh Hóa.",
+   "link": "https://vietnamnet.vn/dan-thi-sinh-sao-mai-2026-tham-thanh-da-hon-600-tuoi-o-thanh-hoa-2574507.html"
+  },
+  {
    "khi_nao": "Cuối tháng 11/2026",
-   "su_kien": "Tuần lễ thời trang Việt Nam quốc tế mùa 22 mở màn tại Hà Nội với 3 nhà thiết kế trẻ.",
-   "link": "https://tuoitre.vn/tuan-le-thoi-trang-viet-nam-quoc-te-mao-hiem-mo-man-bang-ba-nha-thiet-ke-tre-100261111204636669.htm"
+   "su_kien": "Tuần lễ thời trang Việt Nam quốc tế mùa 22 chính thức diễn ra tại Hà Nội.",
+   "link": "https://tuoitre.vn/tuan-le-thoi-trang-viet-nam-quoc-te-mao-hiem-mo-man-bang-ba-nha-thiet-ke-tre-100261112204636669.htm"
   },
   {
    "khi_nao": "Tháng 11/2026",
-   "su_kien": "Triển lãm nghệ thuật đa phương tiện kỷ niệm 20 năm BIGBANG mang tên 'COSMOS' đến TP.HCM.",
+   "su_kien": "Triển lãm nghệ thuật đa phương tiện kỷ niệm 20 năm BIGBANG 'COSMOS' đến TP.HCM.",
    "link": "https://tuoitre.vn/noi-tiep-concert-tai-my-dinh-trien-lam-ky-niem-20-nam-bigbang-sap-den-tphcm-100261112120506977.htm"
-  },
-  {
-   "khi_nao": "24/11/2026",
-   "su_kien": "Ngày Văn hóa Việt Nam với các hoạt động miễn, giảm giá vé nhiều vở diễn tại Nhà hát Kịch Việt Nam và Nhà hát Tuổi trẻ.",
-   "link": "https://vnexpress.net/mien-giam-gia-ve-nhieu-vo-dien-mung-ngay-van-hoa-viet-nam-5143805.html"
-  },
-  {
-   "khi_nao": "11-12/12/2026",
-   "su_kien": "Chương trình thực cảnh 'Hồn Mường thức giấc' tái hiện văn hóa Mường tại Sơn La.",
-   "link": "https://dantri.com.vn/giai-tri/danh-thuc-ban-sac-van-hoa-muong-qua-chuong-trinh-thuc-canh-o-son-la-20261112233307762.htm"
-  },
-  {
-   "khi_nao": "Mùng 1 Tết",
-   "su_kien": "Phim điện ảnh 'Thám tử Kiên: Lời nguyền hoàng kim' chính thức ra mắt khán giả.",
-   "link": "https://tuoitre.vn/tham-tu-kien-2-he-lo-chuoi-an-mang-hen-khan-gia-mung-1-tet-10026111213142167.htm"
   }
  ],
- "generated_at": "2026-11-13T21:57:02.821809+00:00",
- "brewed_at": "2026-11-13T06:32:58.161678+00:00"
+ "generated_at": "2026-11-14T02:20:24.022294+00:00",
+ "brewed_at": "2026-11-14T02:20:24.022294+00:00"
 }
