@@ -1,84 +1,61 @@
 {
- "tieu_diem": "Bản tin Vbiz hôm nay ghi nhận nhiều chia sẻ từ các nghệ sĩ về đời sống gia đình và sự nghiệp như diễn viên Tiến Luật xác nhận có hai con gái song sinh, Lương Thế Thành trải lòng về cuộc sống khi làm cha đứa con thứ hai, hay ca sĩ Quang Lê lên tiếng về nụ hôn với Tố My trên sân khấu. Bên cạnh đó, các thông tin giải trí đáng chú ý khác bao gồm concert \"Sao nhập ngũ\" công bố lịch trình tại TP.HCM và Hà Nội, cùng giải thưởng \"Tinh hoa Việt 2026\" có sự đồng hành của ca sĩ Hoàng Thùy Linh.",
+ "tieu_diem": "Chân bàn Vbiz hôm nay rôm rả với loạt tin tức từ màn ra mắt của nhóm nhạc nam mới NEW:V cho đến những chuyển động đáng chú ý tại các chương trình truyền hình và âm nhạc. Trong khi đó, các nghệ sĩ Việt vẫn chăm chỉ hoạt động nghệ thuật, mang đến nhiều màu sắc mới từ sân khấu đến điện ảnh. Mời bạn cùng nhấp một ngụm trà nóng để điểm qua những tin tức đáng chú ý nhất.",
  "tin_chinh": [
   {
-   "tieu_de": "Tin buồn: Nữ diễn viên phim giờ vàng vừa qua đời đột ngột ở tuổi 23 giữa lúc phim đang phát sóng",
-   "vi_sao": "Sự ra đi đột ngột của nữ diễn viên trẻ khi bộ phim đang lên sóng khiến đồng nghiệp và khán giả bàng hoàng.",
-   "link": "https://kenh14.vn/tin-buon-nu-dien-vien-phim-gio-vang-vua-qua-doi-dot-ngot-o-tuoi-23-giua-luc-phim-dang-phat-song-215261116231013965.chn",
-   "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/16/j71-17948453143061332913107-0-0-435-696-crop-17948453187391386199913.jpg"
+   "tieu_de": "Nhóm NEW:V vừa ra mắt, giám đốc thừa nhận điều thiệt thòi",
+   "vi_sao": "V-pop chính thức chào đón thêm một nhóm nhạc nam mới xuất thân từ vũ công, đối diện nhiều thử thách khi khởi nghiệp.",
+   "link": "https://vietnamnet.vn/nhom-new-v-xuat-than-la-vu-cong-vua-ra-mat-2576131.html",
+   "nguon": "Vietnamnet",
+   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/18/nhom-newv-vua-ra-mat-giam-doc-thua-nhan-dieu-thiet-thoi-308.gif?width=0&s=S5s1hOTTYF3qZF5n0VCvOA"
   },
   {
-   "tieu_de": "Võ Điền Gia Huy soán ngôi Steven Nguyễn, Running Man 2026 tạm dẫn đầu đề cử Mai Vàng 2026",
-   "vi_sao": "Cục diện giải thưởng Mai Vàng có sự thay đổi đáng chú ý sau 5 tuần công bố đề cử.",
-   "link": "https://tuoitre.vn/vo-dien-gia-huy-soan-ngoi-steven-nguyen-running-man-2026-tam-dan-dau-de-cu-mai-vang-2026-100261113210536211.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/13/collage11224-1794578566941504428261-37-0-1787-2800-crop-179457858498960890567.jpg"
-  },
-  {
-   "tieu_de": "Đại diện Philippines là quán quân Eurovision Song Contest Asia 2026, Tóc Tiên vào top 3",
-   "vi_sao": "Tóc Tiên mang lại niềm tự hào cho âm nhạc Việt Nam khi vươn lên top 3 tại đấu trường châu Á.",
-   "link": "https://tuoitre.vn/dai-dien-philippines-la-quan-quan-eurovision-song-contest-asia-2026-toc-tien-vao-top-3-100261115013822583.htm",
-   "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/15/28880-179470208164367370138.png"
+   "tieu_de": "Hoàng Thuỳ Linh mang 'See tình', 'Để Mị nói cho mà nghe' lên sân khấu VTV8",
+   "vi_sao": "Nữ ca sĩ tiếp tục khuấy động sân khấu truyền hình với những bản hit quen thuộc.",
+   "link": "https://vietnamnet.vn/hoang-thuy-linh-mang-see-tinh-de-mi-noi-cho-ma-nghe-len-san-khau-vtv8-2576172.html",
+   "nguon": "Vietnamnet",
+   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/18/hoang-thuy-linh-mang-see-tinh-de-mi-noi-cho-ma-nghe-len-san-khau-vtv8-387.gif?width=0&s=HDAZs6e8qVaFcHMKpa9FnA"
   },
   {
    "tieu_de": "Tùng Chi - người phụ nữ thép của Đường lên đỉnh Olympia - rời VTV",
-   "vi_sao": "MC Tùng Chi chính thức khép lại hành trình gắn bó gần 30 năm với Đài Truyền hình Việt Nam.",
+   "vi_sao": "MC, biên tập viên gạo cội chính thức chia tay nhà đài sau nhiều năm gắn bó.",
    "link": "https://tuoitre.vn/tung-chi-nguoi-phu-nu-thep-cua-duong-len-dinh-olympia-roi-vtv-100261116115521268.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/16/tung-chi-edit-17948056030211808783230-3-45-1039-1703-crop-17948057142931943753218.png"
   },
   {
-   "tieu_de": "Ca sĩ Quế Anh ung thư phổi di căn, 9 bệnh nền và sống trọ 1 mình",
-   "vi_sao": "Hoàn cảnh ngặt nghèo và bệnh tật của cựu ca sĩ nhóm SinCo Nữ khiến nhiều người xót xa.",
-   "link": "https://vietnamnet.vn/ca-si-que-anh-mac-ung-thu-phoi-di-can-9-benh-nen-o-tro-1-minh-2575703.html",
-   "nguon": "Vietnamnet",
-   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/17/ca-si-que-anh-ung-thu-phoi-di-can-9-benh-nen-va-song-tro-1-minh-26.jpg?width=0&s=7GY19Pr8G46XzgFj8HxwsQ"
+   "tieu_de": "Trà My cùng 52 người đẹp quốc tế chinh phục vương miện Miss Charm 2026",
+   "vi_sao": "Đại diện Việt Nam mang theo kỳ vọng giới thiệu bản sắc văn hóa đến đấu trường nhan sắc quốc tế.",
+   "link": "https://tuoitre.vn/tra-my-cung-52-nguoi-dep-quoc-te-chinh-phuc-vuong-mien-miss-charm-2026-100261116164408984.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/16/vietnam-half-body-eg-sash-17948225866492010626797-253-0-1853-2560-crop-17948283033731677370183.jpg"
   },
   {
-   "tieu_de": "Anh Quân Idol và buitruonglinh bị loại khỏi Ca sĩ mặt nạ, khán giả khóc ròng",
-   "vi_sao": "Tập phát sóng mới của chương trình tiếp tục tạo làn sóng tiếc nuối lớn trong cộng đồng mạng.",
-   "link": "https://tuoitre.vn/anh-quan-idol-va-buitruonglinh-bi-loai-khoi-ca-si-mat-na-khan-gia-khoc-rong-100261115014216599.htm",
+   "tieu_de": "Cardi B diện đầm lụa Bảo Lộc dự Baby2Baby Gala 2026",
+   "vi_sao": "Rapper nổi tiếng thế giới gây chú ý khi diện thiết kế của nhà thiết kế Việt Nam tại sự kiện ở Mỹ.",
+   "link": "https://tuoitre.vn/cardi-b-dien-dam-lua-bao-loc-du-baby2baby-gala-2026-100261116144120857.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/15/28876-1794701122504231671567.png"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/16/cardi-b-edit-17948186753241602723003-225-0-1850-2600-crop-179481874671177140215.jpg"
   }
  ],
  "dang_hot": [
   {
-   "ten": "Tóc Tiên",
-   "vi_sao": "Đại diện Việt Nam xuất sắc giành vị trí top 3 tại Eurovision Song Contest Asia 2026."
+   "ten": "Hoàng Thùy Linh",
+   "vi_sao": "Đồng hành cùng giải thưởng Tinh hoa Việt 2026 và vừa có màn trình diễn sôi động trên VTV8."
+  },
+  {
+   "ten": "NEW:V",
+   "vi_sao": "Nhóm nhạc nam mới ra mắt của V-pop thu hút sự quan tâm lớn từ công chúng."
   },
   {
    "ten": "Tùng Chi",
-   "vi_sao": "Thông tin gắn bó gần 30 năm rồi chia tay VTV thu hút sự quan tâm lớn."
+   "vi_sao": "Thông tin gắn liền với Đường lên đỉnh Olympia chính thức rời VTV khiến nhiều khán giả tiếc nuối."
   },
   {
-   "ten": "Võ Điền Gia Huy",
-   "vi_sao": "Vươn lên dẫn đầu đề cử Mai Vàng 2026 ở hạng mục diễn viên."
-  },
-  {
-   "ten": "Robert Pattinson",
-   "vi_sao": "Chính thức được xác nhận trở thành điệp viên 007 thế hệ mới của Hollywood."
+   "ten": "Trà My",
+   "vi_sao": "Đại diện Việt Nam chính thức bước vào hành trình chinh phục vương miện Miss Charm 2026."
   }
  ],
- "sap_dien_ra": [
-  {
-   "khi_nao": "18-24/11/2026",
-   "su_kien": "Tuần phim chào mừng Liên hoan Phim quốc tế Hà Nội lần thứ VIII và Ngày Văn hóa Việt Nam với các suất chiếu miễn phí tại 33 cụm rạp.",
-   "link": "https://vietnamnet.vn/33-cum-rap-chieu-phim-mien-phi-nhan-ngay-van-hoa-viet-nam-2575522.html"
-  },
-  {
-   "khi_nao": "20/12/2026",
-   "su_kien": "Day 3 concert Sao nhập ngũ chính thức diễn ra tại TP.HCM.",
-   "link": "https://tuoitre.vn/sao-nhap-ngu-concert-cong-bo-day-3-4-tai-tphcm-va-ha-noi-100261114184444201.htm"
-  },
-  {
-   "khi_nao": "Tháng 1/2027",
-   "su_kien": "Festival và concert day 4 của Sao nhập ngũ dự kiến tổ chức tại Hà Nội.",
-   "link": "https://tuoitre.vn/sao-nhap-ngu-concert-cong-bo-day-3-4-tai-tphcm-va-ha-noi-100261114184444201.htm"
-  }
- ],
- "generated_at": "2026-11-17T21:45:53.242504+00:00",
- "brewed_at": "2026-11-17T03:46:40.473293+00:00"
+ "sap_dien_ra": [],
+ "generated_at": "2026-11-18T03:40:50.354203+00:00",
+ "brewed_at": "2026-11-18T03:40:50.354203+00:00"
 }
