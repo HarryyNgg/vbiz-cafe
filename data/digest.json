@@ -1,83 +1,95 @@
 {
- "tieu_diem": "Showbiz Việt thu hút sự chú ý khi cặp đôi Tăng Duy Tân và Bích Phương thoải mái chia sẻ ảnh hẹn hò tại Maldives, trong khi màn cầu hôn Khả Như của Huỳnh Phương cũng gây xôn xao. Ở mảng sắc đẹp, vụ việc Nguyễn Quỳnh Anh bị thu hồi danh hiệu Miss Universe Vietnam 2026 đang được truyền thông quốc tế quan tâm đưa tin. Về âm nhạc, thị trường V-pop đón chào nhóm nhạc nam mới NEW:V, đồng thời ghi nhận lần đầu tiên 5 nghệ sĩ Trọng Tấn, Đăng Dương, Việt Hoàn, Anh Thơ và Lan Anh cùng biểu diễn trên một sân khấu.",
+ "tieu_diem": "Bản tin Vbiz Café sáng nay tràn ngập những thông tin đáng chú ý từ làng giải trí. Tâm điểm chú ý thuộc về vụ việc Miss Universe Vietnam chính thức thông báo thu hồi danh hiệu hoa hậu của Nguyễn Quỳnh Anh. Cùng lúc đó, rapper Đen Vâu tiếp tục ấm lòng fan khi chuyển tròn 1 tỉ đồng từ doanh thu ca khúc 'Nấu ăn cho em' cho Quỹ bảo trợ trẻ em. Ngoài ra, không khí nhan sắc Việt cũng vô cùng sôi động với sự khởi động của Miss Charm 2026 quy tụ dàn người đẹp quốc tế.",
  "tin_chinh": [
   {
-   "tieu_de": "Nguyễn Quỳnh Anh bị thu hồi vương miện Miss Universe Vietnam",
-   "vi_sao": "Ban tổ chức thông báo thu hồi danh hiệu vì cô tham gia hoạt động chưa thống nhất, trong khi phía Nguyễn Quỳnh Anh đề nghị làm rõ căn cứ quyết định này.",
+   "tieu_de": "Miss Universe Vietnam thu hồi danh hiệu Hoa hậu của Nguyễn Quỳnh Anh",
+   "vi_sao": "Thông tin gây xôn xao khi ban tổ chức quyết định tước danh hiệu do cô tiếp tục tự ý tham gia các hoạt động biểu diễn chưa thống nhất với đơn vị quản lý.",
    "link": "https://tuoitre.vn/miss-universe-vietnam-thu-hoi-danh-hieu-hoa-hau-cua-nguyen-quynh-anh-100261118195238238.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/18/025muvn2026-foto-kiengcanteam-17921936897002076765784-125-0-1542-2267-crop-17950060656612120769738.jpeg"
   },
   {
-   "tieu_de": "Hồ Ngọc Hà tiết lộ mắc chứng rối loạn lo âu, Trấn Thành thức trắng ủng hộ",
-   "vi_sao": "Nữ ca sĩ cởi mở tâm sự về căn bệnh cố hữu đang phải kiểm soát bằng thiền định, đồng thời Trấn Thành cũng phá lệ đến chung vui mừng cô ra mắt sản phẩm mới.",
-   "link": "https://thanhnien.vn/ca-si-ho-ngoc-ha-bi-benh-roi-loan-lo-au-185261120080809504.htm",
-   "nguon": "Thanh Niên",
-   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/20/oan1284-1795135831166895999479-286-0-1886-2560-crop-1795135975687283494674.jpg"
-  },
-  {
-   "tieu_de": "Đen Vâu chuyển 1 tỉ đồng từ doanh thu 'Nấu ăn cho em' ủng hộ trẻ em",
-   "vi_sao": "Dù doanh thu thực nhận là hơn 901 triệu đồng, nam rapper vẫn tự trích thêm tiền túi để làm tròn thành 1 tỉ đồng gửi đến Quỹ Bảo trợ Trẻ em Việt Nam.",
+   "tieu_de": "Đen Vâu tiếp tục làm ấm lòng fan với doanh thu 'Nấu ăn cho em'",
+   "vi_sao": "Dù doanh thu thực nhận đợt này là hơn 901 triệu đồng, nam rapper vẫn quyết định chuyển tròn 1 tỉ đồng cho Quỹ bảo trợ trẻ em.",
    "link": "https://tuoitre.vn/den-cong-bo-doanh-thu-nau-an-cho-em-doanh-thu-901-trieu-ma-chuyen-quy-bao-tro-tre-em-1-ti-100261118135841884.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/18/nau-an-cho-em-17949847326481199269386-0-128-720-1280-crop-1794984882560793919720.png"
   },
   {
-   "tieu_de": "Người mẫu Dương Yến Ngọc thông báo mắc ung thư cổ tử cung",
-   "vi_sao": "Cựu người mẫu chia sẻ thông tin mắc bệnh sau hơn một tháng chống chọi với những cơn đau vùng bụng dưới và thắt lưng.",
-   "link": "https://kenh14.vn/duong-yen-ngoc-mac-ung-thu-215261120075358066.chn",
-   "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/20/avatar1795135907460-17951359080571401440782.webp"
+   "tieu_de": "Chi Pu tham dự Weibo Gala 2026 tại Hong Kong",
+   "vi_sao": "Nữ ca sĩ đại diện Việt Nam góp mặt tại sự kiện quy tụ dàn sao châu Á đình đám như Dương Tử, Bạch Lộc, Mai Davika, Oh Sehun.",
+   "link": "https://tuoitre.vn/chi-pu-du-weibo-gala-tai-hong-kong-cung-dan-sao-chau-a-dinh-dam-100261119201702143.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/img4418-17950932694821115682880-6-0-1030-1638-crop-17950940495661664785607.jpg"
   },
   {
-   "tieu_de": "Hoàng Thùy Linh phát hành MV 'Vô lượng kiếp' tôn vinh văn hóa",
-   "vi_sao": "Sản phẩm âm nhạc mới của nữ ca sĩ góp phần lan tỏa tình yêu quê hương nhân dịp Ngày Văn hóa Việt Nam.",
+   "tieu_de": "Hoàng Thùy Linh tái xuất với MV 'Vô lượng kiếp'",
+   "vi_sao": "Sản phẩm âm nhạc mới nhằm hưởng ứng Ngày hội Đại đoàn kết toàn dân tộc và Ngày Văn hóa Việt Nam, gửi gắm tinh thần tôn vinh văn hóa truyền thống.",
    "link": "https://tuoitre.vn/hoang-thuy-linh-ra-mv-huong-ung-ngay-van-hoa-viet-nam-100261119110107742.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/thuy-linh-17950660860711882604007-647-0-1647-1600-crop-1795066125236805311528.jpg"
   },
   {
-   "tieu_de": "Chi Pu tham dự Weibo Gala tại Hong Kong cùng dàn sao châu Á",
-   "vi_sao": "Nữ ca sĩ đại diện Việt Nam góp mặt tại Đêm Giao lưu văn hóa quốc tế Weibo 2026 bên cạnh những tên tuổi nổi tiếng như Dương Tử, Bạch Lộc, Mai Davika.",
-   "link": "https://tuoitre.vn/chi-pu-du-weibo-gala-tai-hong-kong-cung-dan-sao-chau-a-dinh-dam-100261119201702143.htm",
+   "tieu_de": "44 người đẹp quốc tế quy tụ tại Việt Nam tham gia Miss Charm 2026",
+   "vi_sao": "Mùa giải thứ tư bước vào giai đoạn nhộn nhịp khi các thí sinh từ khắp thế giới đổ về Việt Nam tranh tài vương miện.",
+   "link": "https://kenh14.vn/44-nguoi-dep-quoc-te-den-viet-nam-chinh-phuc-vuong-mien-miss-charm-2026-21526112105445547.chn",
+   "nguon": "Kenh14",
+   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/20/avatar1795214597366-1795214597870716092339.jpg"
+  },
+  {
+   "tieu_de": "Nữ sinh FPT đăng quang Hoa hậu Du lịch Văn hóa Việt Nam 2026",
+   "vi_sao": "Người đẹp Cần Thơ Nguyễn Quế Khanh đã có màn thể hiện ứng xử song ngữ ấn tượng để giành chiến thắng ngay trên sân nhà.",
+   "link": "https://tuoitre.vn/nguoi-dep-can-tho-dang-quang-hoa-hau-tren-san-nha-100261121063704286.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/img4418-17950932694821115682880-6-0-1030-1638-crop-17950940495661664785607.jpg"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/wbw4498-17952174412381301437999-344-405-1457-2186-crop-17952176608491483457818.jpeg"
+  },
+  {
+   "tieu_de": "Running Man Việt Nam úp mở tập đặc biệt sau mùa 4",
+   "vi_sao": "Sau khi kết thúc mùa 4, chương trình tiếp tục thả teaser có sự xuất hiện trọn vẹn của 7 thành viên khiến khán giả tò mò.",
+   "link": "https://tuoitre.vn/running-man-viet-nam-up-mo-tap-dac-biet-sau-mua-4-100261118122648687.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/18/anh-chup-man-hinh-2026-11-18-121655-17949791852592021775183-76-133-436-708-crop-179498233560693066838.png"
   }
  ],
  "dang_hot": [
   {
-   "ten": "Nguyễn Quỳnh Anh",
-   "vi_sao": "Gây xôn xao khi bị Miss Universe Vietnam thu hồi vương miện sau 47 ngày đăng quang."
-  },
-  {
-   "ten": "Hồ Ngọc Hà",
-   "vi_sao": "Thu hút sự chú ý khi chia sẻ về căn bệnh rối loạn lo âu và ra mắt album mới."
-  },
-  {
    "ten": "Đen Vâu",
-   "vi_sao": "Được khen ngợi khi ủng hộ 1 tỉ đồng doanh thu bài hát cho Quỹ Bảo trợ Trẻ em."
+   "vi_sao": "Được ngợi khen khi bù thêm tiền túi cho tròn 1 tỉ đồng gửi tặng trẻ em từ doanh thu nhạc."
   },
   {
-   "ten": "Khả Như & Huỳnh Phương",
-   "vi_sao": "Gây bão mạng xã hội với màn cầu hôn công khai tình cảm."
+   "ten": "Nguyễn Quỳnh Anh",
+   "vi_sao": "Bị Miss Universe Vietnam thu hồi danh hiệu Hoa hậu do vi phạm thỏa thuận công việc."
   },
   {
-   "ten": "Dương Yến Ngọc",
-   "vi_sao": "Nhận được nhiều lời động viên sau khi thông báo mắc ung thư cổ tử cung."
+   "ten": "Chi Pu",
+   "vi_sao": "Trở thành gương mặt Việt Nam xuất hiện chung khung hình với dàn sao hạng A châu Á tại Weibo Gala."
+  },
+  {
+   "ten": "Huỳnh Phương",
+   "vi_sao": "Gây sốt mạng xã hội vì sự cố luống cuống làm đánh rơi nhẫn cưới trong màn cầu hôn Khả Như."
+  },
+  {
+   "ten": "Lương Thế Thành",
+   "vi_sao": "Tạo hình giang hồ trọc đầu, nhiều sẹo độc lạ trong phim 'Trại giam hạnh phúc' làm khán giả thích thú."
   }
  ],
  "sap_dien_ra": [
   {
    "khi_nao": "24/11",
-   "su_kien": "Dự án phim điện ảnh 'Tuyên ngôn độc lập' chính thức bấm máy",
+   "su_kien": "Dự án phim điện ảnh 'Tuyên ngôn độc lập' chính thức bấm máy.",
    "link": "https://tuoitre.vn/cong-bo-du-an-phim-tuyen-ngon-doc-lap-100261119184645489.htm"
   },
   {
-   "khi_nao": "04/12",
-   "su_kien": "Phim 'Spider-Man: Brand New Day' phiên bản mở rộng ra rạp Bắc Mỹ",
-   "link": "https://tuoitre.vn/spider-man-brand-new-day-tro-lai-rap-voi-canh-quay-moi-100261117143016153.htm"
+   "khi_nao": "28 và 29/11",
+   "su_kien": "Đêm hòa nhạc giao hưởng 'St. Petersburg Symphony Night' diễn ra tại Nhà hát Hồ Gươm, Hà Nội.",
+   "link": "https://tuoitre.vn/techcombank-va-masterise-group-dua-giao-huong-st-petersburg-symphony-night-tro-lai-viet-nam-100261120150233862.htm"
+  },
+  {
+   "khi_nao": "Đầu năm sau",
+   "su_kien": "Dàn sao Hàn Quốc Kim Mu Yeol, Go Youn Jung, Ji Chang Wook, Hwang In Youp và Ryu Seung Ryong sẽ sang Việt Nam.",
+   "link": "https://tuoitre.vn/ngoi-sao-bai-hoc-dang-doi-kim-mu-yeol-va-go-youn-jung-cua-tieng-yeu-nay-anh-dich-duoc-khong-se-sang-viet-nam-100261120121140101.htm"
   }
  ],
- "generated_at": "2026-11-20T20:04:10.769465+00:00",
- "brewed_at": "2026-11-20T03:05:47.424842+00:00"
+ "generated_at": "2026-11-21T01:26:42.896604+00:00",
+ "brewed_at": "2026-11-21T01:26:42.896604+00:00"
 }
