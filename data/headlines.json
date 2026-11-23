@@ -1,93 +1,493 @@
 [
  {
-  "title": "Tràn lan ảnh sao nữ hôn Chủ tịch tập đoàn công nghệ 63 tuổi, công chúng phẫn nộ",
-  "link": "https://kenh14.vn/tran-lan-anh-sao-nu-hon-chu-tich-tap-doan-cong-nghe-63-tuoi-cong-chung-phan-no-21526112211391309.chn",
+  "title": "Hòa Minzy lên tiếng về thông tin đang mang thai con thứ 2",
+  "link": "https://kenh14.vn/hoa-minzy-len-tieng-ve-thong-tin-dang-mang-thai-con-thu-2-215261123002910885.chn",
   "source": "Kenh14",
-  "published": "2026-11-23T00:13:45.857263+00:00",
-  "summary": "Sao nữ này còn mang bằng chứng ngoại tình của mình đi khoe cho bạn bè xem.",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795321834451-1795321843851489646126-0-0-394-631-crop-1795321912913356858367.jpg",
-  "vn": 0.75,
-  "hot": 3.3
- },
- {
-  "title": "Sức hút quyến rũ của nàng 'Bond Girl' Ana de Armas",
-  "link": "https://tuoitre.vn/suc-hut-quyen-ru-cua-nang-bond-girl-ana-de-armas-100261118231004272.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676151+00:00",
-  "summary": "Sau khi Robert Pattinson xác nhận vào vai James Bond thế hệ mới, cuộc đua tìm kiếm nữ chính cũng dần nóng lên, đưa tên tuổi của cựu 'Bond Girl' Ana de Armas trở lại tâm điểm chú ý.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/anade-1795049075909219835204-3-45-1001-1641-crop-17950491126151321457704.jpeg",
-  "vn": 0.03,
-  "hot": 2.87
- },
- {
-  "title": "Lê Phương Khánh Như giới thiệu văn hóa Việt tại Miss International 2026",
-  "link": "https://tuoitre.vn/le-phuong-khanh-nhu-gioi-thieu-van-hoa-viet-tai-miss-international-2026-100261119063711333.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676140+00:00",
-  "summary": "Á hậu Khánh Như là một trong bốn người đẹp tham gia hoạt động gặp gỡ Thống đốc tỉnh Niigata (Nhật Bản). Trước đó, cô gây ấn tượng với màn trình diễn trang phục dân tộc lấy cảm hứng từ tranh Đông Hồ tại Miss International 2026.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/9015477221221390445288130291778574479707976119n-17950438376791587843936-172-0-1025-1365-crop-17950489554181364555620.jpg",
-  "vn": 0.7,
-  "hot": 1.89
- },
- {
-  "title": "Cựu thành viên WINNER lãnh án tù vì lái xe khi say rượu, bị bắt ngay tại phiên tòa",
-  "link": "https://tuoitre.vn/cuu-thanh-vien-winner-lanh-an-tu-vi-lai-xe-khi-say-ruou-bi-bat-ngay-tai-phien-toa-10026111910550155.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676131+00:00",
-  "summary": "Vụ việc liên quan đến hành vi lái xe khi say rượu, vi phạm giới hạn tốc độ trong thời gian nam ca sĩ Nam Tae Hyun của WINNER đang hưởng án treo vì tội mua và sử dụng ma túy.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/edit-nam-tae-hyun-17950596701411293486733-14-60-413-698-crop-1795061375281838810680.jpeg",
-  "vn": 0.03,
-  "hot": 2.94
- },
- {
-  "title": "Hoàng Thùy Linh ra MV hưởng ứng Ngày Văn hóa Việt Nam",
-  "link": "https://tuoitre.vn/hoang-thuy-linh-ra-mv-huong-ung-ngay-van-hoa-viet-nam-100261119110107742.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676120+00:00",
-  "summary": "Với Vô lượng kiếp, Hoàng Thùy Linh muốn góp tiếng nói nghệ thuật vào tinh thần tôn vinh văn hóa, gắn kết cộng đồng và tình yêu quê hương dịp Ngày hội Đại đoàn kết toàn dân tộc 18-11 và Ngày Văn hóa Việt Nam 24-11.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/thuy-linh-17950660860711882604007-647-0-1647-1600-crop-1795066125236805311528.jpg",
+  "published": "2026-11-23T08:57:04.805079+00:00",
+  "summary": "Hoà Minzy vướng nghi vấn có tin vui khi mặc trang phục rộng xuất hiện bên Mỹ Tâm.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/anh-man-hinh-2026-11-23-luc-003101-17953999159791446024643-0-20-616-1005-crop-17953999219021012758690.png",
   "vn": 0.99,
-  "hot": 2.1
+  "hot": 2.92
  },
  {
-  "title": "Bạn đọc đề nghị siết nhạc rác trên mạng, lo trẻ em bị ảnh hưởng",
-  "link": "https://tuoitre.vn/ban-doc-de-nghi-siet-nhac-rac-tren-mang-lo-tre-em-bi-anh-huong-10026111816341907.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676112+00:00",
-  "summary": "Nhạc rác trên mạng xã hội khiến nhiều bạn đọc lo ngại, đề nghị siết trách nhiệm nền tảng, bảo vệ trẻ em và nâng cao ý thức tiếp nhận âm nhạc.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/18/minhhoanhacrac-179499420240738191599-0-59-941-1564-crop-17949942313242118159204.png",
-  "vn": 0.51,
-  "hot": 0.87
- },
- {
-  "title": "Công bố dự án phim Tuyên ngôn độc lập",
-  "link": "https://tuoitre.vn/cong-bo-du-an-phim-tuyen-ngon-doc-lap-100261119184645489.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676104+00:00",
-  "summary": "Phim Tuyên ngôn độc lập dự kiến bấm máy ngày 24-11, và phát hành dịp Quốc khánh năm 2027.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/blank-2-grids-collage-11-17950890542131046931564-168-0-1418-2000-crop-1795089075100168697711.jpg",
+  "title": "Điều gây chú ý về mối quan hệ giữa Tóc Tiên và Trần Ngọc Vàng",
+  "link": "https://kenh14.vn/dieu-gay-chu-y-ve-moi-quan-he-giua-toc-tien-va-tran-ngoc-vang-215261122173529384.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.805066+00:00",
+  "summary": "Đến nay, mối quan hệ giữa Tóc Tiên và Trần Ngọc Vàng vẫn là chủ đề khiến cư dân mạng quan tâm.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/avatar1795399992976-17953999936161928382327-0-50-419-720-crop-1795400026030150494143.jpeg",
   "vn": 0.97,
+  "hot": 2.62
+ },
+ {
+  "title": "Sắc vóc mẹ 2 con của Hoa hậu Đỗ Mỹ Linh",
+  "link": "https://kenh14.vn/sac-voc-me-2-con-cua-hoa-hau-do-my-linh-21526112309443954.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.805053+00:00",
+  "summary": "Hoa hậu Đỗ Mỹ Linh ngày càng nhuận sắc hậu sinh con.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/avatar1795401789355-17954017926211256928523.jpg",
+  "vn": 0.99,
+  "hot": 2.42
+ },
+ {
+  "title": "Sao nữ truyền hình thực tế vừa qua đời đột ngột ở tuổi 35 ngay trước ngày sinh nhật",
+  "link": "https://kenh14.vn/sao-nu-truyen-hinh-thuc-te-vua-qua-doi-dot-ngot-o-tuoi-35-ngay-truoc-ngay-sinh-nhat-215261123100910578.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.805040+00:00",
+  "summary": "Người thân vừa tiết lộ thông tin đầu tiên liên quan tới tang lễ của sao nữ xấu số.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/pi1-17954032495951402091555-0-0-420-672-crop-1795403262461615872658.jpg",
+  "vn": 0.76,
+  "hot": 3.02
+ },
+ {
+  "title": "Cặp ca sĩ - diễn viên Vbiz lệch 2 tuổi vừa lộ hint hẹn hò ở Đà Lạt",
+  "link": "https://kenh14.vn/cap-ca-si-dien-vien-vbiz-lech-2-tuoi-vua-lo-hint-hen-ho-o-da-lat-215261123103011588.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.805027+00:00",
+  "summary": "Cư dân mạng chắc mẩm chuyện tình cảm của cả hai khi hint du lịch chung rõ mồn một thế này.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/avatar1795404426219-17954044268671750664311.jpg",
+  "vn": 0.98,
+  "hot": 2.73
+ },
+ {
+  "title": "Công bố ảnh cưới \"nghệ cả củ\" của Miley Cyrus và chồng trẻ kém 6 tuổi: Cô dâu - chú rể trao nụ hôn ngọt ngào muốn \"lụi tim\"",
+  "link": "https://kenh14.vn/cong-bo-anh-cuoi-nghe-ca-cu-cua-miley-cyrus-va-chong-tre-kem-6-tuoi-co-dau-chu-re-trao-nu-hon-ngot-ngao-muon-lui-tim-215261123102959105.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.805014+00:00",
+  "summary": "Miley Cyrus đã có 1 ngày cưới lãng mạn, hạnh phúc vào hôm qua (22/11).",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/avatar1795404458224-1795404461130974538866-0-0-400-640-crop-17954045323271111501656.jpg",
+  "vn": 0.02,
+  "hot": 3.65
+ },
+ {
+  "title": "Nguyên nhân Kim Tae Hee mắng Bi Rain té tát",
+  "link": "https://kenh14.vn/nguyen-nhan-kim-tae-hee-mang-bi-rain-te-tat-215261123114539869.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.804999+00:00",
+  "summary": "Hôn nhân của Kim Tae Hee - Bi Rain được chính người trong cuộc hé lộ.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/kim21-17954090553472127248034-14-0-567-885-crop-17954090646371845917028.png",
+  "vn": 0.02,
+  "hot": 3.29
+ },
+ {
+  "title": "Rầm rộ vụ cặp đôi vàng showbiz sụp đổ vì clip ngoại tình trong bar, trước giờ toàn diễn sâu hòng qua mắt thiên hạ",
+  "link": "https://kenh14.vn/ram-ro-vu-cap-doi-vang-showbiz-sup-do-vi-clip-ngoai-tinh-trong-bar-truoc-gio-toan-dien-sau-hong-qua-mat-thien-ha-215261123105552592.chn",
+  "source": "Kenh14",
+  "published": "2026-11-23T08:57:04.804986+00:00",
+  "summary": "Công chúng lùng sục danh tính người phụ nữ nghi xen vào giữa cặp đôi vàng và đã phải há hốc mồm.",
+  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/23/nt6-11-17954060649501415749711-3-0-378-600-crop-17954060726021511841069.jpg",
+  "vn": 0.84,
+  "hot": 3.4
+ },
+ {
+  "title": "Còn 5 ngày đề cử giải Mai Vàng 2026: Hồng Ánh, Minh Luân, Quốc Thịnh 'vô' đường đua",
+  "link": "https://tuoitre.vn/con-5-ngay-de-cu-giai-mai-vang-2026-hong-anh-minh-luan-quoc-thinh-vo-duong-dua-100261120054713902.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618126+00:00",
+  "summary": "Sau 6 tuần đề cử, giải Mai Vàng lần thứ 32 năm 2026 ghi nhận nhiều thay đổi đáng chú ý ở các hạng mục, nhiều gương mặt mới xuất hiện như Hồng Ánh, Minh Luân, Quốc Thịnh...",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/base64-17315745528882080198443-17951275933561677627503-15-313-824-1607-crop-1795128301529132151411.jpeg",
+  "vn": 0.99,
+  "hot": 2.3
+ },
+ {
+  "title": "Dune 3 và Avengers: Doomsday độc chiếm phòng vé mùa Giáng sinh?",
+  "link": "https://tuoitre.vn/dune-3-va-avengers-doomsday-doc-chem-phong-ve-mua-giang-sinh-100261119220231315.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618117+00:00",
+  "summary": "Với màn ra mắt cùng ngày của hai bom tấn Dune 3 và Avengers: Doomsday, phòng vé Bắc Mỹ mùa Giáng sinh 2026 được dự báo chứng kiến cuộc cạnh tranh khốc liệt.",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/179509948405511196118920057808651362466911672921405f953a0c6d0fb87c33f6ea9ccd18d116-1795099493929501593976-0-149-900-1589-crop-1795100590739380840401.jpg",
+  "vn": 0.02,
+  "hot": 3.18
+ },
+ {
+  "title": "Erik, Văn Mai Hương, Châu Bùi và Minh Trang của Sao nhập ngũ lập tổ dân vận trên đảo Trường Sa",
+  "link": "https://tuoitre.vn/erik-van-mai-huong-chau-bui-va-minh-trang-cua-sao-nhap-ngu-lap-to-dan-van-tren-dao-truong-sa-10026112001111886.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618107+00:00",
+  "summary": "Không tập trung quá nhiều vào màn huấn luyện khắc nghiệt trên thao trường, tập 15 Sao nhập ngũ kể những câu chuyện về tình quân dân, cuộc sống của ngư dân và người dân nơi đảo Trường Sa.",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/6d186e05-68d9-4b6d-b057-5f6de250d53a-17951338858571646610812-0-0-1280-2048-crop-1795134620502813450529.jpg",
+  "vn": 0.97,
+  "hot": 2.4
+ },
+ {
+  "title": "Không cần cao, không cần chuẩn vóc dáng vẫn làm người mẫu tại 1m58 Fashion Show",
+  "link": "https://tuoitre.vn/khong-can-cao-khong-can-chuan-voc-dang-van-lam-nguoi-mau-tai-1m58-fashion-show-100261120070535776.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618097+00:00",
+  "summary": "Không giới hạn chiều cao, tuổi tác, giới tính hay hình thể, 1m58 Fashion Show tạo sân chơi dành cho những người yêu thời trang, mong muốn được sải bước trên sàn diễn chuyên nghiệp vì những rào cản ngoại hình.",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/fennteam0043-1795132338480830915992-192-0-1792-2560-crop-17951329528921072672649.jpeg",
+  "vn": 0.75,
+  "hot": 0.56
+ },
+ {
+  "title": "Khen, chê dàn cast Xin chào thứ Bảy: Có Trấn Thành, Ninh Dương Lan Ngọc, Tiến Luật và Tiểu Vy",
+  "link": "https://tuoitre.vn/khen-che-dan-cast-xin-chao-thu-bay-co-tran-thanh-ninh-duong-lan-ngoc-tien-luat-va-tieu-vy-100261120091017249.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618088+00:00",
+  "summary": "Trên fanpage Xin chào thứ Bảy giới thiệu thêm 7 thành viên mới của Khu phố thứ Bảy với những cá tính và màu sắc riêng. Trước đó, Trấn Thành được công bố đầu tiên.",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/tran-thanh-17951402630431652816037-151-0-1111-1536-crop-17951403221632118573965.jpg",
+  "vn": 0.99,
+  "hot": 2.14
+ },
+ {
+  "title": "Taylor Swift biến CMA Awards thành cuộc hội ngộ những người bạn cũ",
+  "link": "https://tuoitre.vn/taylor-swift-bien-cma-awards-thanh-cuoc-hoi-ngo-nhung-nguoi-ban-cu-100261120091218356.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618079+00:00",
+  "summary": "Taylor Swift có màn tái xuất sân khấu CMA Awards sau 13 năm bằng tiết mục đậm màu sắc nhạc đồng quê, gợi nhắc hành trình khởi đầu sự nghiệp.",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/gettyimages-2305801120-1795140035761577802791-31-621-610-1547-crop-1795140581356644978362.jpg",
+  "vn": 0.01,
+  "hot": 2.81
+ },
+ {
+  "title": "Đóng vai Long Đầu Bò, Lương Thế Thành bị cả nhà 'xa lánh'",
+  "link": "https://tuoitre.vn/dong-vai-long-dau-bo-luong-the-thanh-bi-ca-nha-xa-lanh-100261120085418724.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618069+00:00",
+  "summary": "Xem Trại giam hạnh phúc, khán giả sợ hãi nhân vật Long Đầu Bò do diễn viên Lương Thế Thành thủ vai: đầu cạo trọc, sẹo chăng đầy mặt, hình xăm rải khắp cả người. Và ác cũng chưa từng có!",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/tghpfirstlooksocial-17823219275981035733623-296-0-1546-2000-crop-1795154979257233531167.jpg",
+  "vn": 0.98,
+  "hot": 2.5
+ },
+ {
+  "title": "Jennie BlackPink là nghệ sĩ Hàn Quốc duy nhất góp mặt trong album GTA 6",
+  "link": "https://tuoitre.vn/jennie-blackpink-la-nghe-si-han-quoc-duy-nhat-gop-mat-trong-album-gta-6-100261120133142147.htm",
+  "source": "Tuổi Trẻ",
+  "published": "2026-11-23T08:57:03.618060+00:00",
+  "summary": "Jennie BlackPink xuất hiện trong album của bom tấn game GTA 6 với ca khúc 'Power Trip', bên cạnh nhiều nghệ sĩ quốc tế thuộc các dòng nhạc pop, hip-hop...",
+  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/20/jennie-1795158473601538815019-0-46-446-759-crop-17951585094641232935506.png",
+  "vn": 0.02,
+  "hot": 2.92
+ },
+ {
+  "title": "Võ Hạ Trâm quyết định 'chơi lớn', lột xác sau 20 năm làm nghề",
+  "link": "https://thanhnien.vn/vo-ha-tram-quyet-dinh-choi-lon-lot-xac-sau-20-nam-lam-nghe-185261123141200816.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T08:56:00+00:00",
+  "summary": "Vốn gắn với hình ảnh nền nã trong tà áo dài và những sân khấu âm nhạc chính luận, Võ Hạ Trâm bất ngờ xuất hiện với hình ảnh mới, gợi cảm và phóng khoáng khi giới thiệu album 'Cánh chim tự do'.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/294-1-1795417572351587190557-0-0-1600-2560-crop-17954175859901201650036.jpeg",
+  "vn": 0.99,
+  "hot": 2.21
+ },
+ {
+  "title": "Đông Đào ra sao sau 40 năm theo đuổi nhạc trữ tình quê hương, bolero?",
+  "link": "https://thanhnien.vn/dong-dao-ra-sao-sau-40-nam-theo-duoi-nhac-tru-tinh-que-huong-bolero-185261123140951852.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T08:51:00+00:00",
+  "summary": "Ca sĩ Đông Đào đảm nhận vai trò giám khảo của 'Ẩn số tỏa sáng'. Trong hậu trường, cô có những trải lòng về chặng đường 40 năm theo đuổi đam mê ca hát của mình.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/cs-dong-dao-13-17954174225881430211910-303-0-1503-1920-crop-1795417748066899636919.jpg",
+  "vn": 0.98,
+  "hot": 1.94
+ },
+ {
+  "title": "Bí thư Thành ủy Quảng Ninh: Đưa văn hóa thành nguồn lực nội sinh mạnh mẽ",
+  "link": "https://vietnamnet.vn/bi-thu-thanh-uy-quang-ninh-dua-van-hoa-thanh-nguon-luc-noi-sinh-2577793.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T08:16:43+00:00",
+  "summary": "Ông Quản Minh Cường, Bí thư Thành ủy Quảng Ninh có những chia sẻ về định hướng, giải pháp đưa văn hóa trở thành nguồn lực nội sinh, động lực phát triển.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/bi-thu-thanh-uy-quang-ninh-dua-van-hoa-thanh-nguon-luc-noi-sinh-manh-me-1577.jpeg?width=0&s=SocYM1smu0Zbn3R9pZOXjA",
+  "vn": 0.02,
+  "hot": 0.01
+ },
+ {
+  "title": "MC Nguyên Khang dẫn concert quốc gia mừng Ngày Văn hóa Việt Nam",
+  "link": "https://dantri.com.vn/giai-tri/mc-nguyen-khang-dan-concert-quoc-gia-mung-ngay-van-hoa-viet-nam-20261121224516554.htm",
+  "source": "Dân Trí",
+  "published": "2026-11-23T08:00:35+00:00",
+  "summary": "(Dân trí) - MC Nguyên Khang cho biết sẽ mặc 3 bộ áo dài khi dẫn chương trình nghệ thuật \"Muôn sắc Việt Nam\" tối 24/11 ở sân vận động Mỹ Đình (Hà Nội).",
+  "image": "https://cdnphoto.dantri.com.vn/KhbtPaaYecgCH4ARFcEVPM-toWY=/2026/11/23/nguyen-khang-cropped-1795420088261.jpg",
+  "vn": 0.97,
+  "hot": 1.79
+ },
+ {
+  "title": "'Mẹ Mìn' hủy lịch chiếu để né 'Trại giam hạnh phúc'?",
+  "link": "https://znews.vn/me-min-huy-lich-chieu-de-ne-trai-giam-hanh-phuc-post1698433.html",
+  "source": "Znews",
+  "published": "2026-11-23T07:57:26+00:00",
+  "summary": "Bộ phim \"Mẹ Mìn\" có Nhật Kim Anh, Minh Hằng bất ngờ thông báo dời lịch chiếu lần thứ 2.",
+  "image": "https://photo.znews.vn/w660/Uploaded/wpdhnwhnw/2026_11_23/726295061_1606706660787527_8427404537718918760_n_1.jpeg",
+  "vn": 0.99,
+  "hot": 2.49
+ },
+ {
+  "title": "Quảng Ninh: Lan tỏa sắc màu văn hóa, kết nối cộng đồng",
+  "link": "https://vietnamnet.vn/quang-ninh-lan-toa-sac-mau-van-hoa-ket-noi-cong-dong-2577827.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T07:45:19+00:00",
+  "summary": "Chuỗi hoạt động văn hóa, nghệ thuật, thể thao và du lịch tại Quảng Ninh góp phần củng cố khối đại đoàn kết, phát huy giá trị di sản và quảng bá hình ảnh địa phương.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/quang-ninh-lan-toa-sac-mau-van-hoa-ket-noi-cong-dong-1441.jpeg?width=0&s=3LbkCEGDFH9Dm7aq7-YWaQ",
+  "vn": 0.1,
+  "hot": 0.01
+ },
+ {
+  "title": "Hải Phòng cam kết đồng hành, tạo điều kiện thu hút các dự án điện ảnh",
+  "link": "https://vietnamnet.vn/hai-phong-cam-ket-dong-hanh-tao-dieu-kien-thu-hut-cac-du-an-dien-anh-2577822.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T07:45:00+00:00",
+  "summary": "Với 5 nhóm cam kết hỗ trợ, Hải Phòng từng bước xây dựng môi trường sản xuất phim thuận lợi, chuyên nghiệp, hướng tới trở thành điểm đến hấp dẫn của các nhà làm phim trong nước và quốc tế.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/hai-phong-cam-ket-dong-hanh-tao-dieu-kien-thu-hut-cac-du-an-dien-anh-1290.jpg?width=0&s=DlO4k0r0_OyrJVfs1MfOag",
+  "vn": 0.68,
+  "hot": 0.26
+ },
+ {
+  "title": "Khởi My và Kelvin Khánh sau 9 năm kết hôn",
+  "link": "https://znews.vn/khoi-my-va-kelvin-khanh-sau-9-nam-ket-hon-post1698439.html",
+  "source": "Znews",
+  "published": "2026-11-23T07:44:15+00:00",
+  "summary": "Trong 9 năm kể từ khi kết hôn, Khởi My và Kelvin Khánh sống kín tiếng. Họ gần như không tham gia các sự kiện giải trí.",
+  "image": "https://photo.znews.vn/w660/Uploaded/qfssu/2026_11_23/khoi_my_kelvin_khanh_1.jpg",
+  "vn": 0.96,
+  "hot": 2.22
+ },
+ {
+  "title": "Từng vướng tranh chấp bạc tỷ, “tiên nữ đồng quê” Lý Tử Thất giờ thế nào?",
+  "link": "https://dantri.com.vn/giai-tri/tung-vuong-tranh-chap-bac-ty-tien-nu-dong-que-ly-tu-that-gio-the-nao-20261123104357836.htm",
+  "source": "Dân Trí",
+  "published": "2026-11-23T07:17:36+00:00",
+  "summary": "(Dân trí) - Sau cuộc chiến pháp lý kéo dài với công ty quản lý cũ để giành lại quyền kiểm soát thương hiệu, “tiên nữ đồng quê” Lý Tử Thất có bước chuyển đáng chú ý trong sự nghiệp.",
+  "image": "https://cdnphoto.dantri.com.vn/wHz_HT1NcLLGvwUxxiBsVlur5ao=/2023/01/01/ly-tu-that-5-1672537748620.jpg",
+  "vn": 0.47,
+  "hot": 2.77
+ },
+ {
+  "title": "Chiêm ngưỡng trống đồng Đông Sơn hồi hương từ Pháp tại Bảo tàng Lịch sử Quốc gia",
+  "link": "https://vietnamnet.vn/chiem-nguong-trong-dong-dong-son-hoi-huong-tu-phap-2577788.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T07:17:16+00:00",
+  "summary": "TS. Nguyễn Văn Đoàn - Giám đốc Bảo tàng Lịch sử Quốc gia - cho biết chiếc trống đồng Đông Sơn được công bố lần này có hành trình hồi hương đặc biệt kéo dài hơn 1 thập kỷ.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/chiem-nguong-trong-dong-dong-son-hoi-huong-tu-phap-tai-bao-tang-lich-su-quoc-gia-1297.jpg?width=0&s=XGd5oyZcRMIKDZXYO_0iPg",
+  "vn": 0.01,
+  "hot": 0.01
+ },
+ {
+  "title": "Nhan sắc nổi bật của cô gái xinh đẹp được lòng khán giả nhất Sao Mai 2026",
+  "link": "https://vietnamnet.vn/nhan-sac-noi-bat-cua-co-gai-duoc-long-khan-gia-nhat-sao-mai-2026-2577796.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T07:04:34+00:00",
+  "summary": "Tại liveshow chung kết và trao giải Sao Mai 2026, Đoàn Linh được chú ý khi giành giải Khán giả bình chọn và giải Phong cách.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/nhan-sac-noi-bat-cua-co-gai-xinh-dep-duoc-long-khan-gia-nhat-sao-mai-2026-1206.jpeg?width=0&s=hywbQHEt0_SpKVteMpmfyg",
+  "vn": 0.99,
+  "hot": 1.99
+ },
+ {
+  "title": "Cục trưởng Xuân Bắc sẽ trở lại với vai Núi trong &apos;Sóng ở đáy sông&apos; phần 2?",
+  "link": "https://vietnamnet.vn/xuan-bac-se-tro-lai-voi-vai-nui-trong-song-o-day-song-phan-2-2577706.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T06:12:26+00:00",
+  "summary": "Đạo diễn Lê Đức Tiến thông tin kịch bản “Sóng ở đáy sông” 2 đã hoàn thành nhưng vẫn chờ sự trở lại của NSND Xuân Bắc trong vai Núi.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/cuc-truong-xuan-bac-se-tro-lai-voi-vai-nui-trong-song-o-day-song-phan-2-308.jpeg?width=0&s=gShODwAgiWPknDfCZzjFAA",
+  "vn": 0.99,
+  "hot": 2.47
+ },
+ {
+  "title": "Tượng Ronaldo cao 7 m ở Thượng Hải",
+  "link": "https://vnexpress.net/tuong-ronaldo-cao-7-m-o-thuong-hai-5147894.html",
+  "source": "VnExpress",
+  "published": "2026-11-23T05:39:21+00:00",
+  "summary": "Bức tượng tái hiện động tác ăn mừng bàn thắng của Ronaldo trong áo số 7 thuộc đội tuyển Bồ Đào Nha được ra mắt ở Trung Quốc.",
+  "image": "https://i1-giaitri.vnecdn.net/2026/11/23/tuong-ronaldo-o-thuong-hai-179-3844-5380-1795416890.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=WMK-DXrvHGjH5qjvRWkOVQ",
+  "vn": 0.02,
+  "hot": 1.37
+ },
+ {
+  "title": "Vụ trống đồng mất tích 32 năm ở Ninh Bình: Căn cứ nào để ghi nhận công lao?",
+  "link": "https://vietnamnet.vn/vu-trong-dong-mat-tich-32-nam-o-ninh-binh-can-cu-nao-de-ghi-nhan-cong-lao-2577645.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T05:38:00+00:00",
+  "summary": "Kết quả giám định đã xác định được chiếc trống đồng do ba trẻ chăn trâu phát hiện cách đây 32 năm. Tuy nhiên, việc ghi nhận công lao và giải quyết quyền lợi cho những người tìm thấy hiện vật cần được xem xét trên cơ sở pháp luật tại từng thời điểm.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/vu-trong-dong-mat-tich-32-nam-o-ninh-binh-can-cu-nao-de-ghi-nhan-cong-lao-88.png?width=0&s=9Lkk_wZhto_rYnLE5IvY2g",
+  "vn": 0.01,
+  "hot": 0.01
+ },
+ {
+  "title": "NSƯT Minh Nhí: Từng bị nói 'không làm nghề được' và mối duyên sang làm thầy giáo",
+  "link": "https://thanhnien.vn/nsut-minh-nhi-tung-bi-noi-khong-lam-nghe-duoc-va-moi-duyen-sang-lam-thay-giao-185261123102647878.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T05:22:00+00:00",
+  "summary": "Trong chương trình 'Trò chuyện với tương lai', NSƯT Minh Nhí có những trải lòng về hành trình nghệ thuật, đồng thời tiết lộ nguyên tắc 'bất di bất dịch' khi rẽ sang làm thầy giáo.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/anh-chup-man-hinh-2026-11-23-luc-101306-1795403856491384218860-0-0-1402-2243-crop-17954043592441164234212.png",
+  "vn": 0.98,
   "hot": 2.0
  },
  {
-  "title": "Chi Pu dự Weibo Gala tại Hong Kong cùng dàn sao châu Á đình đám",
-  "link": "https://tuoitre.vn/chi-pu-du-weibo-gala-tai-hong-kong-cung-dan-sao-chau-a-dinh-dam-100261119201702143.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676096+00:00",
-  "summary": "Chi Pu sẽ góp mặt tại Đêm Giao lưu văn hóa quốc tế Weibo 2026 tại Hong Kong, bên cạnh nhiều nghệ sĩ nổi tiếng như Dương Tử, Bạch Lộc, Mai Davika, Oh Sehun...",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/img4418-17950932694821115682880-6-0-1030-1638-crop-17950940495661664785607.jpg",
-  "vn": 0.76,
-  "hot": 2.44
+  "title": "Bằng Lăng của 'Gái nhảy' hiện tại ra sao",
+  "link": "https://znews.vn/bang-lang-cua-gai-nhay-hien-tai-ra-sao-post1698422.html",
+  "source": "Znews",
+  "published": "2026-11-23T05:06:14+00:00",
+  "summary": "Bằng Lăng từ giã sàn diễn thời trang sau khi kết hôn với ông xã người Đức vào 2007. Những năm qua, cô sống kín tiếng, ít khi xuất hiện.",
+  "image": "https://photo.znews.vn/w660/Uploaded/qfssu/2026_11_23/bang_lang_1_1.jpg",
+  "vn": 0.96,
+  "hot": 1.6
  },
  {
-  "title": "Việt Nam và Hàn Quốc thúc đẩy hợp tác phát triển công nghiệp điện ảnh",
-  "link": "https://tuoitre.vn/viet-nam-va-han-quoc-thuc-day-hop-tac-phat-trien-cong-nghiep-dien-anh-100261119200229361.htm",
-  "source": "Tuổi Trẻ",
-  "published": "2026-11-23T00:13:44.676087+00:00",
-  "summary": "Việt Nam tìm kiếm kinh nghiệm và cơ hội hợp tác với Hàn Quốc nhằm phát triển công nghiệp điện ảnh, từ đào tạo nhân lực, sản xuất phim đến xây dựng hạ tầng và mở rộng thị trường.",
-  "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/19/khuyet-trung-uong-dang-uy-vien-ban-thuong-vu-thanh-uy-pho-chu-tich-ubnd-tphcm-nguyen-manh-cuong-17950948704741739159607-126-41-1098-1596-crop-17950961846961112824592.jpeg",
-  "vn": 0.59,
-  "hot": 0.65
+  "title": "Bằng Lăng tái xuất ở The Face Vietnam",
+  "link": "https://vnexpress.net/bang-lang-tai-xuat-o-the-face-vietnam-5147776.html",
+  "source": "VnExpress",
+  "published": "2026-11-23T05:02:46+00:00",
+  "summary": "Người mẫu Bằng Lăng, gương mặt nổi bật của làng mốt thập niên 2000, góp mặt trên \"ghế nóng\" The Face Vietnam cùng Anh Thư.",
+  "image": "https://i1-giaitri.vnecdn.net/2026/11/23/925174641170774548404182417714-8818-3288-1795393518.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kicKZPARt-QXqiC34hMidA",
+  "vn": 0.99,
+  "hot": 2.17
+ },
+ {
+  "title": "Dàn diễn viên 'Sóng ở đáy sông' sau 26 năm",
+  "link": "https://znews.vn/dan-dien-vien-song-o-day-song-sau-26-nam-post1698419.html",
+  "source": "Znews",
+  "published": "2026-11-23T05:00:48+00:00",
+  "summary": "Xuân Bắc, Kim Oanh cùng các diễn viên \"Sóng ở đáy sông\" có dịp hội ngộ sau 26 năm kể từ khi phim lên sóng. Loạt ảnh mới của dàn nghệ sĩ thu hút sự chú ý.",
+  "image": "https://photo.znews.vn/w660/Uploaded/vrwqcqdjw/2026_11_23/913263888_29272364445719444_3623338691826895133_n_1.jpg",
+  "vn": 0.99,
+  "hot": 2.08
+ },
+ {
+  "title": "'Đấu trường sinh tử' gây sốt",
+  "link": "https://znews.vn/dau-truong-sinh-tu-gay-sot-post1698396.html",
+  "source": "Znews",
+  "published": "2026-11-23T04:20:21+00:00",
+  "summary": "\"Sunrise on the Reaping\" giúp thương hiệu \"The Hunger Games\" hồi sinh mạnh mẽ. Series vượt qua \"Chạng vạng\" để trở thành loạt phim ăn khách nhất lịch sử hãng Lionsgate.",
+  "image": "https://photo.znews.vn/w660/Uploaded/wpdhnwhnw/2026_11_23/Solstice_Final_Trailer_Grab_00004RC_1.jpg",
+  "vn": 0.04,
+  "hot": 3.47
+ },
+ {
+  "title": "Hôm nay đóng cổng bình chọn chung kết Vietnam iContent Awards 2026",
+  "link": "https://vnexpress.net/hom-nay-dong-cong-binh-chon-chung-ket-vietnam-icontent-awards-2026-5145071.html",
+  "source": "VnExpress",
+  "published": "2026-11-23T04:00:00+00:00",
+  "summary": "Cổng bình chọn vòng chung kết Vietnam iContent Awards 2026 đóng lúc 12h ngày 23/11, chuyển sang giai đoạn tổng kết điểm từ hội đồng chuyên môn và lượt vote khán giả.",
+  "image": "https://i1-giaitri.vnecdn.net/2026/11/23/lo-1795402874-4518-1795403485.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=wcGyoI1f-_vyzcEfyKPKGw",
+  "vn": 0.85,
+  "hot": 1.29
+ },
+ {
+  "title": "Ảnh tình tứ của Miley Cyrus và chồng kém 6 tuổi",
+  "link": "https://znews.vn/anh-tinh-tu-cua-miley-cyrus-va-chong-kem-6-tuoi-post1698400.html",
+  "source": "Znews",
+  "published": "2026-11-23T03:51:57+00:00",
+  "summary": "Miley Cyrus vừa tổ chức lễ cưới tại Mỹ với nhạc sĩ Maxx Morando. Hai người vướng tin hẹn hò từ 2021.",
+  "image": "https://photo.znews.vn/w660/Uploaded/qfssu/2026_11_23/miley_Cyrus_1.jpg",
+  "vn": 0.02,
+  "hot": 3.4
+ },
+ {
+  "title": "Cô gái 20 tuổi là quán quân Sao Mai 2026",
+  "link": "https://vnexpress.net/co-gai-20-tuoi-la-quan-quan-sao-mai-2026-5147835.html",
+  "source": "VnExpress",
+  "published": "2026-11-23T03:48:46+00:00",
+  "summary": "Nguyễn Đỗ Khánh An, 20 tuổi, á quân Giọng hát Việt nhí 2019, giành giải nhất Sao Mai trong chung kết tối 22/11.",
+  "image": "https://i1-giaitri.vnecdn.net/2026/11/23/khanh-an-1795400624-5369-1795400725.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=UHOKA7OLsn7Uycj0rs5Z5Q",
+  "vn": 0.99,
+  "hot": 2.15
+ },
+ {
+  "title": "Nghệ thuật có đang chiều khán giả quá mức?",
+  "link": "https://thanhnien.vn/nghe-thuat-co-dang-chieu-khan-gia-qua-muc-185261123093834211.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T03:37:00+00:00",
+  "summary": "Âm nhạc Việt đang bước vào một giai đoạn mà trải nghiệm thưởng thức được đặt ở vị trí ngày càng quan trọng. Khán giả không chỉ muốn nghe nhạc, họ muốn được nhìn thấy, tương tác, kết nối và trở thành một phần của sự kiện.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/ha-anh-tuan-2-1795401139274306782101-42-0-666-999-crop-17954014037261818947172.jpg",
+  "vn": 0.95,
+  "hot": 1.03
+ },
+ {
+  "title": "100 diễn viên điện ảnh vĩ đại nhất mọi thời đại: Biểu tượng gợi cảm dẫn đầu",
+  "link": "https://dantri.com.vn/giai-tri/100-dien-vien-dien-anh-vi-dai-nhat-moi-thoi-dai-bieu-tuong-goi-cam-dan-dau-20261123094100206.htm",
+  "source": "Dân Trí",
+  "published": "2026-11-23T03:36:08+00:00",
+  "summary": "(Dân trí) - Marilyn Monroe đứng đầu danh sách 100 ngôi sao điện ảnh vĩ đại nhất mọi thời đại do Variety công bố. Tuy nhiên, sự vắng mặt của nhiều tên tuổi từng đoạt giải Oscar trong danh sách gây tranh cãi.",
+  "image": "https://cdnphoto.dantri.com.vn/2Lcun3-WaCT23HstgdD4N4CLhK0=/2026/11/23/marilyn-monroenews-cropped-1795400861026.jpg",
+  "vn": 0.02,
+  "hot": 2.33
+ },
+ {
+  "title": "Mối quan hệ giữa Anh Thư và H’Hen Niê sau ồn ào ở 'The Face Vietnam'",
+  "link": "https://thanhnien.vn/moi-quan-he-giua-anh-thu-va-hhen-nie-sau-on-ao-o-the-face-vietnam-18526112309482568.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T03:19:00+00:00",
+  "summary": "Anh Thư loại Hà An của đội Võ Hoàng Yến, đồng thời làm rõ mối quan hệ với H'Hen Niê sau ồn ào... là những diễn biến gây chú ý ở tập 8 'The Face Vietnam'.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/16-hlv-hhen-nie-cung-dan-coi-mo-chu-dong-don-nhan-thien-chi-tu-dan-chi-bang-cai-om-han-gan-1795401482264415904906-0-0-1600-2560-crop-1795402022130673288283.jpg",
+  "vn": 0.99,
+  "hot": 2.93
+ },
+ {
+  "title": "“Sóng ở đáy sông” có phần 2: Đạo diễn chờ NSND Xuân Bắc trở lại",
+  "link": "https://dantri.com.vn/giai-tri/song-o-day-song-co-phan-2-dao-dien-cho-nsnd-xuan-bac-tro-lai-20261123094120464.htm",
+  "source": "Dân Trí",
+  "published": "2026-11-23T03:15:46+00:00",
+  "summary": "(Dân trí) - Bộ phim “Sóng ở đáy sông” phần 2 đang được đạo diễn Lê Đức Tiến ấp ủ thực hiện, ông tiết lộ vẫn chờ NSND Xuân Bắc trở lại trong vai Núi.",
+  "image": "https://cdnphoto.dantri.com.vn/154nXeTuHQ8I6CNWxXcddKdTAD8=/2026/11/23/xuan-bac-cropped-1795401436110.jpg",
+  "vn": 0.99,
+  "hot": 2.13
+ },
+ {
+  "title": "TPHCM khai mạc Ngày hội Đại đoàn kết, dàn nghệ sĩ trình diễn giàu cảm xúc",
+  "link": "https://dantri.com.vn/giai-tri/tphcm-khai-mac-ngay-hoi-dai-doan-ket-dan-nghe-si-trinh-dien-giau-cam-xuc-20261123091700256.htm",
+  "source": "Dân Trí",
+  "published": "2026-11-23T03:03:07+00:00",
+  "summary": "(Dân trí) - TPHCM khai mạc Ngày hội Đại đoàn kết toàn dân tộc - Sắc màu văn hóa Việt với chương trình nghệ thuật quy tụ nhiều nghệ sĩ, mang đến những màn trình diễn ấn tượng, tôn vinh bản sắc văn hóa dân tộc.",
+  "image": "https://cdnphoto.dantri.com.vn/p3r4b_NWxphl8x7zUigr4zT6JJE=/2026/11/23/dsc07318-1795398561545.jpg",
+  "vn": 0.56,
+  "hot": 0.86
+ },
+ {
+  "title": "'Cô gái gen Z' Khánh An giành quán quân 'Sao Mai 2026'",
+  "link": "https://thanhnien.vn/co-gai-gen-z-khanh-an-gianh-quan-quan-sao-mai-2026-18526112308205504.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T02:39:00+00:00",
+  "summary": "Ở tuổi 20, Nguyễn Đỗ Khánh An cho thấy sự tự tin, bản lĩnh khi thể hiện 'Đá trông chồng', giành danh hiệu quán quân 'Sao Mai 2026'.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/ong-nguyen-thanh-lam-tong-giam-doc-dai-truyen-hinh-viet-nam-4giai-nhat-17953963312772085770863-0-0-1600-2560-crop-179539681475755761506.jpg",
+  "vn": 0.99,
+  "hot": 2.33
+ },
+ {
+  "title": "&apos;Xóm nhỏ&apos; tập 22: Duyên xin ở ghép với Trâm, bày mưu phá buổi hẹn của Phong",
+  "link": "https://vietnamnet.vn/xom-nho-tap-22-duyen-muon-o-cung-tram-2577606.html",
+  "source": "Vietnamnet",
+  "published": "2026-11-23T02:37:00+00:00",
+  "summary": "Trong &quot;Xóm nhỏ&quot; tập 22, Duyên không chỉ tìm cách dọn vào ở chung phòng trọ với Trâm để tiện bề theo dõi mà còn ngấm ngầm giở chiêu trò phá đám buổi hẹn hò đầu tiên của em họ và người yêu cũ.",
+  "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/23/xom-nho-tap-22-duyen-xin-o-ghep-voi-tram-bay-muu-pha-buoi-hen-cua-phong-83.gif?width=0&s=piEHkLwd1s9K_bTZxpr-kg",
+  "vn": 0.86,
+  "hot": 1.44
+ },
+ {
+  "title": "Thư Kỳ khóc khi nói về người thay đổi cuộc đời cô",
+  "link": "https://vnexpress.net/thu-ky-khoc-khi-noi-ve-nguoi-thay-doi-cuoc-doi-co-5147806.html",
+  "source": "VnExpress",
+  "published": "2026-11-23T02:26:16+00:00",
+  "summary": "Diễn viên Đài Loan Thư Kỳ, 50 tuổi, nghẹn ngào khi nhắc đến đạo diễn Hầu Hiếu Hiền, cảm tạ ông giúp cô có vị trí ở làng phim.",
+  "image": "https://i1-giaitri.vnecdn.net/2026/11/23/ky7-jpeg-1795399358-9836-1795399766.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=NNfTnnAw65N6wcBdRfx4VQ",
+  "vn": 0.04,
+  "hot": 1.82
+ },
+ {
+  "title": "Quán quân Sao Mai 2026 là con gái, cháu nội của 2 NSND cải lương nổi danh",
+  "link": "https://dantri.com.vn/giai-tri/quan-quan-sao-mai-2026-la-con-gai-chau-noi-cua-2-nsnd-cai-luong-noi-danh-20261123084115071.htm",
+  "source": "Dân Trí",
+  "published": "2026-11-23T02:09:21+00:00",
+  "summary": "(Dân trí) - Nguyễn Đỗ Khánh An vừa giành giải Nhất cuộc thi Sao Mai 2026. Cô là con gái NSND Nguyễn Mạnh Hùng, cháu nội NSND Nguyễn Thanh Tùng - những nghệ sĩ cải lương gạo cội ở miền Bắc.",
+  "image": "https://cdnphoto.dantri.com.vn/xt8ZsJmMJ9X7Ei8c778zH16Lgvc=/2026/11/23/giai-nhat2-cropped-1795396015533.jpg",
+  "vn": 0.99,
+  "hot": 2.43
+ },
+ {
+  "title": "Lương Thế Thành đón tin vui trong sự nghiệp ở tuổi 44",
+  "link": "https://thanhnien.vn/luong-the-thanh-don-tin-vui-trong-su-nghiep-o-tuoi-44-185261123073509305.htm",
+  "source": "Thanh Niên",
+  "published": "2026-11-23T01:11:00+00:00",
+  "summary": "Lương Thế Thành bày tỏ niềm vui khi dự án 'Trại giam hạnh phúc' chạm mốc 100 tỉ đồng chỉ sau 3 ngày khởi chiếu chính thức. Đây là dấu mốc đáng chú ý trong sự nghiệp điện ảnh của nam diễn viên 8X.",
+  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/23/luong-the-thanh-68-17953936229331390080889-162-0-1016-1366-crop-17953940861981652311945.jpg",
+  "vn": 0.99,
+  "hot": 2.84
+ },
+ {
+  "title": "'Lão Nông' - những bữa cơm quê cha nấu",
+  "link": "https://vnexpress.net/lao-nong-nhung-bua-com-que-cha-nau-5147451.html",
+  "source": "VnExpress",
+  "published": "2026-11-23T01:00:00+00:00",
+  "summary": "Bắt đầu từ video ông Nguyễn Văn Phong xuống mương bắt cá gây sốt mạng xã hội, Nguyễn Văn Lưu (Ninh Bình) phát triển kênh \"Lão Nông\", ghi lại cuộc sống bình dị của bố với những công việc thường ngày, bữa cơm gia đình mang đậm hương vị Bắc Bộ.",
+  "image": "https://i1-giaitri.vnecdn.net/2026/11/21/202611171500IMG0438JPG-1795251-4618-3427-1795251925.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=a42XUQvq3mQYbBq04KJPHw",
+  "vn": 0.33,
+  "hot": 1.01
  },
  {
   "title": "Miley Cyrus hàn gắn với cha trong hôn lễ lần hai bên chồng trẻ",
@@ -140,66 +540,6 @@
   "hot": 2.55
  },
  {
-  "title": "Mai Tài Phến đeo nhẫn đặc biệt của Mỹ Tâm",
-  "link": "https://kenh14.vn/mai-tai-phen-deo-nhan-dac-biet-cua-my-tam-215261122195602725.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T20:42:00+00:00",
-  "summary": "Biểu cảm của Mai Tài Phến khi khoe chiếc nhẫn đặc biệt khiến dân tình thích thú \"đẩy thuyền\".",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795351953744-17953519544761566305027.gif",
-  "vn": 0.98,
-  "hot": 2.16
- },
- {
-  "title": "Thúy Diễm tiết lộ chuyện khiến Lương Thế Thành phải ngủ riêng",
-  "link": "https://kenh14.vn/thuy-diem-tiet-lo-chuyen-khien-luong-the-thanh-phai-ngu-rieng-215261122184912749.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T19:47:00+00:00",
-  "summary": "Không chỉ Thuý Diễm mà con trai cũng \"xa lánh\" Lương Thế Thành.",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795347928893-1795347931651841421846.jpg",
-  "vn": 0.97,
-  "hot": 2.95
- },
- {
-  "title": "Giọt nước mắt của Minh Hằng",
-  "link": "https://kenh14.vn/giot-nuoc-mat-cua-minh-hang-215261122180849221.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T18:56:00+00:00",
-  "summary": "Minh Hằng gây sốt MXH vì khoảnh khắc xuất hiện trên sóng truyền hình đẹp như nữ thần.",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795345383771-1795345384659552432537.gif",
-  "vn": 0.96,
-  "hot": 2.49
- },
- {
-  "title": "Mỹ nhân phim giờ vàng VTV nổi tiếng từ năm 8 tuổi, giờ là Trung úy Công an",
-  "link": "https://kenh14.vn/my-nhan-phim-gio-vang-vtv-noi-tieng-tu-nam-8-tuoi-gio-la-trung-uy-cong-an-215261122175429775.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T18:03:00+00:00",
-  "summary": "Từng giành giải \"Nữ diễn viên phụ xuất sắc\" khi còn nhỏ, nữ diễn viên này được khán giả biết đến qua nhiều phim giờ vàng VTV.",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795344496599-17953444979941636386421-0-61-630-1069-crop-17953446520451351309960.jpg",
-  "vn": 0.98,
-  "hot": 1.6
- },
- {
-  "title": "Đời tư kín tiếng của thành viên BIGBANG khóc nghẹn trên sân khấu MAMA",
-  "link": "https://kenh14.vn/doi-tu-kin-tieng-cua-thanh-vien-bigbang-khoc-nghen-tren-san-khau-mama-215261122152001841.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T18:03:00+00:00",
-  "summary": "Khoảnh khắc Taeyang bật khóc, gửi lời cảm ơn tới bà xã Min Hyo Rin và xin lỗi con trai vì lỡ sinh nhật đã thu hút sự chú ý, hé",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795335381710-1795335383236815065418-0-0-750-1200-crop-17953355437031918519772.jpg",
-  "vn": 0.02,
-  "hot": 2.94
- },
- {
-  "title": "Bầu trời Hà Nội rực sáng pháo hoa trong đêm tổng duyệt “concert quốc gia”",
-  "link": "https://dantri.com.vn/giai-tri/bau-troi-ha-noi-ruc-sang-phao-hoa-trong-dem-tong-duyet-concert-quoc-gia-20261122165649616.htm",
-  "source": "Dân Trí",
-  "published": "2026-11-22T18:01:14+00:00",
-  "summary": "(Dân trí) - Pháo hoa kết hợp hỏa thuật kéo dài khoảng 1 phút 20 giây, thắp sáng bầu trời Sân vân động quốc gia Mỹ Đình (Hà Nội), trong đêm tổng duyệt concert “Muôn sắc Việt Nam” tối 22/11.",
-  "image": "https://cdnphoto.dantri.com.vn/jZ8DC26Mlc7NZbTzXjHsWCJ0V5E=/2026/11/22/tongduyetmuonsacvnhanam-58-1795366632204.jpg?watermark=v1",
-  "vn": 0.92,
-  "hot": 1.56
- },
- {
   "title": "'Vũ hội khăn rằn' mừng Ngày Văn hóa Việt Nam",
   "link": "https://vnexpress.net/vu-hoi-khan-ran-mung-ngay-van-hoa-viet-nam-5147746.html",
   "source": "VnExpress",
@@ -210,16 +550,6 @@
   "hot": 1.92
  },
  {
-  "title": "Con gái 5 tuổi nói tiếng Anh như gió của nam thần Running Man và ngọc nữ showbiz lộ diện",
-  "link": "https://kenh14.vn/con-gai-5-tuoi-noi-tieng-anh-nhu-gio-cua-nam-than-running-man-va-ngoc-nu-showbiz-lo-dien-215261122155034566.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T17:18:00+00:00",
-  "summary": "Con gái của nam diễn viên này đang gây sốt trên MXH.",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795337179968-17953371900211039909750-0-0-400-640-crop-1795337330533469951721.gif",
-  "vn": 0.78,
-  "hot": 2.72
- },
- {
   "title": "Nghệ sĩ tổng duyệt concert 'Muôn sắc Việt Nam'",
   "link": "https://vnexpress.net/nghe-si-tong-duyet-concert-muon-sac-viet-nam-5147758.html",
   "source": "VnExpress",
@@ -228,275 +558,5 @@
   "image": "https://i1-giaitri.vnecdn.net/2026/11/22/muo-n-sa-c-Vie-t-Nam-7-1795364506.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xpZ-pYKFYh-rrFTJaqt0vw",
   "vn": 0.99,
   "hot": 2.09
- },
- {
-  "title": "Tòa nhà UBND TPHCM \"khoác áo mới\" qua công nghệ 3D mapping",
-  "link": "https://dantri.com.vn/giai-tri/toa-nha-ubnd-tphcm-khoac-ao-moi-qua-cong-nghe-3d-mapping-20261122212056656.htm",
-  "source": "Dân Trí",
-  "published": "2026-11-22T17:03:01+00:00",
-  "summary": "(Dân trí) - Tối 22/11, trụ sở UBND TPHCM khoác lên diện mạo rực rỡ với màn trình diễn 3D mapping, thu hút đông đảo người dân và du khách theo dõi.",
-  "image": "https://cdnphoto.dantri.com.vn/PsZNBxioL8o0rSiaM5SItYpVyV8=/2026/11/23/untitled-6-1795371123803.jpg",
-  "vn": 0.07,
-  "hot": 0.01
- },
- {
-  "title": "Giá trị căn nhà của Won Bin sau 12 năm",
-  "link": "https://kenh14.vn/gia-tri-can-nha-cua-won-bin-sau-12-nam-215261122162516082.chn",
-  "source": "Kenh14",
-  "published": "2026-11-22T17:03:00+00:00",
-  "summary": "Netizen xứ Hàn cũng không quên \"khều\" Won Bin đóng phim trở lại dù biết là khó.",
-  "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/22/avatar1795339382934-17953393846651861935793-0-10-305-498-crop-1795339433601720136567.gif",
-  "vn": 0.02,
-  "hot": 2.3
- },
- {
-  "title": "Bối cảnh hoàng cung trong phim 'Hoàng hậu cuối cùng'",
-  "link": "https://vnexpress.net/boi-canh-hoang-cung-trong-phim-hoang-hau-cuoi-cung-5147699.html",
-  "source": "VnExpress",
-  "published": "2026-11-22T17:00:00+00:00",
-  "summary": "Đoàn phim \"Hoàng hậu cuối cùng\" (Tăng Thanh Hà đóng chính) tái hiện cuộc sống Nam Phương hoàng hậu và vua Bảo Đại ở bối cảnh Đại nội Huế.",
-  "image": "https://i1-giaitri.vnecdn.net/2026/11/22/boi-canh-hoang-gia-t-1795345201.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MZ6KKfnodRFts4cz2TH6ag",
-  "vn": 0.97,
-  "hot": 2.32
- },
- {
-  "title": "Khu lưu niệm 'vua vọng cổ' Viễn Châu hoạt động",
-  "link": "https://vnexpress.net/khu-luu-niem-vua-vong-co-vien-chau-hoat-dong-5147498.html",
-  "source": "VnExpress",
-  "published": "2026-11-22T17:00:00+00:00",
-  "summary": "Khu lưu niệm \"vua vọng cổ\" Viễn Châu - soạn giả \"Tình anh bán chiếu\" được xây dựng với kinh phí 70 tỷ đồng, đi vào hoạt động ngày 21/11.",
-  "image": "https://i1-vnexpress.vnecdn.net/2026/11/21/KHULUUNIEMVIENCHAU123-17952640-8614-4754-1795264332.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xxbM6X6ZiZWJX5QS9dvLHA",
-  "vn": 0.94,
-  "hot": 1.42
- },
- {
-  "title": "3D Mapping thắp sáng trụ sở UBND TPHCM mừng Ngày Văn hóa Việt Nam",
-  "link": "https://dantri.com.vn/dt360/3d-mapping-thap-sang-tru-so-ubnd-tphcm-mung-ngay-van-hoa-viet-nam-20261122235157363.htm",
-  "source": "Dân Trí",
-  "published": "2026-11-22T16:56:23+00:00",
-  "summary": "(Dân trí) - Công nghệ ánh sáng biến tòa nhà trụ sở UBND TPHCM thành màn trình diễn nghệ thuật sống động, thu hút đông đảo người dân và du khách thưởng thức nhân Ngày Văn hóa Việt Nam.",
-  "image": "https://cdnphoto.dantri.com.vn/PxXfml__t7c23dmpQ2bjb_47mcU=/2026/11/22/sequence022-ezgifcom-video-to-gif-converter-1795366277553.gif",
-  "vn": 0.1,
-  "hot": 0.03
- },
- {
-  "title": "Màn diễu hành tôn vinh sắc màu văn hóa 54 dân tộc giữa trung tâm TPHCM",
-  "link": "https://dantri.com.vn/giai-tri/man-dieu-hanh-ton-vinh-sac-mau-van-hoa-54-dan-toc-giua-trung-tam-tphcm-20261122212023769.htm",
-  "source": "Dân Trí",
-  "published": "2026-11-22T16:52:14+00:00",
-  "summary": "(Dân trí) - Trung tâm TPHCM ngập tràn sắc màu trang phục truyền thống với các hoạt động diễu hành, biểu diễn nghệ thuật và giao lưu văn hóa hướng đến Ngày Văn hóa Việt Nam.",
-  "image": "https://cdnphoto.dantri.com.vn/oAgtglNr_QazfuX1F37Mn26O0v0=/2026/11/22/dsc07155-edited-1795366049288.jpg",
-  "vn": 0.15,
-  "hot": 0.11
- },
- {
-  "title": "Đầm 'Trái tim nở hoa' của Mỹ Tâm tốn hơn 300 giờ thực hiện",
-  "link": "https://vnexpress.net/dam-trai-tim-no-hoa-cua-my-tam-ton-hon-300-gio-thuc-hien-5147706.html",
-  "source": "VnExpress",
-  "published": "2026-11-22T14:47:56+00:00",
-  "summary": "Ca sĩ Mỹ Tâm đặt nhà thiết kế Nguyễn Phúc Tuấn thực hiện trang phục riêng trong nửa tháng cho concert \"See The Light 2\".",
-  "image": "https://i1-giaitri.vnecdn.net/2026/11/22/mytam-1795351664-5582-1795351743.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Yl1qyM1qJgckVBqMH-1eQQ",
-  "vn": 0.99,
-  "hot": 2.25
- },
- {
-  "title": "Phim có Tiến Luật, Lương Thế Thành vượt mốc 100 tỷ đồng",
-  "link": "https://znews.vn/phim-co-tien-luat-luong-the-thanh-vuot-moc-100-ty-dong-post1698334.html",
-  "source": "Znews",
-  "published": "2026-11-22T14:13:45+00:00",
-  "summary": "Bộ phim mới nhất của đạo diễn Trung Lùn vượt mốc 100 tỷ đồng chỉ sau vài ngày chiếu chính thức.",
-  "image": "https://photo.znews.vn/w660/Uploaded/wpdhnwhnw/2026_11_18/suatttt_1.jpeg",
-  "vn": 0.98,
-  "hot": 3.8
- },
- {
-  "title": "Trấn Thành bồi hồi kể kỷ niệm được Ngọc Sơn quan tâm thuở mới vào nghề",
-  "link": "https://thanhnien.vn/tran-thanh-boi-hoi-ke-ky-niem-duoc-ngoc-son-quan-tam-thuo-moi-vao-nghe-185261122164702536.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T13:12:00+00:00",
-  "summary": "Trấn Thành dành nhiều lời trân trọng cho Ngọc Sơn trước khi nam ca sĩ rời 'Ca sĩ mặt nạ'. Nam MC cũng gây chú ý khi nhắc lại những kỷ niệm từ thuở mới vào nghề và khẳng định đàn anh là một trong những ngôi sao có sức hút bền bỉ đặc biệt của làng nhạc Việt.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/pcl04023-1795339913370320738260-0-0-814-1303-crop-1795339936382264720149.jpg",
-  "vn": 0.99,
-  "hot": 2.43
- },
- {
-  "title": "Đạo diễn 'Bò sữa bay': Tôi chấp nhận rủi ro doanh thu",
-  "link": "https://vnexpress.net/dao-dien-bo-sua-bay-toi-chap-nhan-rui-ro-doanh-thu-5145034.html",
-  "source": "VnExpress",
-  "published": "2026-11-22T13:00:00+00:00",
-  "summary": "Nguyễn Phạm Thành Đạt, 24 tuổi, nói chấp nhận rủi ro doanh thu khi pha trộn nhiều thể loại trong phim \"Bò sữa bay\" để tạo trải nghiệm mới cho khán giả.",
-  "image": "https://i1-giaitri.vnecdn.net/2026/11/16/895257680-n-1794823187-1175-1794824122.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d7PC9lDipeYfVKybg-Db1w",
-  "vn": 0.98,
-  "hot": 1.32
- },
- {
-  "title": "Hồ Ngọc Hà làm mới mình sau 12 năm, màn kết hợp với Hà An Huy gây chú ý",
-  "link": "https://dantri.com.vn/giai-tri/ho-ngoc-ha-lam-moi-minh-sau-12-nam-man-ket-hop-voi-ha-an-huy-gay-chu-y-20261122154105527.htm",
-  "source": "Dân Trí",
-  "published": "2026-11-22T12:47:08+00:00",
-  "summary": "(Dân trí) - Sau 12 năm kể từ album “Mối tình xưa”, Hồ Ngọc Hà trở lại với album phòng thu Vol 8 gồm 10 ca khúc mang tinh thần R&B, Soul cùng nhiều thử nghiệm mới trong cách xử lý giọng hát.",
-  "image": "https://cdnphoto.dantri.com.vn/OyaUBjgEOdeQ67GR_MeqoUSNl6Y=/2026/11/22/loi-ong-buom-edited-1795351302116.jpg",
-  "vn": 0.99,
-  "hot": 2.38
- },
- {
-  "title": "Hà Nội, Hải Phòng dẫn đầu cả nước về chỉ số thu hút đoàn làm phim",
-  "link": "https://dantri.com.vn/giai-tri/ha-noi-hai-phong-dan-dau-ca-nuoc-ve-chi-so-thu-hut-doan-lam-phim-20261122181452767.htm",
-  "source": "Dân Trí",
-  "published": "2026-11-22T12:25:28+00:00",
-  "summary": "(Dân trí) - Hà Nội và Hải Phòng được trao cúp Vàng tại lễ tôn vinh 10 địa phương có kết quả nổi bật trong xây dựng môi trường hỗ trợ, thu hút các đoàn làm phim.",
-  "image": "https://cdnphoto.dantri.com.vn/mfJW3ll1KhDlHfOTkB5Yx5GtKfQ=/2026/11/22/ho-guom-cropped-1795345803741.jpg",
-  "vn": 0.69,
-  "hot": 0.29
- },
- {
-  "title": "'Tiên nữ đồng quê' Lý Tử Thất giờ ở đâu?",
-  "link": "https://znews.vn/tien-nu-dong-que-ly-tu-that-gio-o-dau-post1698325.html",
-  "source": "Znews",
-  "published": "2026-11-22T11:57:42+00:00",
-  "summary": "Lý Tử Thất giành chiến thắng trong vụ kiện với công ty quản lý cũ, nhằm lấy lại được thương hiệu của mình. Hiện tại, cô nắm giữ nhiều vị trí trong giới văn hóa.",
-  "image": "https://photo.znews.vn/w660/Uploaded/vrwqcqdjw/2026_11_22/ly_tu_that11_11zon.jpg",
-  "vn": 0.12,
-  "hot": 2.57
- },
- {
-  "title": "Vương Anh Ole đáp trả ý kiến trái chiều",
-  "link": "https://znews.vn/vuong-anh-ole-dap-tra-y-kien-trai-chieu-post1698322.html",
-  "source": "Znews",
-  "published": "2026-11-22T11:51:20+00:00",
-  "summary": "Vương Anh Ole cho biết tin đồn anh chia tay bạn gái cũ vì sự nghiệp và có người thứ 3 là không đúng sự thật. Diễn viên mong cộng đồng mạng ngừng công kích.",
-  "image": "https://photo.znews.vn/w660/Uploaded/qfssu/2026_11_22/vuong_anh_ole_1_1.jpg",
-  "vn": 0.9,
-  "hot": 2.45
- },
- {
-  "title": "'Trại giam hạnh phúc' của Trung Lùn - hài, bi có đủ nhưng còn lỗ hổng",
-  "link": "https://znews.vn/trai-giam-hanh-phuc-cua-trung-lun-hai-bi-co-du-nhung-con-lo-hong-post1698177.html",
-  "source": "Znews",
-  "published": "2026-11-22T11:27:07+00:00",
-  "summary": "Không ngạc nhiên nếu tác phẩm của đạo diễn Trung Lùn được khán giả yêu thích vì \"gia vị\" vừa vặn, sẽ sớm gia nhập CLB phim Việt trăm tỷ năm nay.",
-  "image": "https://photo.znews.vn/w660/Uploaded/rohunaa/2026_11_22/tghp4.jpg",
-  "vn": 0.98,
-  "hot": 2.62
- },
- {
-  "title": "'Nền giáo dục của người giàu'",
-  "link": "https://vnexpress.net/nen-giao-duc-cua-nguoi-giau-5147702.html",
-  "source": "VnExpress",
-  "published": "2026-11-22T11:11:02+00:00",
-  "summary": "Cuốn sách \"Nền giáo dục của người giàu\" chỉ ra sự chủ động, năng lực tự học suốt đời mới là \"đôi cánh\" giúp người trẻ bay xa.",
-  "image": "https://i1-giaitri.vnecdn.net/2026/11/22/biasachnengiaoduccuanguoigiaun-5101-2988-1795344969.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2mP3veXXgyKp06D_U2O5FQ",
-  "vn": 0.02,
-  "hot": 0.06
- },
- {
-  "title": "\"Ngọc nữ\" Vbiz được nam đồng nghiệp ôm trọn vào lòng, bế thẳng vào cánh gà, hóa ra cả hai đã có duyên từ trước",
-  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRkdVUFd1QkRNZU93aG1PRVpvMkNjZ1pCZmZhZFpWaVhOMnNXX2txVW5jaTJPZnp1MDU2ZVhVTGs1amgxLVY3ak11U1VKbmVsRlN4TDg5QnYtb0E2am0xTzhjTzZSZWEtQzlza25BemFzeU1uRFJRNkc4dEVLeVV1SGdRaWhia2x3NnpzeVdQT2VsSHZVaUVxVy1rd25HbVM1OXU4UnZiX29vOUVOdFFTSWZDOW9STnhFQ0FvcFhvLWF6Qkp1MHk1Y3dxamJuMFR4M25JS3dTUno1SEwwT3BB?oc=5",
-  "source": "Eva.vn",
-  "published": "2026-11-22T11:01:00+00:00",
-  "summary": "\"Ngọc nữ\" Vbiz được nam đồng nghiệp ôm trọn vào lòng, bế thẳng vào cánh gà, hóa ra cả hai đã có duyên từ trước Eva.vn",
-  "image": "",
-  "vn": 0.97,
-  "hot": 2.57
- },
- {
-  "title": "Robert Pattinson: 'Tắc kè hoa' thời trang",
-  "link": "https://vnexpress.net/robert-pattinson-tac-ke-hoa-thoi-trang-5145457.html",
-  "source": "VnExpress",
-  "published": "2026-11-22T11:00:00+00:00",
-  "summary": "Robert Pattinson - James Bond thế hệ mới - thu hút với phong cách lãng tử, pha ngẫu hứng và phá cách.",
-  "image": "https://i1-giaitri.vnecdn.net/2026/11/17/robert-pattinson-tac-ke-hoa-thoi-trang-1794891194.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=N0dtfSXuoQ2Mq-D2aKHOcg",
-  "vn": 0.02,
-  "hot": 2.5
- },
- {
-  "title": "Jack xuất hiện ở sự kiện, thông báo làm concert đầu năm 2027",
-  "link": "https://znews.vn/jack-xuat-hien-o-su-kien-thong-bao-lam-concert-dau-nam-2027-post1698294.html",
-  "source": "Znews",
-  "published": "2026-11-22T10:06:18+00:00",
-  "summary": "Chủ nhân hit \"Hồng nhan\" vừa công bố tổ chức concert \"TUẤN TOUR - THE JACK ODYSSEY 2027\", diễn ra vào ngày 15/1/2027.",
-  "image": "https://photo.znews.vn/w660/Uploaded/rohunaa/2026_11_22/920752422_1114348757889499_7998265210139855665_n_1.jpg",
-  "vn": 0.92,
-  "hot": 2.16
- },
- {
-  "title": "Bà Melania Trump 'cảnh báo' con trai về chuyện hẹn hò",
-  "link": "https://thanhnien.vn/ba-melania-trump-canh-bao-con-trai-ve-chuyen-hen-ho-185261122142637512.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T09:47:00+00:00",
-  "summary": "Trong phim tài liệu về mình, bà Melania Trump cho biết sẽ không ngăn cản Barron Trump tham gia chính trị. Đệ nhất phu nhân Mỹ cũng đưa ra lời khuyên cho con trai về chuyện hẹn hò.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/afp202602252263403969v3highrespresidenttrumpdeliversthestateoftheunionaddr-17953314815581610108298-19-738-956-2237-crop-1795331693833212352534.jpg",
-  "vn": 0.02,
-  "hot": 1.75
- },
- {
-  "title": "Britney Spears xin lỗi gia đình sau nhiều năm mâu thuẫn",
-  "link": "https://thanhnien.vn/britney-spears-xin-loi-gia-dinh-sau-nhieu-nam-mau-thuan-185261122132508244.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T09:43:00+00:00",
-  "summary": "Trên Instagram cá nhân, Britney Spears gây bất ngờ khi có lời nhắn gửi đến gia đình sau nhiều năm xa cách vì bất hòa, mâu thuẫn.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/afp20180413945559094v6highres29thannualglaadmediaawardsarrivals-17953281955981960295519-156-0-1690-2456-crop-1795328494629403483763.jpg",
-  "vn": 0.01,
-  "hot": 3.02
- },
- {
-  "title": "Mỹ nhân Vbiz 18 tuổi tự mua 1 lúc 5 căn nhà, tự nhận trẻ, đẹp, có giá: Đỗ thủ khoa, lấy chồng nổi tiếng",
-  "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQb2tiRzlwNGZMSFdkbzJWQUZJZHA3cVNnNEphM3JhSjVST0tySHlKWlZuUmF6RUo5SkM0Ql9PMEx1WVdrLTZFanZmTUNCSW5JNFh0S0E2eGFjUmlJZHRib2hMNG9fS3A1a1NFeEdPZVlZMFBWTXMySEpSY3pfT1I1QUpIY01XYkVUdE5hVWpqdERINjItMFRpU3N0cU8tM2cyc1ZjVFlTSDg4ZzRNR2ctTWFQbnR0Z2RpbDVqLUFmemFpN0ZtRWZZR0FsNGRBYjdNQ2tGbi1B?oc=5",
-  "source": "Kenh14.vn",
-  "published": "2026-11-22T07:39:00+00:00",
-  "summary": "Mỹ nhân Vbiz 18 tuổi tự mua 1 lúc 5 căn nhà, tự nhận trẻ, đẹp, có giá: Đỗ thủ khoa, lấy chồng nổi tiếng Kenh14.vn",
-  "image": "",
-  "vn": 0.9,
-  "hot": 2.38
- },
- {
-  "title": "Vì sao Ngọc Sơn bị loại ở Ca sĩ mặt nạ",
-  "link": "https://znews.vn/vi-sao-ngoc-son-bi-loai-o-ca-si-mat-na-post1698230.html",
-  "source": "Znews",
-  "published": "2026-11-22T07:16:13+00:00",
-  "summary": "Ngọc Sơn dừng chân sau vòng 3 của Ca sĩ mặt nạ. Trong lớp mặt nạ của Thỏ Rabibuum, nam ca sĩ từng khiến Trấn Thành và dàn cố vấn xúc động ở nhiều tiết mục.",
-  "image": "https://photo.znews.vn/w660/Uploaded/wpdhnwhnw/2026_11_22/917175263_1681631306661353_65799548855667241_n_1.jpg",
-  "vn": 0.99,
-  "hot": 2.75
- },
- {
-  "title": "Hailey Bieber hé lộ quãng thời gian ‘bị dọa giết’ sau đính hôn Justin Bieber",
-  "link": "https://thanhnien.vn/hailey-bieber-he-lo-quang-thoi-gian-bi-doa-giet-sau-dinh-hon-justin-bieber-185261122081308163.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T05:36:00+00:00",
-  "summary": "Hailey Bieber cho biết đã phải hứng chịu nhiều lời công kích sau khi đính hôn với Justin Bieber. Sau nhiều năm bị soi xét, cô thấy mình vững vàng hơn, dù những bình luận ác ý vẫn khiến cô tổn thương, Daily Mail đưa tin ngày 21.11.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/anh-2-17953099054671055374709-0-0-1600-2560-crop-179530999988868862394.jpg",
-  "vn": 0.01,
-  "hot": 2.98
- },
- {
-  "title": "Đời tư kín tiếng của 'diễn viên nghìn tỉ' càn quét phòng vé Việt dịp cuối năm",
-  "link": "https://thanhnien.vn/doi-tu-kin-tieng-cua-dien-vien-nghin-ti-can-quet-phong-ve-viet-dip-cuoi-nam-185261122114652772.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T05:30:00+00:00",
-  "summary": "Sau hai phim trăm tỉ vừa chiếu, Steven Nguyễn gây chú ý khi có tới 3 phim mới ra rạp trong tháng 12 tới. Đằng sau sự xuất hiện dày đặc trước khán giả, nam diễn viên luôn giữ đời tư kín tiếng.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/dsc07501-1795321523206659087482-613-272-1443-1600-crop-1795322291019321314044.jpg",
-  "vn": 0.85,
-  "hot": 2.81
- },
- {
-  "title": "‘Yêu thần tượng’ tốn tiền không?",
-  "link": "https://thanhnien.vn/yeu-than-tuong-ton-tien-khong-185261122111725229.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T05:21:00+00:00",
-  "summary": "Đặt ly cà phê đen đang bốc khói xuống bàn, Lê Trinh nói cô đến Đà Lạt lúc 5 giờ sáng 22.11 trên chuyến xe buýt từ TP.HCM khởi hành lúc 12 giờ đêm 21.11.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/179531780544228333865787443925562833386578744392556a9f9b29767db8cb1f68b25f775dffec5-1795320651838739008748-1401-0-2320-1471-crop-17953209145351107081865.jpg",
-  "vn": 0.51,
-  "hot": 0.68
- },
- {
-  "title": "Phim 'Trại giam hạnh phúc' có Tuấn Trần dẫn đầu phòng vé, doanh thu hơn 80 tỉ đồng",
-  "link": "https://thanhnien.vn/phim-trai-giam-hanh-phuc-co-tuan-tran-dan-dau-phong-ve-doanh-thu-hon-80-ti-dong-185261122095627389.htm",
-  "source": "Thanh Niên",
-  "published": "2026-11-22T05:03:00+00:00",
-  "summary": "Phim 'Trại giam hạnh phúc' do Tuấn Trần đóng chính đạt doanh thu hơn 80 tỉ đồng, tạm dẫn đầu phòng vé Việt. Bên cạnh mức độ tăng trưởng doanh thu ấn tượng, tác phẩm của đạo diễn Trung Lùn còn nhận được nhiều chú ý nhờ đề tài nhà tù và diễn xuất của dàn diễn viên.",
-  "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/22/2aoborelamjpafjirv8i50e7vhc5q0sszv2lhcva-1795321154464923028727-140-269-1049-1724-crop-17953220518111218033973.jpeg",
-  "vn": 0.99,
-  "hot": 3.28
  }
 ]
