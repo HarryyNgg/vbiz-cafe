@@ -1,79 +1,97 @@
 {
- "tieu_diem": "Showbiz Việt ghi nhận tin vui khi Chi Pu và Sơn Tùng M-TP lọt danh sách Nhà lãnh đạo tiên phong U35 châu Á - Thái Bình Dương 2026 do APEA bình chọn. Ở mảng giải trí, bộ phim \"Trại giam hạnh phúc\" chính thức cán mốc 200 tỷ đồng doanh thu phòng vé, còn ca sĩ Mỹ Tâm gây chú ý khi thể hiện gần 40 ca khúc tại concert cá nhân. Bên cạnh đó, đông đảo nghệ sĩ như Hòa Minzy, Tóc Tiên, Diệu Nhi đã đồng loạt gửi lời động viên, tiếp sức cho YouTuber Hậu Hoàng khi cô chuyển vào phòng vô khuẩn điều trị bệnh ung thư máu.",
+ "tieu_diem": "Showbiz Việt 36 giờ qua ghi nhận nhiều thông tin thu hút sự chú ý của công chúng. Hậu Hoàng khiến người hâm mộ không khỏi bất ngờ và xúc động khi chia sẻ thông tin đang điều trị căn bệnh ung thư máu. Ở đấu trường nhan sắc quốc tế, đại diện Việt Nam Lê Phương Khánh Như xuất sắc giành vị trí Á hậu 4 tại Miss International 2026. Bên cạnh đó, không khí âm nhạc trong nước vô cùng sôi động với concert quy mô 25.000 khán giả của Mỹ Tâm và màn trở lại của Hoàng Thùy Linh với album mới.",
  "tin_chinh": [
   {
-   "tieu_de": "Lê Phương Khánh Như xuất sắc đoạt Á hậu 4 Miss International 2026",
-   "vi_sao": "Đại diện Việt Nam đã có màn thể hiện ấn tượng tại Nhật Bản để bước chân vào top 5 chung cuộc và mang về danh hiệu Á hậu 4.",
-   "link": "https://vietnamnet.vn/le-phuong-khanh-nhu-doat-a-hau-4-miss-international-2026-2578601.html",
-   "nguon": "Vietnamnet",
-   "anh": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/27/le-phuong-khanh-nhu-doat-a-hau-4-miss-international-2026-1380.jpg?width=0&s=O9yg8LdXb0DTBP69q35M9w"
-  },
-  {
-   "tieu_de": "Hậu Hoàng nhập viện điều trị ung thư máu, dàn sao Việt đồng loạt động viên",
-   "vi_sao": "Nữ TikToker gây xúc động khi chia sẻ về tình trạng sức khỏe hiện tại; các nghệ sĩ như Dương Hoàng Yến đã trực tiếp vào viện thăm và tiếp thêm sức mạnh cho cô.",
-   "link": "https://kenh14.vn/hau-hoang-tiet-lo-tinh-trang-benh-ung-thu-mau-duong-hoang-yen-den-benh-vien-tham-va-dan-sao-dong-loat-dong-vien-215261127073154954.chn",
+   "tieu_de": "Hậu Hoàng chia sẻ thông tin về quá trình điều trị ung thư máu",
+   "vi_sao": "Nữ sáng tạo nội dung nhận được nhiều lời động viên từ đồng nghiệp và khán giả khi đăng tải tâm thư hé lộ tình trạng sức khỏe hiện tại.",
+   "link": "https://kenh14.vn/hau-hoang-chia-se-thong-tin-moi-nhat-ve-tinh-trang-dieu-tri-benh-ung-thu-mau-215261128065609168.chn",
    "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/27/avatar1795739385801-17957393869811492736267.jpg"
+   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/27/89561919416824421199083588949699288159856919n-1795784919146537460955-1795823629901-1795823630612115555797-501-0-1265-1222-crop-17958237382201927204588.jpg"
   },
   {
-   "tieu_de": "Sơn Tùng M-TP và Chi Pu được vinh danh trong danh sách Nhà lãnh đạo tiên phong U35",
-   "vi_sao": "Hai nghệ sĩ Việt vinh dự góp mặt trong bảng xếp hạng khu vực châu Á - Thái Bình Dương 2026 do APEA bình chọn ở lĩnh vực âm nhạc và điện ảnh, truyền hình.",
-   "link": "https://tuoitre.vn/chi-pu-son-tung-vao-danh-sach-nha-lanh-dao-tien-phong-u35-do-apea-binh-chon-100261123195952573.htm",
+   "tieu_de": "Lê Phương Khánh Như giành danh hiệu Á hậu 4 Miss International 2026",
+   "vi_sao": "Đại diện Việt Nam ghi điểm tại Nhật Bản nhờ khả năng giao tiếp tiếng Anh tự tin, phong thái ứng xử tinh tế cùng 6 tháng chuẩn bị kỹ lưỡng.",
+   "link": "https://tuoitre.vn/le-phuong-khanh-nhu-la-a-hau-4-moldova-dang-quang-hoa-hau-quoc-te-2026-100261125183528469.htm",
    "nguon": "Tuổi Trẻ",
-   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/23/chipu-st-1795439726140875405162-3-0-1003-1600-crop-17954397410691016117446.jpg"
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/25/9320579661221406287448130292113033851343189145n-179560612126638605330-106-370-902-1644-crop-17956113638221593312944-27-115-699-1190-crop-17956113837451700943993.jpeg"
   },
   {
-   "tieu_de": "Trấn Thành vắng mặt tại sự kiện Running Man Vietnam vì đi Mỹ mưu sinh",
-   "vi_sao": "Nam MC gửi lời nhắn đến dàn cast và khán giả thông cảm cho sự vắng mặt của mình trong buổi ra mắt tập đặc biệt phát hành tại rạp.",
-   "link": "https://kenh14.vn/tran-thanh-ca-nha-running-man-vietnam-thong-cam-nha-toi-phai-di-muu-sinh-ben-my-215261127140523959.chn",
-   "nguon": "Kenh14",
-   "anh": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/27/avatar1795762928299-179576292921376225832.png"
-  },
-  {
-   "tieu_de": "Quân A.P lần đầu công khai dắt tay bạn gái Lê Khanh lên thảm đỏ",
-   "vi_sao": "Cặp đôi thu hút sự chú ý truyền thông khi cùng nhau xuất hiện tình cảm tại sự kiện ra mắt phim Running Man Vietnam 2026.",
-   "link": "https://vnexpress.net/quan-a-p-lan-dau-dan-ban-gai-le-khanh-len-tham-do-5149460.html",
-   "nguon": "VnExpress",
-   "anh": "https://vcdn1-giaitri.vnecdn.net/2026/11/27/QuanAPLeKhanh1-1795748727-1947-1795749870.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fzfX5q4ExLLfDFEXZJHeTA"
-  },
-  {
-   "tieu_de": "Mỹ Tâm gây sốt cõi mạng khi hát live liên tục 40 ca khúc",
-   "vi_sao": "Nữ ca sĩ tiếp tục chứng tỏ đẳng cấp và sức bền làm chủ sân khấu ấn tượng trước 25.000 khán giả trong concert See The Light Day 2.",
+   "tieu_de": "Mỹ Tâm gây bão mạng xã hội khi hát live 40 bài trong 4 tiếng",
+   "vi_sao": "Đêm concert See The Light Day 2 chứng minh sức bền đáng kinh ngạc và khả năng làm chủ sân khấu đỉnh cao của nữ ca sĩ trước 25.000 khán giả.",
    "link": "https://tuoitre.vn/hat-live-40-bai-va-suc-anh-huong-cua-my-tam-tren-khap-coi-mang-10026112400364557.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/24/danl6615-1795453861718188120261-258-551-1290-2202-crop-1795479289256901365890.jpg"
   },
   {
-   "tieu_de": "Hoàng Thùy Linh tái xuất với album phòng thu thứ 5 mang tên 'Thùy'",
-   "vi_sao": "Sau 3 năm vắng bóng, nữ ca sĩ khiến khán giả bất ngờ khi hoàn thiện 11 ca khúc mới chỉ trong vòng 3 tháng ngắn ngủi.",
+   "tieu_de": "Hoàng Thùy Linh chính thức ra mắt album phòng thu thứ 5 mang tên 'Thùy'",
+   "vi_sao": "Trở lại sau 3 năm vắng bóng, nữ ca sĩ khiến đồng nghiệp bất ngờ khi hoàn thành 11 ca khúc trong album chỉ trong vòng 3 tháng làm việc liên tục.",
    "link": "https://tuoitre.vn/3-thang-cho-11-bai-trong-album-suc-lam-viec-cua-hoang-thuy-linh-that-kinh-khung-100261126182333452.htm",
    "nguon": "Tuổi Trẻ",
    "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/26/htl-va-den-vau-17957000359461455113711-0-0-1279-2047-crop-1795701404593918303565.jpeg"
+  },
+  {
+   "tieu_de": "Giải Mai Vàng 2026 lập kỷ lục với hơn 134.000 phiếu đề cử",
+   "vi_sao": "Số lượng phiếu bầu kỷ lục cho thấy sự quan tâm lớn từ khán giả, đồng thời ban tổ chức thông báo chuyển địa điểm trao giải sang Nhà hát Hòa Bình.",
+   "link": "https://tuoitre.vn/giai-mai-vang-2026-pha-ky-luc-voi-hon-134000-phieu-de-cu-100261127163951066.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/27/e-hiep-nghe-si-kim-xuan-dao-dien-nhat-trung-nghe-si-hanh-thuy-tin-nguyen-tham-gia-giao-luu-anh-btc-1795772130143866727-391-126-1407-1752-crop-17957721528812098513861.jpeg"
+  },
+  {
+   "tieu_de": "Hai thiết kế của Đỗ Mạnh Cường trong 'Emily in Paris' vào bảo tàng Mỹ",
+   "vi_sao": "Hai trang phục từng xuất hiện trong series phim nổi tiếng đã chính thức được chọn trưng bày tại Bảo tàng SCAD FASH ở Mỹ.",
+   "link": "https://tuoitre.vn/hai-thiet-ke-cua-do-manh-cuong-trong-phim-emily-in-paris-vao-bao-tang-my-100261128062117389.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/27/hinh-5-17958209926921081720320-14-50-607-999-crop-1795821513732908516210.jpeg"
+  },
+  {
+   "tieu_de": "Dàn sao 21 anh trai, em xinh 'Say Hi' đổ bộ Mỹ chuẩn bị concert",
+   "vi_sao": "Các nghệ sĩ thuộc 'Vũ trụ Say Hi' đã có mặt tại Las Vegas để chuẩn bị cho đêm diễn phục vụ cộng đồng khán giả hải ngoại.",
+   "link": "https://thanhnien.vn/21-anh-trai-em-xinh-say-hi-do-bo-my-185261127214449156.htm",
+   "nguon": "Thanh Niên",
+   "anh": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/27/base64-1795796787197776475623-0-0-1600-2560-crop-1795796807239938885584.png"
+  },
+  {
+   "tieu_de": "NSƯT Việt Hoàn thông báo tổ chức concert cá nhân cuối cùng ở tuổi 60",
+   "vi_sao": "Nam ca sĩ quyết định sẽ dừng hoàn toàn việc tự đứng ra tổ chức và quản lý các đêm nhạc riêng sau cột mốc tuổi 60.",
+   "link": "https://tuoitre.vn/nsut-viet-hoan-cong-bo-concert-cuoi-cung-o-tuoi-60-100261125151144997.htm",
+   "nguon": "Tuổi Trẻ",
+   "anh": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/25/51433431723297260740898066301395201617937224n-17955939291691984025784-318-106-825-917-crop-17955941681191937316089.jpg"
   }
  ],
  "dang_hot": [
   {
    "ten": "Hậu Hoàng",
-   "vi_sao": "Nhận được sự quan tâm và động viên lớn từ cộng đồng mạng lẫn dàn sao Việt sau khi thông báo điều trị bệnh ung thư máu."
+   "vi_sao": "Chia sẻ thông tin mắc bệnh ung thư máu và quá trình điều trị khiến công chúng bất ngờ, xúc động."
   },
   {
    "ten": "Lê Phương Khánh Như",
-   "vi_sao": "Trở thành tâm điểm chú ý khi thi đấu xuất sắc và mang về danh hiệu Á hậu 4 Miss International 2026."
-  },
-  {
-   "ten": "Sơn Tùng M-TP & Chi Pu",
-   "vi_sao": "Được vinh danh trong danh sách Nhà lãnh đạo tiên phong U35 châu Á - Thái Bình Dương do APEA bình chọn."
-  },
-  {
-   "ten": "Trấn Thành",
-   "vi_sao": "Gây bàn luận với lời nhắn vắng mặt hài hước vì bận đi Mỹ mưu sinh tại sự kiện ra mắt phim Running Man."
+   "vi_sao": "Xuất sắc giành vị trí Á hậu 4 tại cuộc thi Miss International 2026 diễn ra tại Nhật Bản."
   },
   {
    "ten": "Mỹ Tâm",
-   "vi_sao": "Phủ sóng mạng xã hội nhờ khả năng hát live liên tục gần 40 bài hát suốt 4 tiếng đồng hồ."
+   "vi_sao": "Gây sốt mạng xã hội với khả năng hát live liên tục 40 ca khúc trong concert See The Light."
+  },
+  {
+   "ten": "Chú Long Quận 9",
+   "vi_sao": "Được vinh danh tại lễ trao giải TikTok Awards Đông Nam Á 2026 diễn ra tại Indonesia."
+  },
+  {
+   "ten": "Hoàng Thùy Linh",
+   "vi_sao": "Tái xuất thị trường âm nhạc với album phòng thu thứ 5 mang tên 'Thùy'."
   }
  ],
- "sap_dien_ra": [],
- "generated_at": "2026-11-27T18:53:49.688738+00:00",
- "brewed_at": "2026-11-27T08:15:38.634633+00:00"
+ "sap_dien_ra": [
+  {
+   "khi_nao": "28/11/2026",
+   "su_kien": "Concert 21 anh trai, em xinh 'Say Hi' tại Las Vegas, Mỹ",
+   "link": "https://thanhnien.vn/21-anh-trai-em-xinh-say-hi-do-bo-my-185261127214449156.htm"
+  },
+  {
+   "khi_nao": "28/11 và 29/11/2026",
+   "su_kien": "Hòa nhạc St. Petersburg Symphony Night với hơn 110 nghệ sĩ Nga tại Nhà hát Hồ Gươm, Hà Nội",
+   "link": "https://tuoitre.vn/hon-110-nghe-si-nga-san-sang-cho-hoa-nhac-st-petersburg-symphony-night-100261127210259395.htm"
+  }
+ ],
+ "generated_at": "2026-11-28T01:56:11.844442+00:00",
+ "brewed_at": "2026-11-28T01:56:11.844442+00:00"
 }
